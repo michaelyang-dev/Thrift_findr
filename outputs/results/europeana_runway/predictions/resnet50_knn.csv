@@ -1,0 +1,1148 @@
+image_id,brand_true,brand_pred,brand_conf,era_true,era_pred,era_conf
+2048212_europeana_fashion_comme_des_garcons_ss97_0003,Comme des Garcons,Issey Miyake,0.24467463623733077,1990s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0005,Comme des Garcons,Maison Margiela,0.2555231372576012,1990s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0012,Comme des Garcons,Maison Margiela,0.30962770664408634,1990s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0014,Comme des Garcons,Comme des Garcons,0.26574681084298096,1990s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0016,Comme des Garcons,Issey Miyake,0.23825419767704634,1990s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0019,Comme des Garcons,Junya Watanabe,0.24066523600156337,1990s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0020,Comme des Garcons,Maison Margiela,0.28920206762920053,1990s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0023,Comme des Garcons,Yohji Yamamoto,0.4503177595201313,1990s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0025,Comme des Garcons,Vivienne Westwood,0.35007875607572425,1990s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0029,Comme des Garcons,Issey Miyake,0.28617908860996916,1990s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0030,Comme des Garcons,Maison Margiela,0.23599521732279824,1990s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0037,Comme des Garcons,Issey Miyake,0.2885814746838548,1990s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0039,Comme des Garcons,Vivienne Westwood,0.3770056524356004,1990s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0041,Comme des Garcons,Issey Miyake,0.3230737194728254,1990s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0042,Comme des Garcons,Maison Margiela,0.26949808084834387,1990s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0043,Comme des Garcons,Helmut Lang,0.45524350047347234,1990s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0044,Comme des Garcons,Vivienne Westwood,0.41562706958307305,1990s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0046,Comme des Garcons,Helmut Lang,0.18781579353981773,1990s,1990s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0049,Comme des Garcons,Maison Margiela,0.3052145586234674,1990s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0050,Comme des Garcons,Issey Miyake,0.26835139498871974,1990s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0052,Comme des Garcons,Issey Miyake,0.27509300127072894,1990s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0054,Comme des Garcons,Yohji Yamamoto,0.33742833837114533,1990s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0056,Comme des Garcons,Maison Margiela,0.3382664635435135,1990s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0057,Comme des Garcons,Maison Margiela,0.31071846778548284,1990s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss97_0059,Comme des Garcons,Maison Margiela,0.20526731518635388,1990s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw02_0001,Comme des Garcons,Yohji Yamamoto,0.23507823219083135,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw02_0002,Comme des Garcons,Jean Paul Gaultier,0.16161941632949844,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw02_0007,Comme des Garcons,Comme des Garcons,0.31446819539035437,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw02_0009,Comme des Garcons,Yohji Yamamoto,0.3100581797684483,2000s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw02_0011,Comme des Garcons,Yohji Yamamoto,0.35985380137324824,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw02_0012,Comme des Garcons,Yohji Yamamoto,0.47259636089396945,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw02_0021,Comme des Garcons,Comme des Garcons,0.3269152976344964,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw02_0026,Comme des Garcons,Yohji Yamamoto,0.38203793796494606,2000s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw02_0028,Comme des Garcons,Comme des Garcons,0.47629376311675264,2000s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw02_0030,Comme des Garcons,Yohji Yamamoto,0.3117529256371537,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw02_0040,Comme des Garcons,Yohji Yamamoto,0.4299617056920968,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_maw08_002,Comme des Garcons,Vivienne Westwood,0.24199046498291818,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_maw08_006,Comme des Garcons,Junya Watanabe,0.476658939406979,2000s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_maw08_007,Comme des Garcons,Junya Watanabe,0.36109503843519064,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_maw08_009,Comme des Garcons,Junya Watanabe,0.35459850146121036,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_maw08_012,Comme des Garcons,Junya Watanabe,0.43169173864456795,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_maw08_017,Comme des Garcons,Junya Watanabe,0.4203056303600484,2000s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_maw08_020,Comme des Garcons,Junya Watanabe,0.38443614853573327,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_maw08_027,Comme des Garcons,Junya Watanabe,0.37109219402322274,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_maw08_028,Comme des Garcons,Comme des Garcons,0.22367236381858868,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_maw08_033,Comme des Garcons,Junya Watanabe,0.3739297753137779,2000s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_maw08_038,Comme des Garcons,Junya Watanabe,0.5362695770758292,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss06_007,Comme des Garcons,Helmut Lang,0.2373728706060847,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss06_010,Comme des Garcons,Comme des Garcons,0.6264304390551156,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss06_017,Comme des Garcons,Undercover,0.30108243821210456,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss06_022,Comme des Garcons,Comme des Garcons,0.3287190563131263,2000s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss06_031,Comme des Garcons,Junya Watanabe,0.3080349917995473,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss06_036,Comme des Garcons,Vivienne Westwood,0.30884707681397155,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss06_042,Comme des Garcons,Undercover,0.5567292201069676,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss06_058,Comme des Garcons,Comme des Garcons,0.6377516960924821,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss06_064,Comme des Garcons,Comme des Garcons,0.5856372092875538,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss06_076,Comme des Garcons,Comme des Garcons,0.611563143709572,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss06_081,Comme des Garcons,Comme des Garcons,0.39646729508524736,2000s,2010s,1.0
+2048212_europeana_fashion_tao_comme_des_garcons_ss08_006,Comme des Garcons,Comme des Garcons,0.4942263846494345,2000s,2010s,1.0
+2048212_europeana_fashion_tao_comme_des_garcons_ss08_014,Comme des Garcons,Comme des Garcons,0.2824517582979913,2000s,2000s,1.0
+2048212_europeana_fashion_tao_comme_des_garcons_ss08_017,Comme des Garcons,Comme des Garcons,0.4289291145794309,2000s,2010s,1.0
+2048212_europeana_fashion_tao_comme_des_garcons_ss08_044,Comme des Garcons,Comme des Garcons,0.342302141532264,2000s,2010s,1.0
+2048212_europeana_fashion_tao_comme_des_garcons_ss08_048,Comme des Garcons,Yohji Yamamoto,0.48393582015212466,2000s,2000s,1.0
+2048212_europeana_fashion_tao_comme_des_garcons_ss08_053,Comme des Garcons,Yohji Yamamoto,0.38559248084133807,2000s,2010s,1.0
+2048212_europeana_fashion_tao_comme_des_garcons_ss08_065,Comme des Garcons,Comme des Garcons,0.5517178449956577,2000s,2010s,1.0
+2048212_europeana_fashion_tao_comme_des_garcons_ss08_067,Comme des Garcons,Yohji Yamamoto,0.5789284548478041,2000s,2010s,1.0
+2048212_europeana_fashion_tao_comme_des_garcons_ss08_069,Comme des Garcons,Comme des Garcons,0.4036191199889789,2000s,2010s,1.0
+2048212_europeana_fashion_tao_comme_des_garcons_ss08_073,Comme des Garcons,Yohji Yamamoto,0.5955659475652402,2000s,2010s,1.0
+2048212_europeana_fashion_tao_comme_des_garcons_ss08_076,Comme des Garcons,Vivienne Westwood,0.25442664834723044,2000s,2000s,1.0
+2048212_europeana_fashion_tao_comme_des_garcons_ss08_085,Comme des Garcons,Vivienne Westwood,0.24099020800471352,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss09_015,Comme des Garcons,Undercover,0.43202717435196814,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss09_040,Comme des Garcons,Yohji Yamamoto,0.19788675336357972,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss09_068,Comme des Garcons,Undercover,0.26615738306162906,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss09_079,Comme des Garcons,Comme des Garcons,0.21697708467341986,2000s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss09_089,Comme des Garcons,Jean Paul Gaultier,0.3457438547478267,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss09_095,Comme des Garcons,Junya Watanabe,0.24262730780603584,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss09_121,Comme des Garcons,Undercover,0.4873599988297771,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss09_130,Comme des Garcons,Yohji Yamamoto,0.2520267097765568,2000s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss09_135,Comme des Garcons,Jean Paul Gaultier,0.26270421242429015,2000s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss09_140,Comme des Garcons,Comme des Garcons,0.25850821561949267,2000s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss09_149,Comme des Garcons,Jean Paul Gaultier,0.26699148175672355,2000s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_ss09_156,Comme des Garcons,Junya Watanabe,0.22652671159781215,2000s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw12_0007,Comme des Garcons,Yohji Yamamoto,0.33652989291887564,2010s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw12_0051,Comme des Garcons,Yohji Yamamoto,0.4350007695858328,2010s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw12_0108,Comme des Garcons,Yohji Yamamoto,0.44510478690892513,2010s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw12_0231,Comme des Garcons,Junya Watanabe,0.4126705842464764,2010s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw12_0256,Comme des Garcons,Yohji Yamamoto,0.3140185104478408,2010s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw12_0359,Comme des Garcons,Yohji Yamamoto,0.2846891523598714,2010s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw12_0419,Comme des Garcons,Issey Miyake,0.2816207328371059,2010s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw12_0774,Comme des Garcons,Yohji Yamamoto,0.2929957437313324,2010s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw12_0872,Comme des Garcons,Issey Miyake,0.2397475636093179,2010s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw12_0951,Comme des Garcons,Comme des Garcons,0.4044451565408395,2010s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw12_0983,Comme des Garcons,Comme des Garcons,0.259148913821677,2010s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw12_0995,Comme des Garcons,Yohji Yamamoto,0.24925095359199786,2010s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_aw12_1022,Comme des Garcons,Yohji Yamamoto,0.6815280357864818,2010s,1990s,1.0
+2048212_europeana_fashion_cdg_ss10_0018,Comme des Garcons,Junya Watanabe,0.28351489003352737,2010s,2010s,1.0
+2048212_europeana_fashion_cdg_ss10_0044,Comme des Garcons,Yohji Yamamoto,0.22107665482436886,2010s,2000s,1.0
+2048212_europeana_fashion_cdg_ss10_0091,Comme des Garcons,Jean Paul Gaultier,0.29988875584471036,2010s,2000s,1.0
+2048212_europeana_fashion_cdg_ss10_0103,Comme des Garcons,Jean Paul Gaultier,0.27817987177942216,2010s,2010s,1.0
+2048212_europeana_fashion_cdg_ss10_0135,Comme des Garcons,Junya Watanabe,0.3057924729928553,2010s,2010s,1.0
+2048212_europeana_fashion_cdg_ss10_0139,Comme des Garcons,Undercover,0.44134792295819764,2010s,2000s,1.0
+2048212_europeana_fashion_cdg_ss10_0218,Comme des Garcons,Undercover,0.31180845999338946,2010s,2000s,1.0
+2048212_europeana_fashion_cdg_ss10_0228,Comme des Garcons,Undercover,0.3883472316122672,2010s,2010s,1.0
+2048212_europeana_fashion_cdg_ss10_0234,Comme des Garcons,Undercover,0.36327524531472166,2010s,2010s,1.0
+2048212_europeana_fashion_cdg_ss10_0247,Comme des Garcons,Undercover,0.5140738098055437,2010s,2000s,1.0
+2048212_europeana_fashion_cdg_ss10_0282,Comme des Garcons,Undercover,0.3797855418330486,2010s,2000s,1.0
+2048212_europeana_fashion_cdg_ss10_0312,Comme des Garcons,Undercover,0.36456540123729586,2010s,2010s,1.0
+2048212_europeana_fashion_cdg_ss10_0321,Comme des Garcons,Yohji Yamamoto,0.3212692849955436,2010s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_homme_plus_mss14_0011,Comme des Garcons,Junya Watanabe,0.32589474522142203,2010s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_homme_plus_mss14_0013,Comme des Garcons,Comme des Garcons,0.37168919990726956,2010s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_homme_plus_mss14_0023,Comme des Garcons,Junya Watanabe,0.4443512120417071,2010s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_homme_plus_mss14_0047,Comme des Garcons,Junya Watanabe,0.41809019725764895,2010s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_homme_plus_mss14_0050,Comme des Garcons,Junya Watanabe,0.5325640043970362,2010s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_homme_plus_mss14_0053,Comme des Garcons,Junya Watanabe,0.353966062723538,2010s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_homme_plus_mss14_0065,Comme des Garcons,Junya Watanabe,0.39670374245318674,2010s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_homme_plus_mss14_0068,Comme des Garcons,Junya Watanabe,0.44659290304598975,2010s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_homme_plus_mss14_0071,Comme des Garcons,Junya Watanabe,0.5131440902656328,2010s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_homme_plus_mss14_0077,Comme des Garcons,Junya Watanabe,0.4471399651291017,2010s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_homme_plus_mss14_0089,Comme des Garcons,Comme des Garcons,0.4464098643248828,2010s,2010s,1.0
+2048212_europeana_fashion_comme_des_garcons_homme_plus_mss14_0095,Comme des Garcons,Junya Watanabe,0.37534433368689224,2010s,2000s,1.0
+2048212_europeana_fashion_comme_des_garcons_homme_plus_mss14_0098,Comme des Garcons,Junya Watanabe,0.45399296625615926,2010s,2000s,1.0
+2048212_europeana_fashion_comme_comme_des_garcons_ss16_0001,Comme des Garcons,Yohji Yamamoto,0.3826110295847194,2010s,2010s,1.0
+2048212_europeana_fashion_comme_comme_des_garcons_ss16_0016,Comme des Garcons,Comme des Garcons,0.6082870601993883,2010s,2010s,1.0
+2048212_europeana_fashion_comme_comme_des_garcons_ss16_0019,Comme des Garcons,Comme des Garcons,0.5120862725039554,2010s,2010s,1.0
+2048212_europeana_fashion_comme_comme_des_garcons_ss16_0028,Comme des Garcons,Comme des Garcons,0.519118646737314,2010s,2010s,1.0
+2048212_europeana_fashion_comme_comme_des_garcons_ss16_0047,Comme des Garcons,Comme des Garcons,0.4673153208442299,2010s,2010s,1.0
+2048212_europeana_fashion_comme_comme_des_garcons_ss16_0049,Comme des Garcons,Comme des Garcons,0.48774354175335427,2010s,2010s,1.0
+2048212_europeana_fashion_comme_comme_des_garcons_ss16_0063,Comme des Garcons,Comme des Garcons,0.5839482599381314,2010s,2010s,1.0
+2048212_europeana_fashion_comme_comme_des_garcons_ss16_0073,Comme des Garcons,Yohji Yamamoto,0.3045971355071991,2010s,2000s,1.0
+2048212_europeana_fashion_comme_comme_des_garcons_ss16_0090,Comme des Garcons,Comme des Garcons,0.3572263766412948,2010s,2010s,1.0
+2048212_europeana_fashion_comme_comme_des_garcons_ss16_0094,Comme des Garcons,Comme des Garcons,0.41951227308253625,2010s,2000s,1.0
+2048212_europeana_fashion_comme_comme_des_garcons_ss16_0100,Comme des Garcons,Comme des Garcons,0.4802263543083704,2010s,2010s,1.0
+2048212_europeana_fashion_comme_comme_des_garcons_ss16_0106,Comme des Garcons,Comme des Garcons,0.5187391888468215,2010s,2010s,1.0
+2048212_europeana_fashion_comme_comme_des_garcons_ss16_0118,Comme des Garcons,Junya Watanabe,0.3705984031253631,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0001,Helmut Lang,Yohji Yamamoto,0.4698667529125793,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0002,Helmut Lang,Yohji Yamamoto,0.3225853161558251,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0003,Helmut Lang,Yohji Yamamoto,0.4754216087274416,2000s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0005,Helmut Lang,Junya Watanabe,0.2546783169361135,2000s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0006,Helmut Lang,Helmut Lang,0.304888218660517,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0008,Helmut Lang,Yohji Yamamoto,0.44384367356559934,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0012,Helmut Lang,Yohji Yamamoto,0.4120070117836361,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0013,Helmut Lang,Junya Watanabe,0.4525661368861404,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0015,Helmut Lang,Junya Watanabe,0.397298283448915,2000s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0022,Helmut Lang,Helmut Lang,0.6596505275164786,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0023,Helmut Lang,Helmut Lang,0.4642058107372123,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0026,Helmut Lang,Helmut Lang,0.5311970420953449,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0029,Helmut Lang,Yohji Yamamoto,0.3711660551043364,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0030,Helmut Lang,Junya Watanabe,0.1652090765833733,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0032,Helmut Lang,Junya Watanabe,0.23381416125540558,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0033,Helmut Lang,Yohji Yamamoto,0.6078659994550278,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0034,Helmut Lang,Yohji Yamamoto,0.41052505676798046,2000s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0036,Helmut Lang,Junya Watanabe,0.25958931835429394,2000s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0037,Helmut Lang,Helmut Lang,0.30271277590617046,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0039,Helmut Lang,Issey Miyake,0.3455540734159251,2000s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0041,Helmut Lang,Junya Watanabe,0.3686309724083319,2000s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0042,Helmut Lang,Yohji Yamamoto,0.331036405719136,2000s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0049,Helmut Lang,Yohji Yamamoto,0.4687838930949575,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0050,Helmut Lang,Yohji Yamamoto,0.37996374917033143,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_aw02_0051,Helmut Lang,Yohji Yamamoto,0.5416895806228859,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_001,Helmut Lang,Helmut Lang,0.48535636482949684,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_002,Helmut Lang,Helmut Lang,0.6764637136575506,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_004,Helmut Lang,Jean Paul Gaultier,0.28328065719871715,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_005,Helmut Lang,Junya Watanabe,0.49337445989952583,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_006,Helmut Lang,Helmut Lang,0.45275209309613257,2000s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_007,Helmut Lang,Helmut Lang,0.620869787806411,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_008,Helmut Lang,Helmut Lang,0.2997271666683235,2000s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_009,Helmut Lang,Helmut Lang,0.3647215118439383,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_011,Helmut Lang,Helmut Lang,0.560468366452293,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_012,Helmut Lang,Helmut Lang,0.2516029808632615,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_013,Helmut Lang,Helmut Lang,0.693663310494025,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_015,Helmut Lang,Helmut Lang,0.5080671006070981,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_017,Helmut Lang,Helmut Lang,0.5210826452433965,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_019,Helmut Lang,Helmut Lang,0.31707013737686207,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_027,Helmut Lang,Helmut Lang,0.4128251363531931,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_030,Helmut Lang,Helmut Lang,0.5873099387711157,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_031,Helmut Lang,Junya Watanabe,0.4763810033527199,2000s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_036,Helmut Lang,Helmut Lang,0.5000104761708346,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_037,Helmut Lang,Helmut Lang,0.42667230094937386,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_040,Helmut Lang,Helmut Lang,0.14590065704958008,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_045,Helmut Lang,Helmut Lang,0.584642085191939,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_046,Helmut Lang,Helmut Lang,0.4645049915570212,2000s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_047,Helmut Lang,Helmut Lang,0.33695107801486623,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_048,Helmut Lang,Yohji Yamamoto,0.1971855679990085,2000s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_maw03_049,Helmut Lang,Helmut Lang,0.4723738149570243,2000s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0011,Helmut Lang,Helmut Lang,0.3186662496823354,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0022,Helmut Lang,Helmut Lang,0.3840246381822229,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0037,Helmut Lang,Helmut Lang,0.2676511202305952,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0062,Helmut Lang,Raf Simons,0.2625742965274026,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0102,Helmut Lang,Helmut Lang,0.4734845210529522,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0115,Helmut Lang,Helmut Lang,0.34052763220949217,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0134,Helmut Lang,Junya Watanabe,0.24118007521154836,2010s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0149,Helmut Lang,Helmut Lang,0.32984056822638974,2010s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0230,Helmut Lang,Vivienne Westwood,0.24099342906109886,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0267,Helmut Lang,Helmut Lang,0.4899850319401192,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0300,Helmut Lang,Vivienne Westwood,0.35621583177113314,2010s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0317,Helmut Lang,Helmut Lang,0.3636102601654908,2010s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0339,Helmut Lang,Helmut Lang,0.21310399564142424,2010s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0377,Helmut Lang,Helmut Lang,0.43588556972051556,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0393,Helmut Lang,Helmut Lang,0.29837752547411933,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0410,Helmut Lang,Issey Miyake,0.25304748286390505,2010s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0427,Helmut Lang,Helmut Lang,0.37604220015035733,2010s,2000s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0538,Helmut Lang,Helmut Lang,0.31216663231111214,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0557,Helmut Lang,Helmut Lang,0.3782437761706701,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0573,Helmut Lang,Issey Miyake,0.3247742904505765,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0588,Helmut Lang,Maison Margiela,0.20080581146404047,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0603,Helmut Lang,Issey Miyake,0.3486201283159988,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0625,Helmut Lang,Issey Miyake,0.22517249594185315,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0647,Helmut Lang,Helmut Lang,0.455276803539182,2010s,2010s,1.0
+2048212_europeana_fashion_helmut_lang_ss13_0659,Helmut Lang,Helmut Lang,0.3178247603693123,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw04_017,Issey Miyake,Issey Miyake,0.4076973223768332,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw04_033,Issey Miyake,Raf Simons,0.26979427392228567,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_aw04_051,Issey Miyake,Undercover,0.20876707347379733,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw04_055,Issey Miyake,Undercover,0.19553983943015166,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw04_060,Issey Miyake,Issey Miyake,0.2665739084982019,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_aw04_064,Issey Miyake,Issey Miyake,0.27189865989579926,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw04_071,Issey Miyake,Comme des Garcons,0.2796713775225021,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_aw04_081,Issey Miyake,Maison Margiela,0.3204561409268579,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_aw04_108,Issey Miyake,Issey Miyake,0.39953026599297464,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_aw04_114,Issey Miyake,Yohji Yamamoto,0.3316113721847551,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw04_116,Issey Miyake,Helmut Lang,0.41820001275530466,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_aw04_136,Issey Miyake,Helmut Lang,0.25532381495401807,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw04_178,Issey Miyake,Vivienne Westwood,0.290585294147507,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_aw04_189,Issey Miyake,Issey Miyake,0.2539890666992037,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss01_0001,Issey Miyake,Issey Miyake,0.2401846567932687,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss01_0002,Issey Miyake,Issey Miyake,0.3991709537933858,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss03_011,Issey Miyake,Issey Miyake,0.21167382354836387,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss03_018,Issey Miyake,Issey Miyake,0.3159754170600942,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss03_020,Issey Miyake,Issey Miyake,0.24174192655082233,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss03_031,Issey Miyake,Vivienne Westwood,0.3091915777340085,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss03_058,Issey Miyake,Yohji Yamamoto,0.209990877834852,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss03_061,Issey Miyake,Helmut Lang,0.36132066432945575,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss03_090,Issey Miyake,Maison Margiela,0.4309109262677074,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss03_091,Issey Miyake,Issey Miyake,0.27535869451435413,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss03_108,Issey Miyake,Jean Paul Gaultier,0.20673471768440765,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss03_123,Issey Miyake,Issey Miyake,0.20896628664019185,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss03_126,Issey Miyake,Vivienne Westwood,0.4019245692592191,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss03_129,Issey Miyake,Yohji Yamamoto,0.3104271862087032,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss03_147,Issey Miyake,Maison Margiela,0.27776350486786205,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss03_151,Issey Miyake,Issey Miyake,0.2419536738600303,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss06_009,Issey Miyake,Issey Miyake,0.2495956124277227,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss06_011,Issey Miyake,Helmut Lang,0.3006078671320844,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss06_033,Issey Miyake,Comme des Garcons,0.2076397456338451,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss06_035,Issey Miyake,Helmut Lang,0.24418422577590074,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss06_049,Issey Miyake,Issey Miyake,0.2779798984715101,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss06_057,Issey Miyake,Maison Margiela,0.3323656609348128,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss06_060,Issey Miyake,Issey Miyake,0.2783581843301984,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss06_073,Issey Miyake,Helmut Lang,0.2770486616399907,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss06_075,Issey Miyake,Jean Paul Gaultier,0.24387837314614025,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss06_088,Issey Miyake,Helmut Lang,0.44531357140740485,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss06_097,Issey Miyake,Issey Miyake,0.22177843784439027,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss06_100,Issey Miyake,Helmut Lang,0.2638588864079885,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss06_110,Issey Miyake,Issey Miyake,0.2558399184334533,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss06_114,Issey Miyake,Issey Miyake,0.28674591798129645,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss09_049,Issey Miyake,Vivienne Westwood,0.2327970942148818,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss09_075,Issey Miyake,Vivienne Westwood,0.26937698033722596,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss09_089,Issey Miyake,Issey Miyake,0.29180881498069045,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss09_128,Issey Miyake,Issey Miyake,0.27254448534647174,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss09_227,Issey Miyake,Maison Margiela,0.3199345370087065,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss09_275,Issey Miyake,Vivienne Westwood,0.20875622005988112,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss09_315,Issey Miyake,Issey Miyake,0.2991170422883323,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss09_328,Issey Miyake,Issey Miyake,0.22203818978246662,2000s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss09_367,Issey Miyake,Issey Miyake,0.2639751149221051,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss09_402,Issey Miyake,Issey Miyake,0.444806644839008,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss09_409,Issey Miyake,Issey Miyake,0.5106661453655509,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss09_454,Issey Miyake,Issey Miyake,0.2860062960758663,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss09_463,Issey Miyake,Maison Margiela,0.2921088378042602,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss09_491,Issey Miyake,Vivienne Westwood,0.25473803918700433,2000s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_005,Issey Miyake,Issey Miyake,0.341667641252801,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_020,Issey Miyake,Issey Miyake,0.4929999875738031,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_043,Issey Miyake,Issey Miyake,0.4650269038620543,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_050,Issey Miyake,Issey Miyake,0.33262563878473184,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_063,Issey Miyake,Helmut Lang,0.369757130809423,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_075,Issey Miyake,Issey Miyake,0.2527407373034653,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_112,Issey Miyake,Raf Simons,0.2338490941522539,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_130,Issey Miyake,Helmut Lang,0.2875260095633595,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_141,Issey Miyake,Issey Miyake,0.4155609926349525,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_158,Issey Miyake,Issey Miyake,0.43827095543244554,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_166,Issey Miyake,Issey Miyake,0.3618239407688696,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_185,Issey Miyake,Issey Miyake,0.5294452169787,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_198,Issey Miyake,Issey Miyake,0.27278018928105213,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_209,Issey Miyake,Issey Miyake,0.2713212269559711,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_223,Issey Miyake,Issey Miyake,0.28318153513728916,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_240,Issey Miyake,Issey Miyake,0.44851235879343365,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_250,Issey Miyake,Issey Miyake,0.6144607323125679,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_maw11_279,Issey Miyake,Helmut Lang,0.32625523922038546,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_064,Issey Miyake,Helmut Lang,0.2429221037733085,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_075,Issey Miyake,Vivienne Westwood,0.23608255327183422,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_089,Issey Miyake,Jean Paul Gaultier,0.16857245670068868,2010s,1990s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_112,Issey Miyake,Helmut Lang,0.22543839278809508,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_130,Issey Miyake,Issey Miyake,0.4033314327914016,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_160,Issey Miyake,Issey Miyake,0.32558838234313364,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_174,Issey Miyake,Issey Miyake,0.2436900798833573,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_236,Issey Miyake,Raf Simons,0.2835861502076857,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_253,Issey Miyake,Issey Miyake,0.35370461428998995,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_292,Issey Miyake,Maison Margiela,0.19316644294131688,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_325,Issey Miyake,Issey Miyake,0.26272219392296203,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_339,Issey Miyake,Issey Miyake,0.23739469765684007,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_374,Issey Miyake,Vivienne Westwood,0.3389514854295514,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_390,Issey Miyake,Comme des Garcons,0.2911187280999839,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_460,Issey Miyake,Issey Miyake,0.43905405800181363,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_486,Issey Miyake,Yohji Yamamoto,0.25914991404902993,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_501,Issey Miyake,Issey Miyake,0.3344541011632028,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_aw12_535,Issey Miyake,Issey Miyake,0.6594924375288276,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0003,Issey Miyake,Issey Miyake,0.26802171779283623,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0005,Issey Miyake,Issey Miyake,0.5393345350342709,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0007,Issey Miyake,Issey Miyake,0.30302294062889096,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0009,Issey Miyake,Issey Miyake,0.5005048962585096,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0015,Issey Miyake,Issey Miyake,0.48637816449128274,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0019,Issey Miyake,Issey Miyake,0.5090735963676398,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0021,Issey Miyake,Issey Miyake,0.5397046324657779,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0023,Issey Miyake,Issey Miyake,0.7602520490243544,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0040,Issey Miyake,Issey Miyake,0.4198867068719552,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0042,Issey Miyake,Issey Miyake,0.2712276516158812,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0050,Issey Miyake,Issey Miyake,0.3570445438676237,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0052,Issey Miyake,Issey Miyake,0.35892801360505683,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0054,Issey Miyake,Issey Miyake,0.36682924021321234,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0058,Issey Miyake,Issey Miyake,0.47860419304702034,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0060,Issey Miyake,Issey Miyake,0.6445986260502619,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0062,Issey Miyake,Yohji Yamamoto,0.32597114359504487,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0064,Issey Miyake,Issey Miyake,0.26334843693542226,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_men_maw13_0066,Issey Miyake,Issey Miyake,0.317271894896304,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0005,Issey Miyake,Vivienne Westwood,0.25896675088291815,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0009,Issey Miyake,Helmut Lang,0.269545639272311,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0012,Issey Miyake,Junya Watanabe,0.2295229334532887,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0029,Issey Miyake,Vivienne Westwood,0.3089670329647841,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0033,Issey Miyake,Junya Watanabe,0.24658696471670571,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0040,Issey Miyake,Vivienne Westwood,0.2619749525909804,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0049,Issey Miyake,Issey Miyake,0.24768747227677065,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0053,Issey Miyake,Issey Miyake,0.3952606489872837,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0065,Issey Miyake,Vivienne Westwood,0.17076656045935354,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0068,Issey Miyake,Issey Miyake,0.3677027274526679,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0073,Issey Miyake,Issey Miyake,0.37064075130260615,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0077,Issey Miyake,Raf Simons,0.23223631240588025,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0104,Issey Miyake,Jean Paul Gaultier,0.255556228053009,2010s,2000s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0136,Issey Miyake,Maison Margiela,0.45072225037627406,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0141,Issey Miyake,Issey Miyake,0.38915903613943914,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0144,Issey Miyake,Issey Miyake,0.2981760374853129,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0149,Issey Miyake,Maison Margiela,0.28189981726427665,2010s,2010s,1.0
+2048212_europeana_fashion_issey_miyake_ss16_0156,Issey Miyake,Issey Miyake,0.3462728526478175,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0006,Jean Paul Gaultier,Jean Paul Gaultier,0.38807250223733747,1990s,1990s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0013,Jean Paul Gaultier,Comme des Garcons,0.23223325018471394,1990s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0014,Jean Paul Gaultier,Comme des Garcons,0.3211076944282073,1990s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0015,Jean Paul Gaultier,Junya Watanabe,0.36665078048795097,1990s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0016,Jean Paul Gaultier,Jean Paul Gaultier,0.28807171009273186,1990s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0017,Jean Paul Gaultier,Jean Paul Gaultier,0.3312107681173436,1990s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0030,Jean Paul Gaultier,Jean Paul Gaultier,0.34865456981888265,1990s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0031,Jean Paul Gaultier,Jean Paul Gaultier,0.31524747040647055,1990s,1990s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0039,Jean Paul Gaultier,Jean Paul Gaultier,0.47979454228062074,1990s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0042,Jean Paul Gaultier,Jean Paul Gaultier,0.23986885303001615,1990s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0053,Jean Paul Gaultier,Raf Simons,0.4668124221957115,1990s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0060,Jean Paul Gaultier,Jean Paul Gaultier,0.26242775452694095,1990s,1990s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0069,Jean Paul Gaultier,Maison Margiela,0.2176212363353358,1990s,1990s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0094,Jean Paul Gaultier,Jean Paul Gaultier,0.37925278405811114,1990s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0110,Jean Paul Gaultier,Jean Paul Gaultier,0.3025073413449063,1990s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0125,Jean Paul Gaultier,Jean Paul Gaultier,0.43137231692386996,1990s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0133,Jean Paul Gaultier,Jean Paul Gaultier,0.4881451527440181,1990s,1990s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0134,Jean Paul Gaultier,Jean Paul Gaultier,0.3904115661687048,1990s,1990s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0135,Jean Paul Gaultier,Comme des Garcons,0.358556571400203,1990s,1990s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0149,Jean Paul Gaultier,Comme des Garcons,0.5110071212447947,1990s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0154,Jean Paul Gaultier,Jean Paul Gaultier,0.34719900461216835,1990s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0161,Jean Paul Gaultier,Jean Paul Gaultier,0.27471397711131373,1990s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0162,Jean Paul Gaultier,Raf Simons,0.2261064571601291,1990s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0177,Jean Paul Gaultier,Jean Paul Gaultier,0.4366661065703793,1990s,1990s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw98_0180,Jean Paul Gaultier,Jean Paul Gaultier,0.5570478746030947,1990s,1990s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw01_0007,Jean Paul Gaultier,Yohji Yamamoto,0.34680670918567447,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw01_0012,Jean Paul Gaultier,Jean Paul Gaultier,0.2754115162372668,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw01_0028,Jean Paul Gaultier,Vivienne Westwood,0.24922610049248847,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw01_0037,Jean Paul Gaultier,Vivienne Westwood,0.1724656398775659,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw01_0041,Jean Paul Gaultier,Maison Margiela,0.22556602458779304,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw01_0044,Jean Paul Gaultier,Jean Paul Gaultier,0.3724867307822118,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw01_0071,Jean Paul Gaultier,Jean Paul Gaultier,0.3974856379734906,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw01_0072,Jean Paul Gaultier,Raf Simons,0.5843109431547086,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw01_0073,Jean Paul Gaultier,Raf Simons,0.29469529309259274,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw06_002,Jean Paul Gaultier,Jean Paul Gaultier,0.2991557584673878,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw06_009,Jean Paul Gaultier,Comme des Garcons,0.4087099877650171,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw06_012,Jean Paul Gaultier,Jean Paul Gaultier,0.39807241707409086,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw06_080,Jean Paul Gaultier,Jean Paul Gaultier,0.5147997818147274,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw06_093,Jean Paul Gaultier,Jean Paul Gaultier,0.2895456921001419,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw06_097,Jean Paul Gaultier,Undercover,0.266097937873256,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw06_140,Jean Paul Gaultier,Junya Watanabe,0.3492824043293469,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw06_176,Jean Paul Gaultier,Raf Simons,0.4673799212466661,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw06_203,Jean Paul Gaultier,Comme des Garcons,0.5833272732973099,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw07_007,Jean Paul Gaultier,Jean Paul Gaultier,0.42515698716693673,2000s,1990s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw07_019,Jean Paul Gaultier,Jean Paul Gaultier,0.6064763900454161,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw07_072,Jean Paul Gaultier,Jean Paul Gaultier,0.532271251518336,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw07_092,Jean Paul Gaultier,Jean Paul Gaultier,0.3868520605689167,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw07_119,Jean Paul Gaultier,Jean Paul Gaultier,0.7533311119449939,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw07_122,Jean Paul Gaultier,Jean Paul Gaultier,0.36429966265376285,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw07_131,Jean Paul Gaultier,Jean Paul Gaultier,0.7024290257607647,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw07_163,Jean Paul Gaultier,Jean Paul Gaultier,0.4702550364714506,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw07_115,Jean Paul Gaultier,Jean Paul Gaultier,0.23671829164487687,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw07_120,Jean Paul Gaultier,Jean Paul Gaultier,0.467370820919483,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw07_144,Jean Paul Gaultier,Jean Paul Gaultier,0.26138062588383826,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw07_158,Jean Paul Gaultier,Jean Paul Gaultier,0.42326291927760235,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw07_162,Jean Paul Gaultier,Jean Paul Gaultier,0.3773810611632779,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw07_173,Jean Paul Gaultier,Jean Paul Gaultier,0.32802631790373354,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw07_177,Jean Paul Gaultier,Jean Paul Gaultier,0.4455289002181315,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_aw07_189,Jean Paul Gaultier,Vivienne Westwood,0.4019182724429436,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss04_001,Jean Paul Gaultier,Yohji Yamamoto,0.4493603283868171,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss04_012,Jean Paul Gaultier,Helmut Lang,0.5647841208124766,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss04_030,Jean Paul Gaultier,Helmut Lang,0.26475266446100537,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss04_038,Jean Paul Gaultier,Junya Watanabe,0.3915318967890535,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss04_040,Jean Paul Gaultier,Helmut Lang,0.39713511123048967,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss04_041,Jean Paul Gaultier,Junya Watanabe,0.5456795734843046,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss04_044,Jean Paul Gaultier,Junya Watanabe,0.3854516347094611,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss04_047,Jean Paul Gaultier,Helmut Lang,0.43295790098214804,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss04_015,Jean Paul Gaultier,Vivienne Westwood,0.19202638743851985,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss04_035,Jean Paul Gaultier,Issey Miyake,0.47121431277436643,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss04_048,Jean Paul Gaultier,Vivienne Westwood,0.26047327327593894,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss04_061,Jean Paul Gaultier,Jean Paul Gaultier,0.22554887531534695,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss04_070,Jean Paul Gaultier,Vivienne Westwood,0.28874076998931575,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss04_082,Jean Paul Gaultier,Vivienne Westwood,0.2696114965045524,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss04_114,Jean Paul Gaultier,Vivienne Westwood,0.2791735524556347,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss04_164,Jean Paul Gaultier,Vivienne Westwood,0.33259559785813403,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw06_005,Jean Paul Gaultier,Jean Paul Gaultier,0.6572948417727297,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw06_015,Jean Paul Gaultier,Undercover,0.28969420998151724,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw06_028,Jean Paul Gaultier,Jean Paul Gaultier,0.2906196757496944,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw06_045,Jean Paul Gaultier,Junya Watanabe,0.18986647550920172,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw06_057,Jean Paul Gaultier,Jean Paul Gaultier,0.3642382941977754,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw06_060,Jean Paul Gaultier,Jean Paul Gaultier,0.5520290873695054,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw06_070,Jean Paul Gaultier,Jean Paul Gaultier,0.7870013891715937,2000s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw06_072,Jean Paul Gaultier,Jean Paul Gaultier,0.34137984727472404,2000s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw15_0019,Jean Paul Gaultier,Jean Paul Gaultier,0.17995321199621683,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw15_0068,Jean Paul Gaultier,Jean Paul Gaultier,0.497128145569373,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw15_0079,Jean Paul Gaultier,Jean Paul Gaultier,0.3761955217125308,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw15_0089,Jean Paul Gaultier,Jean Paul Gaultier,0.20727979686206982,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw15_0114,Jean Paul Gaultier,Jean Paul Gaultier,0.325841979099955,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw15_0127,Jean Paul Gaultier,Vivienne Westwood,0.2581070924732583,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw15_0150,Jean Paul Gaultier,Jean Paul Gaultier,0.37639911533543197,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw15_0172,Jean Paul Gaultier,Junya Watanabe,0.19687850883266048,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw15_0185,Jean Paul Gaultier,Jean Paul Gaultier,0.42747023131354106,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw15_0214,Jean Paul Gaultier,Jean Paul Gaultier,0.3601141936527693,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw15_0231,Jean Paul Gaultier,Yohji Yamamoto,0.28758035325602743,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_caw15_0236,Jean Paul Gaultier,Jean Paul Gaultier,0.7336889579561287,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss11_022,Jean Paul Gaultier,Raf Simons,0.3028113996074318,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss11_046,Jean Paul Gaultier,Jean Paul Gaultier,0.23865733350842014,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss11_120,Jean Paul Gaultier,Vivienne Westwood,0.39909322400373154,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss11_133,Jean Paul Gaultier,Jean Paul Gaultier,0.2305494221911042,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss11_179,Jean Paul Gaultier,Jean Paul Gaultier,0.14747938646176964,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss11_211,Jean Paul Gaultier,Vivienne Westwood,0.3360909663122517,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss11_244,Jean Paul Gaultier,Jean Paul Gaultier,0.39405556396700964,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss11_294,Jean Paul Gaultier,Maison Margiela,0.19760998989734194,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss11_360,Jean Paul Gaultier,Raf Simons,0.2819855403690688,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss11_369,Jean Paul Gaultier,Jean Paul Gaultier,0.2294293371819898,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss11_388,Jean Paul Gaultier,Maison Margiela,0.22966706054767028,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss11_470,Jean Paul Gaultier,Vivienne Westwood,0.415572919320781,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss11_511,Jean Paul Gaultier,Raf Simons,0.3505057286198145,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss12_027,Jean Paul Gaultier,Junya Watanabe,0.4307414829290471,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss12_110,Jean Paul Gaultier,Junya Watanabe,0.5192150233999828,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss12_181,Jean Paul Gaultier,Junya Watanabe,0.2869760577695241,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss12_200,Jean Paul Gaultier,Issey Miyake,0.3334682901735897,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss12_223,Jean Paul Gaultier,Vivienne Westwood,0.2648473743010742,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss12_240,Jean Paul Gaultier,Yohji Yamamoto,0.370239234993668,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss12_376,Jean Paul Gaultier,Junya Watanabe,0.5295123693968885,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss12_405,Jean Paul Gaultier,Issey Miyake,0.2446308321459704,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss12_600,Jean Paul Gaultier,Helmut Lang,0.37443035792731283,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss12_602,Jean Paul Gaultier,Junya Watanabe,0.4078169800247991,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss12_604,Jean Paul Gaultier,Junya Watanabe,0.3755934276943139,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_mss12_605,Jean Paul Gaultier,Junya Watanabe,0.3510501047842688,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_css14_0004,Jean Paul Gaultier,Jean Paul Gaultier,0.7023180895856017,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_css14_0023,Jean Paul Gaultier,Jean Paul Gaultier,0.7908924257372749,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_css14_0133,Jean Paul Gaultier,Jean Paul Gaultier,0.7820296784673222,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_css14_0140,Jean Paul Gaultier,Jean Paul Gaultier,0.4967018323234388,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_css14_0152,Jean Paul Gaultier,Jean Paul Gaultier,0.3213921686690227,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_css14_0158,Jean Paul Gaultier,Yohji Yamamoto,0.28871932839273934,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_css14_0191,Jean Paul Gaultier,Jean Paul Gaultier,0.5502258094561429,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_css14_0205,Jean Paul Gaultier,Issey Miyake,0.18115315648151303,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_css14_0219,Jean Paul Gaultier,Jean Paul Gaultier,0.670942541096915,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_css14_0253,Jean Paul Gaultier,Jean Paul Gaultier,0.7196789798221013,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_css14_0294,Jean Paul Gaultier,Jean Paul Gaultier,0.7399532238680926,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_css14_0304,Jean Paul Gaultier,Jean Paul Gaultier,0.4307583731561892,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss15_0029,Jean Paul Gaultier,Undercover,0.23155017374577042,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss15_0082,Jean Paul Gaultier,Vivienne Westwood,0.2908196365054863,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss15_0098,Jean Paul Gaultier,Helmut Lang,0.28541106736769983,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss15_0128,Jean Paul Gaultier,Maison Margiela,0.23122743724878184,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss15_0146,Jean Paul Gaultier,Maison Margiela,0.2660552903391684,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss15_0158,Jean Paul Gaultier,Vivienne Westwood,0.24095677371623292,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss15_0172,Jean Paul Gaultier,Maison Margiela,0.25577303349881036,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss15_0195,Jean Paul Gaultier,Maison Margiela,0.30086329996659633,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss15_0207,Jean Paul Gaultier,Jean Paul Gaultier,0.21378493699733572,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss15_0235,Jean Paul Gaultier,Jean Paul Gaultier,0.27153210168483993,2010s,2000s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss15_0241,Jean Paul Gaultier,Jean Paul Gaultier,0.43589204083775235,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss15_0263,Jean Paul Gaultier,Junya Watanabe,0.20755985087041348,2010s,2010s,1.0
+2048212_europeana_fashion_jean_paul_gaultier_ss15_0266,Jean Paul Gaultier,Jean Paul Gaultier,0.3159267774917206,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_maw04_002,Junya Watanabe,Comme des Garcons,0.5200210466253108,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_maw04_003,Junya Watanabe,Comme des Garcons,0.43501911261492704,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_maw04_008,Junya Watanabe,Junya Watanabe,0.4364033950506244,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_maw04_009,Junya Watanabe,Comme des Garcons,0.5163722790685594,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_maw04_010,Junya Watanabe,Comme des Garcons,0.5679948474770231,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_maw04_015,Junya Watanabe,Comme des Garcons,0.3115594068505578,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_maw04_016,Junya Watanabe,Comme des Garcons,0.46181296539517996,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_maw04_017,Junya Watanabe,Comme des Garcons,0.5169918293596044,2000s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_maw04_023,Junya Watanabe,Comme des Garcons,0.4294074336593978,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_maw04_030,Junya Watanabe,Comme des Garcons,0.6265647735906135,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_maw04_032,Junya Watanabe,Junya Watanabe,0.40587214546230105,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_maw04_040,Junya Watanabe,Junya Watanabe,0.3962012863821704,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw09_003,Junya Watanabe,Undercover,0.47318341272640124,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw09_013,Junya Watanabe,Jean Paul Gaultier,0.27875750517486664,2000s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw09_020,Junya Watanabe,Undercover,0.6198410338147422,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw09_054,Junya Watanabe,Issey Miyake,0.39235264086044513,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw09_078,Junya Watanabe,Yohji Yamamoto,0.4217666382391827,2000s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw09_138,Junya Watanabe,Undercover,0.4445279838944804,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw09_150,Junya Watanabe,Undercover,0.43484290251590296,2000s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw09_179,Junya Watanabe,Yohji Yamamoto,0.6356295417129335,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw09_197,Junya Watanabe,Yohji Yamamoto,0.4864841920961615,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw09_207,Junya Watanabe,Yohji Yamamoto,0.7164035877590689,2000s,1990s,1.0
+2048212_europeana_fashion_junya_watanabe_aw09_218,Junya Watanabe,Yohji Yamamoto,0.43487612000459913,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw09_277,Junya Watanabe,Yohji Yamamoto,0.5013348164675356,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw09_441,Junya Watanabe,Undercover,0.5129478948495788,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_mss04_001,Junya Watanabe,Junya Watanabe,0.48673253851811654,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_mss04_007,Junya Watanabe,Comme des Garcons,0.4712103902008513,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_mss04_010,Junya Watanabe,Comme des Garcons,0.5452338880698325,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_mss04_011,Junya Watanabe,Comme des Garcons,0.45904023375724234,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_mss04_012,Junya Watanabe,Comme des Garcons,0.4639452224965543,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_mss04_017,Junya Watanabe,Comme des Garcons,0.4806770471573083,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_mss04_027,Junya Watanabe,Comme des Garcons,0.4505436310696704,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_mss04_028,Junya Watanabe,Comme des Garcons,0.6031637227742356,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_mss04_032,Junya Watanabe,Comme des Garcons,0.45046720446090166,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_mss04_039,Junya Watanabe,Comme des Garcons,0.42229797047789347,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_mss04_041,Junya Watanabe,Comme des Garcons,0.43317922233587436,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_mss04_042,Junya Watanabe,Junya Watanabe,0.5281227056260455,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss08_002,Junya Watanabe,Vivienne Westwood,0.36566160988622415,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss08_006,Junya Watanabe,Vivienne Westwood,0.19797232164956174,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss08_034,Junya Watanabe,Comme des Garcons,0.44352654418568016,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss08_039,Junya Watanabe,Comme des Garcons,0.33107607914713333,2000s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_ss08_064,Junya Watanabe,Undercover,0.3260411151968652,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss08_102,Junya Watanabe,Vivienne Westwood,0.29182215189926464,2000s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_ss08_106,Junya Watanabe,Junya Watanabe,0.19837108111261456,2000s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_ss08_120,Junya Watanabe,Vivienne Westwood,0.26940778167099344,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss08_130,Junya Watanabe,Yohji Yamamoto,0.18990307633022704,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss08_159,Junya Watanabe,Undercover,0.27795076906727345,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss08_180,Junya Watanabe,Undercover,0.20116204809167668,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss08_221,Junya Watanabe,Junya Watanabe,0.40185051851337217,2000s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss08_228,Junya Watanabe,Vivienne Westwood,0.2817842396931236,2000s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0047,Junya Watanabe,Junya Watanabe,0.38388123890295733,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0061,Junya Watanabe,Junya Watanabe,0.4621926820195672,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0070,Junya Watanabe,Junya Watanabe,0.5265630600397857,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0102,Junya Watanabe,Junya Watanabe,0.33299544095826494,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0122,Junya Watanabe,Junya Watanabe,0.3871393247375258,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0136,Junya Watanabe,Junya Watanabe,0.5036211194362149,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0151,Junya Watanabe,Junya Watanabe,0.38982547835188325,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0175,Junya Watanabe,Junya Watanabe,0.38049659168415695,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0197,Junya Watanabe,Junya Watanabe,0.5787440062016931,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0219,Junya Watanabe,Comme des Garcons,0.33266380794124534,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0242,Junya Watanabe,Junya Watanabe,0.29299580401329106,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0327,Junya Watanabe,Junya Watanabe,0.4671414311713745,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0389,Junya Watanabe,Junya Watanabe,0.4084464325039187,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0487,Junya Watanabe,Junya Watanabe,0.37626167723900866,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0639,Junya Watanabe,Junya Watanabe,0.5511268667054399,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0655,Junya Watanabe,Junya Watanabe,0.43567361170299884,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0733,Junya Watanabe,Junya Watanabe,0.47809055102941783,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0840,Junya Watanabe,Junya Watanabe,0.48380714334236496,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0884,Junya Watanabe,Comme des Garcons,0.4388973849088414,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0925,Junya Watanabe,Junya Watanabe,0.4878023492162057,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw10_0977,Junya Watanabe,Junya Watanabe,0.487066427080149,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0001,Junya Watanabe,Vivienne Westwood,0.37467123850764517,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0009,Junya Watanabe,Vivienne Westwood,0.22448944474119636,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0013,Junya Watanabe,Junya Watanabe,0.3709903214496354,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0015,Junya Watanabe,Vivienne Westwood,0.2575949483543387,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0017,Junya Watanabe,Helmut Lang,0.2260470054889896,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0021,Junya Watanabe,Issey Miyake,0.2443630758252142,2010s,1990s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0025,Junya Watanabe,Comme des Garcons,0.36246881331608055,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0027,Junya Watanabe,Vivienne Westwood,0.26983366616074467,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0031,Junya Watanabe,Vivienne Westwood,0.2504546317953379,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0035,Junya Watanabe,Vivienne Westwood,0.3053453490145702,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0037,Junya Watanabe,Vivienne Westwood,0.31530795733406336,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0041,Junya Watanabe,Maison Margiela,0.2450334523359537,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0045,Junya Watanabe,Vivienne Westwood,0.28134835056359503,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0055,Junya Watanabe,Comme des Garcons,0.22619230428329376,2010s,1990s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0057,Junya Watanabe,Comme des Garcons,0.22858207544161827,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0059,Junya Watanabe,Yohji Yamamoto,0.2355191487576222,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0067,Junya Watanabe,Yohji Yamamoto,0.46740874594262394,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0069,Junya Watanabe,Helmut Lang,0.2567766280655621,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0071,Junya Watanabe,Maison Margiela,0.23450286217324,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0077,Junya Watanabe,Helmut Lang,0.2910947455128159,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_aw13_0078,Junya Watanabe,Helmut Lang,0.341888967254385,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0002,Junya Watanabe,Yohji Yamamoto,0.39076121605410474,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0007,Junya Watanabe,Yohji Yamamoto,0.44795384752013206,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0013,Junya Watanabe,Yohji Yamamoto,0.32504586019702325,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0018,Junya Watanabe,Yohji Yamamoto,0.26982436428842965,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0020,Junya Watanabe,Yohji Yamamoto,0.5277170120721929,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0048,Junya Watanabe,Yohji Yamamoto,0.3506820012655551,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0052,Junya Watanabe,Yohji Yamamoto,0.4003486019122664,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0075,Junya Watanabe,Yohji Yamamoto,0.507510430540433,2010s,1990s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0091,Junya Watanabe,Vivienne Westwood,0.2673227947103126,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0101,Junya Watanabe,Vivienne Westwood,0.21991442208278825,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0104,Junya Watanabe,Vivienne Westwood,0.2425588210806126,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0108,Junya Watanabe,Yohji Yamamoto,0.43106150522909126,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0111,Junya Watanabe,Yohji Yamamoto,0.5041689638070479,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0125,Junya Watanabe,Vivienne Westwood,0.26917013197895895,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0133,Junya Watanabe,Yohji Yamamoto,0.3784905358488032,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0144,Junya Watanabe,Yohji Yamamoto,0.472641941125343,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0148,Junya Watanabe,Junya Watanabe,0.2100412704094627,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0151,Junya Watanabe,Yohji Yamamoto,0.6244150505908926,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0163,Junya Watanabe,Undercover,0.2668181700588179,2010s,2000s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0168,Junya Watanabe,Yohji Yamamoto,0.2309548203362183,2010s,2010s,1.0
+2048212_europeana_fashion_junya_watanabe_ss14_0172,Junya Watanabe,Jean Paul Gaultier,0.2236599104955614,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_002,Maison Margiela,Yohji Yamamoto,0.342992750156108,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_005,Maison Margiela,Maison Margiela,0.25141192808801044,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_012,Maison Margiela,Maison Margiela,0.48007145148225494,2000s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_015,Maison Margiela,Maison Margiela,0.35680119061011956,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_017,Maison Margiela,Yohji Yamamoto,0.4395152721399416,2000s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_020,Maison Margiela,Yohji Yamamoto,0.5311650047796026,2000s,1990s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_024,Maison Margiela,Jean Paul Gaultier,0.3051750674770273,2000s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_027,Maison Margiela,Maison Margiela,0.44271270242162675,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_029,Maison Margiela,Jean Paul Gaultier,0.258139049117677,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_030,Maison Margiela,Undercover,0.4263683171508807,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_044,Maison Margiela,Yohji Yamamoto,0.37750478598976567,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_045,Maison Margiela,Yohji Yamamoto,0.3393401026925773,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_047,Maison Margiela,Yohji Yamamoto,0.24263093324371798,2000s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_052,Maison Margiela,Maison Margiela,0.5353046382199449,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_054,Maison Margiela,Maison Margiela,0.34640398601132333,2000s,1990s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_059,Maison Margiela,Maison Margiela,0.3335213625145059,2000s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_065,Maison Margiela,Yohji Yamamoto,0.35372589369242086,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_075,Maison Margiela,Yohji Yamamoto,0.25791476278945075,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_076,Maison Margiela,Yohji Yamamoto,0.330139457411251,2000s,1990s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw09_083,Maison Margiela,Jean Paul Gaultier,0.47838947320037756,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_001,Maison Margiela,Maison Margiela,0.3078912614369601,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_009,Maison Margiela,Yohji Yamamoto,0.4347802801384487,2000s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_017,Maison Margiela,Maison Margiela,0.26834233234881116,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_022,Maison Margiela,Undercover,0.41779932755943594,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_026,Maison Margiela,Undercover,0.42605057827086606,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_030,Maison Margiela,Maison Margiela,0.3800007907568696,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_034,Maison Margiela,Maison Margiela,0.1822465421269241,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_040,Maison Margiela,Yohji Yamamoto,0.4151592680340272,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_046,Maison Margiela,Maison Margiela,0.3463899256940434,2000s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_050,Maison Margiela,Maison Margiela,0.2723868805205528,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_054,Maison Margiela,Yohji Yamamoto,0.4859989771788311,2000s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_057,Maison Margiela,Yohji Yamamoto,0.525390306636117,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_061,Maison Margiela,Maison Margiela,0.28744306202511605,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_062,Maison Margiela,Maison Margiela,0.38954912814279596,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_065,Maison Margiela,Raf Simons,0.19788336085868827,2000s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_066,Maison Margiela,Undercover,0.40935186715848043,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_069,Maison Margiela,Undercover,0.2540403985370277,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_070,Maison Margiela,Undercover,0.4429641873401325,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_072,Maison Margiela,Maison Margiela,0.36083049365441516,2000s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_078,Maison Margiela,Jean Paul Gaultier,0.2500627622709849,2000s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_ss04_079,Maison Margiela,Jean Paul Gaultier,0.2593513907763781,2000s,2010s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0001,Maison Margiela,Maison Margiela,0.2097247215473408,2000s,2010s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0003,Maison Margiela,Helmut Lang,0.42780437911634106,2000s,2000s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0004,Maison Margiela,Issey Miyake,0.22705999892279566,2000s,1990s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0006,Maison Margiela,Issey Miyake,0.2317873435858299,2000s,1990s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0008,Maison Margiela,Raf Simons,0.28275062973921017,2000s,2010s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0009,Maison Margiela,Issey Miyake,0.458287413376377,2000s,2010s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0011,Maison Margiela,Maison Margiela,0.3506662771850879,2000s,2010s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0013,Maison Margiela,Maison Margiela,0.24712239716485787,2000s,2010s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0015,Maison Margiela,Issey Miyake,0.25509596915737437,2000s,2010s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0017,Maison Margiela,Jean Paul Gaultier,0.25336627378416804,2000s,2010s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0019,Maison Margiela,Maison Margiela,0.3442638835053333,2000s,2010s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0021,Maison Margiela,Issey Miyake,0.27668913519495786,2000s,2000s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0023,Maison Margiela,Maison Margiela,0.24699533359228545,2000s,2010s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0025,Maison Margiela,Jean Paul Gaultier,0.19319963448075456,2000s,1990s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0026,Maison Margiela,Raf Simons,0.3267591001211226,2000s,2010s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0028,Maison Margiela,Helmut Lang,0.2884058590838515,2000s,2000s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0030,Maison Margiela,Maison Margiela,0.2982852594261776,2000s,2000s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0032,Maison Margiela,Issey Miyake,0.2625295375392789,2000s,2010s,1.0
+2048212_europeana_fashion_martin_margiela_mss08_0034,Maison Margiela,Helmut Lang,0.266111094878963,2000s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw13_0007,Maison Margiela,Yohji Yamamoto,0.5110993857934887,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw13_0114,Maison Margiela,Raf Simons,0.2978469190628272,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw13_0166,Maison Margiela,Yohji Yamamoto,0.38077459906095684,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw13_0178,Maison Margiela,Yohji Yamamoto,0.5324239626068897,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw13_0215,Maison Margiela,Vivienne Westwood,0.248275895303676,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw13_0292,Maison Margiela,Jean Paul Gaultier,0.25150696223443464,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw13_0360,Maison Margiela,Vivienne Westwood,0.28686541342836314,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw13_0402,Maison Margiela,Yohji Yamamoto,0.42305932168090493,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw13_0420,Maison Margiela,Junya Watanabe,0.18840354115872154,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw13_0456,Maison Margiela,Junya Watanabe,0.331319652892043,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw13_0472,Maison Margiela,Yohji Yamamoto,0.38869120330178103,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_aw13_0541,Maison Margiela,Helmut Lang,0.25213725551572413,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_css10_007,Maison Margiela,Maison Margiela,0.8117852768872765,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_css10_018,Maison Margiela,Maison Margiela,0.26801186829391643,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_css10_036,Maison Margiela,Maison Margiela,0.44639340405510614,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_css10_054,Maison Margiela,Jean Paul Gaultier,0.3641936103262974,2010s,1990s,1.0
+2048212_europeana_fashion_maison_martin_margiela_css10_075,Maison Margiela,Maison Margiela,0.45851347688405086,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_css10_094,Maison Margiela,Maison Margiela,0.3923375320231724,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_css10_116,Maison Margiela,Maison Margiela,0.5712168993414742,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_css10_142,Maison Margiela,Maison Margiela,0.409993793850579,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_css10_176,Maison Margiela,Maison Margiela,0.3768998317085765,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_css10_195,Maison Margiela,Maison Margiela,0.35045345082125573,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_css10_207,Maison Margiela,Maison Margiela,0.46893855609798124,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_artisanal_css11_003,Maison Margiela,Maison Margiela,0.2944690697795012,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_artisanal_css11_007,Maison Margiela,Maison Margiela,0.45838137240134813,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_artisanal_css11_009,Maison Margiela,Maison Margiela,0.39685811804759974,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_artisanal_css11_010,Maison Margiela,Undercover,0.345257661092928,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_artisanal_css11_015,Maison Margiela,Maison Margiela,0.3970458769324484,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_artisanal_css11_019,Maison Margiela,Undercover,0.3445399798186733,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_artisanal_css11_023,Maison Margiela,Undercover,0.31670599572818303,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_artisanal_css11_026,Maison Margiela,Comme des Garcons,0.3893082114556988,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_artisanal_css11_029,Maison Margiela,Maison Margiela,0.23783954009292016,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_artisanal_css11_033,Maison Margiela,Undercover,0.3674899115890318,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_artisanal_css11_038,Maison Margiela,Jean Paul Gaultier,0.3548887377081395,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_artisanal_css11_043,Maison Margiela,Maison Margiela,0.33462849077221846,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_mss12_015,Maison Margiela,Vivienne Westwood,0.25258096328406054,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_mss12_027,Maison Margiela,Undercover,0.35844174393298417,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_mss12_035,Maison Margiela,Comme des Garcons,0.2643694763231001,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_mss12_060,Maison Margiela,Yohji Yamamoto,0.2926490639839871,2010s,2000s,1.0
+2048212_europeana_fashion_maison_martin_margiela_mss12_070,Maison Margiela,Vivienne Westwood,0.2684715622246569,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_mss12_088,Maison Margiela,Maison Margiela,0.2984156187106409,2010s,1990s,1.0
+2048212_europeana_fashion_maison_martin_margiela_mss12_103,Maison Margiela,Yohji Yamamoto,0.3209710795620468,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_mss12_129,Maison Margiela,Vivienne Westwood,0.3209777272045397,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_mss12_173,Maison Margiela,Maison Margiela,0.2519267530616954,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_mss12_181,Maison Margiela,Maison Margiela,0.27585131605621926,2010s,2010s,1.0
+2048212_europeana_fashion_maison_martin_margiela_mss12_209,Maison Margiela,Vivienne Westwood,0.2765465848813031,2010s,2000s,1.0
+2048212_europeana_fashion_maison_margiela_css16_0010,Maison Margiela,Maison Margiela,0.2736965984733493,2010s,2010s,1.0
+2048212_europeana_fashion_maison_margiela_css16_0015,Maison Margiela,Junya Watanabe,0.1932712434907756,2010s,2000s,1.0
+2048212_europeana_fashion_maison_margiela_css16_0034,Maison Margiela,Vivienne Westwood,0.3260748802419963,2010s,2010s,1.0
+2048212_europeana_fashion_maison_margiela_css16_0039,Maison Margiela,Vivienne Westwood,0.3617414189467468,2010s,2010s,1.0
+2048212_europeana_fashion_maison_margiela_css16_0049,Maison Margiela,Maison Margiela,0.29837038955019624,2010s,2000s,1.0
+2048212_europeana_fashion_maison_margiela_css16_0054,Maison Margiela,Vivienne Westwood,0.33309426702607586,2010s,2000s,1.0
+2048212_europeana_fashion_maison_margiela_css16_0078,Maison Margiela,Jean Paul Gaultier,0.5022342960987021,2010s,2010s,1.0
+2048212_europeana_fashion_maison_margiela_css16_0086,Maison Margiela,Vivienne Westwood,0.23959680155999202,2010s,2000s,1.0
+2048212_europeana_fashion_maison_margiela_css16_0095,Maison Margiela,Maison Margiela,0.2950948296043639,2010s,2010s,1.0
+2048212_europeana_fashion_maison_margiela_css16_0101,Maison Margiela,Vivienne Westwood,0.28982175347314953,2010s,2000s,1.0
+2048212_europeana_fashion_maison_margiela_css16_0106,Maison Margiela,Maison Margiela,0.4159464052514327,2010s,2010s,1.0
+2048212_europeana_fashion_maison_margiela_css16_0116,Maison Margiela,Junya Watanabe,0.18971062108186246,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw06_001,Raf Simons,Raf Simons,0.32370714573151566,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_002,Raf Simons,Issey Miyake,0.27769496134686816,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_003,Raf Simons,Raf Simons,0.24296728935128695,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_004,Raf Simons,Raf Simons,0.2870167654877958,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_005,Raf Simons,Raf Simons,0.3216263999439204,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_006,Raf Simons,Raf Simons,0.3135569002657519,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_007,Raf Simons,Raf Simons,0.26496184657960503,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_008,Raf Simons,Raf Simons,0.3031291008333075,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_009,Raf Simons,Helmut Lang,0.2788660209475882,2000s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw06_011,Raf Simons,Raf Simons,0.40750465475451936,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_015,Raf Simons,Issey Miyake,0.24535027651155614,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_016,Raf Simons,Raf Simons,0.2957890196392731,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_017,Raf Simons,Yohji Yamamoto,0.521379382531952,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_018,Raf Simons,Jean Paul Gaultier,0.3729008183280605,2000s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw06_019,Raf Simons,Jean Paul Gaultier,0.22179094276948005,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_020,Raf Simons,Raf Simons,0.3651053683140885,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_021,Raf Simons,Issey Miyake,0.2984752298040021,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_022,Raf Simons,Yohji Yamamoto,0.26325236142492947,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_023,Raf Simons,Raf Simons,0.36149457970453813,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_026,Raf Simons,Issey Miyake,0.42617999828708075,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_029,Raf Simons,Yohji Yamamoto,0.2972070735233017,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_030,Raf Simons,Yohji Yamamoto,0.41127316637775674,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_032,Raf Simons,Yohji Yamamoto,0.3946565513871676,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw06_036,Raf Simons,Yohji Yamamoto,0.35085391763902213,2000s,2010s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0001,Raf Simons,Raf Simons,0.20434212726860623,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0002,Raf Simons,Yohji Yamamoto,0.22337966290655217,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0003,Raf Simons,Raf Simons,0.20694748039585667,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0006,Raf Simons,Issey Miyake,0.28143454765788567,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0007,Raf Simons,Issey Miyake,0.30130510347574607,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0008,Raf Simons,Junya Watanabe,0.13994857680130582,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0011,Raf Simons,Raf Simons,0.32211675539869866,2000s,2010s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0012,Raf Simons,Issey Miyake,0.2889592963160774,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0013,Raf Simons,Vivienne Westwood,0.2711786630521312,2000s,1990s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0014,Raf Simons,Issey Miyake,0.28163851996238237,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0016,Raf Simons,Issey Miyake,0.23551856008388433,2000s,2010s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0017,Raf Simons,Vivienne Westwood,0.2790474988090093,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0018,Raf Simons,Issey Miyake,0.25785359472756564,2000s,2010s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0019,Raf Simons,Vivienne Westwood,0.5806313321426703,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0022,Raf Simons,Undercover,0.2139842622687941,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0023,Raf Simons,Yohji Yamamoto,0.31320291729417055,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0024,Raf Simons,Issey Miyake,0.2388239100709222,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0025,Raf Simons,Vivienne Westwood,0.21256031772457104,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0026,Raf Simons,Vivienne Westwood,0.1996239263919152,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0027,Raf Simons,Yohji Yamamoto,0.34188771097926496,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0028,Raf Simons,Yohji Yamamoto,0.2440189858439515,2000s,2000s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0029,Raf Simons,Yohji Yamamoto,0.29239664171337904,2000s,2010s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0033,Raf Simons,Comme des Garcons,0.19588444727737636,2000s,2010s,1.0
+2048212_europeana_fashion_raf_simons_mss08_0035,Raf Simons,Yohji Yamamoto,0.3496836502284582,2000s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_019,Raf Simons,Yohji Yamamoto,0.38980609617175843,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_034,Raf Simons,Yohji Yamamoto,0.3438755637410709,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_043,Raf Simons,Helmut Lang,0.36448053040049627,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_074,Raf Simons,Junya Watanabe,0.2638501924748769,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_083,Raf Simons,Comme des Garcons,0.23450505395456137,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_098,Raf Simons,Yohji Yamamoto,0.2975367130460758,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_114,Raf Simons,Yohji Yamamoto,0.41714558942829283,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_130,Raf Simons,Yohji Yamamoto,0.44819882235426645,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw11_146,Raf Simons,Helmut Lang,0.4209356764386947,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_168,Raf Simons,Junya Watanabe,0.4244708799631307,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_181,Raf Simons,Helmut Lang,0.3939596089477615,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw11_197,Raf Simons,Issey Miyake,0.23814848559327753,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_208,Raf Simons,Helmut Lang,0.2308460498870981,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw11_244,Raf Simons,Yohji Yamamoto,0.24393124867860477,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw11_261,Raf Simons,Junya Watanabe,0.31658913298193875,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_275,Raf Simons,Issey Miyake,0.24711514258081882,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_288,Raf Simons,Raf Simons,0.31072701873765335,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw11_307,Raf Simons,Junya Watanabe,0.41642539121537664,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_323,Raf Simons,Junya Watanabe,0.30580067385714654,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_336,Raf Simons,Issey Miyake,0.29944967401947725,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw11_348,Raf Simons,Helmut Lang,0.35163498643930563,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw11_378,Raf Simons,Issey Miyake,0.30693342328618994,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_422,Raf Simons,Issey Miyake,0.21251812357095706,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw11_442,Raf Simons,Helmut Lang,0.28897590429640513,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw11_458,Raf Simons,Junya Watanabe,0.47851595735482516,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0006,Raf Simons,Raf Simons,0.33881893027477733,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0031,Raf Simons,Raf Simons,0.34055931713543375,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0059,Raf Simons,Raf Simons,0.24200414701145473,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0072,Raf Simons,Raf Simons,0.3375393870887078,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0083,Raf Simons,Raf Simons,0.36057471259710044,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0092,Raf Simons,Raf Simons,0.3807197437938126,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0107,Raf Simons,Raf Simons,0.4556110600399667,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0120,Raf Simons,Raf Simons,0.5395501329547165,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0136,Raf Simons,Raf Simons,0.26930080818541985,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0144,Raf Simons,Issey Miyake,0.2570047141562671,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0157,Raf Simons,Issey Miyake,0.17862619232117904,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0172,Raf Simons,Raf Simons,0.22323376185612054,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0220,Raf Simons,Raf Simons,0.41492716882028485,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0231,Raf Simons,Raf Simons,0.4821897404554448,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0256,Raf Simons,Raf Simons,0.47008651375977994,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0284,Raf Simons,Raf Simons,0.5395549142744297,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0303,Raf Simons,Raf Simons,0.34910379047837214,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0320,Raf Simons,Raf Simons,0.6204272423191148,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0331,Raf Simons,Raf Simons,0.525935348688433,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0343,Raf Simons,Raf Simons,0.5249215222659552,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0364,Raf Simons,Raf Simons,0.5784493008683288,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0380,Raf Simons,Raf Simons,0.21710790764165272,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0392,Raf Simons,Raf Simons,0.20391743848886704,2010s,2010s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0401,Raf Simons,Raf Simons,0.20009118031995704,2010s,2000s,1.0
+2048212_europeana_fashion_raf_simons_maw13_0414,Raf Simons,Raf Simons,0.2466133821314448,2010s,2000s,1.0
+2048212_europeana_fashion_undercover_aw03_003,Undercover,Comme des Garcons,0.2526585958744978,2000s,2010s,1.0
+2048212_europeana_fashion_undercover_aw03_009,Undercover,Issey Miyake,0.31805682488463594,2000s,2000s,1.0
+2048212_europeana_fashion_undercover_aw03_011,Undercover,Issey Miyake,0.22173600418929215,2000s,2010s,1.0
+2048212_europeana_fashion_undercover_aw03_015,Undercover,Issey Miyake,0.34769178155547104,2000s,2000s,1.0
+2048212_europeana_fashion_undercover_aw03_017,Undercover,Comme des Garcons,0.26329705442761275,2000s,2000s,1.0
+2048212_europeana_fashion_undercover_aw03_021,Undercover,Junya Watanabe,0.25841479390222,2000s,2000s,1.0
+2048212_europeana_fashion_undercover_aw03_023,Undercover,Yohji Yamamoto,0.47580813573579306,2000s,2000s,1.0
+2048212_europeana_fashion_undercover_aw03_026,Undercover,Vivienne Westwood,0.33264676253468184,2000s,2010s,1.0
+2048212_europeana_fashion_undercover_aw03_030,Undercover,Issey Miyake,0.25177805073747067,2000s,2000s,1.0
+2048212_europeana_fashion_undercover_aw03_040,Undercover,Yohji Yamamoto,0.2799011397290917,2000s,2010s,1.0
+2048212_europeana_fashion_undercover_aw03_042,Undercover,Issey Miyake,0.22904610012304005,2000s,2010s,1.0
+2048212_europeana_fashion_undercover_aw03_046,Undercover,Comme des Garcons,0.2935009157342215,2000s,2010s,1.0
+2048212_europeana_fashion_undercover_aw03_049,Undercover,Undercover,0.23564515576140072,2000s,1990s,1.0
+2048212_europeana_fashion_undercover_aw03_052,Undercover,Vivienne Westwood,0.19723119819116447,2000s,2010s,1.0
+2048212_europeana_fashion_undercover_aw03_054,Undercover,Undercover,0.2323556160569854,2000s,2010s,1.0
+2048212_europeana_fashion_undercover_aw03_058,Undercover,Yohji Yamamoto,0.2730713981606435,2000s,2000s,1.0
+2048212_europeana_fashion_undercover_aw03_060,Undercover,Issey Miyake,0.37646264328696216,2000s,2000s,1.0
+2048212_europeana_fashion_undercover_aw03_062,Undercover,Issey Miyake,0.27386131197767,2000s,2010s,1.0
+2048212_europeana_fashion_undercover_aw03_064,Undercover,Comme des Garcons,0.28753536135431584,2000s,2010s,1.0
+2048212_europeana_fashion_undercover_aw03_069,Undercover,Issey Miyake,0.2936692671851329,2000s,2000s,1.0
+2048212_europeana_fashion_undercover_aw03_075,Undercover,Comme des Garcons,0.26196321721508725,2000s,2010s,1.0
+2048212_europeana_fashion_undercover_aw03_079,Undercover,Comme des Garcons,0.31505308954948597,2000s,2010s,1.0
+2048212_europeana_fashion_undercover_aw03_086,Undercover,Yohji Yamamoto,0.3922333118650992,2000s,2000s,1.0
+2048212_europeana_fashion_undercover_aw03_088,Undercover,Comme des Garcons,0.21435712430144377,2000s,2000s,1.0
+2048212_europeana_fashion_undercover_aw03_096,Undercover,Issey Miyake,0.2649966847513272,2000s,2000s,1.0
+2048212_europeana_fashion_undercover_ss14_0001,Undercover,Jean Paul Gaultier,0.2533610557258105,2010s,2000s,1.0
+2048212_europeana_fashion_undercover_ss14_0003,Undercover,Issey Miyake,0.2533127939581738,2010s,2000s,1.0
+2048212_europeana_fashion_undercover_ss14_0006,Undercover,Issey Miyake,0.2554975194304923,2010s,2010s,1.0
+2048212_europeana_fashion_undercover_ss14_0011,Undercover,Helmut Lang,0.3047314001106677,2010s,2010s,1.0
+2048212_europeana_fashion_undercover_ss14_0014,Undercover,Raf Simons,0.28557437002977265,2010s,2010s,1.0
+2048212_europeana_fashion_undercover_ss14_0019,Undercover,Raf Simons,0.3891734875971373,2010s,2010s,1.0
+2048212_europeana_fashion_undercover_ss14_0021,Undercover,Raf Simons,0.2973585871593062,2010s,2010s,1.0
+2048212_europeana_fashion_undercover_ss14_0024,Undercover,Helmut Lang,0.22397238300595732,2010s,2010s,1.0
+2048212_europeana_fashion_undercover_ss14_0035,Undercover,Yohji Yamamoto,0.20234494962342822,2010s,2010s,1.0
+2048212_europeana_fashion_undercover_ss14_0038,Undercover,Yohji Yamamoto,0.277148779951665,2010s,2000s,1.0
+2048212_europeana_fashion_undercover_ss14_0042,Undercover,Issey Miyake,0.2520838758758229,2010s,2000s,1.0
+2048212_europeana_fashion_undercover_ss14_0046,Undercover,Helmut Lang,0.2843797413030211,2010s,2000s,1.0
+2048212_europeana_fashion_undercover_ss14_0053,Undercover,Helmut Lang,0.4123451177538929,2010s,2010s,1.0
+2048212_europeana_fashion_undercover_ss14_0058,Undercover,Raf Simons,0.33466645085149316,2010s,2010s,1.0
+2048212_europeana_fashion_undercover_ss14_0063,Undercover,Vivienne Westwood,0.26178097070659234,2010s,2000s,1.0
+2048212_europeana_fashion_undercover_ss14_0071,Undercover,Vivienne Westwood,0.2201977990819446,2010s,2010s,1.0
+2048212_europeana_fashion_undercover_ss14_0075,Undercover,Vivienne Westwood,0.1955572593390858,2010s,2000s,1.0
+2048212_europeana_fashion_undercover_ss14_0083,Undercover,Helmut Lang,0.33801321863562156,2010s,2000s,1.0
+2048212_europeana_fashion_undercover_ss14_0087,Undercover,Vivienne Westwood,0.19524972427871018,2010s,2010s,1.0
+2048212_europeana_fashion_undercover_ss14_0103,Undercover,Vivienne Westwood,0.21633626110906384,2010s,2010s,1.0
+2048212_europeana_fashion_undercover_ss14_0107,Undercover,Helmut Lang,0.1896531434584882,2010s,2010s,1.0
+2048212_europeana_fashion_undercover_ss14_0114,Undercover,Issey Miyake,0.25922667893202633,2010s,2010s,1.0
+2048212_europeana_fashion_undercover_ss14_0121,Undercover,Jean Paul Gaultier,0.28187865247032995,2010s,2000s,1.0
+2048212_europeana_fashion_undercover_ss14_0125,Undercover,Jean Paul Gaultier,0.3126851438899793,2010s,2000s,1.0
+2048212_europeana_fashion_undercover_ss14_0129,Undercover,Jean Paul Gaultier,0.34068049036861026,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0002,Vivienne Westwood,Jean Paul Gaultier,0.28731334123945956,1990s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0003,Vivienne Westwood,Jean Paul Gaultier,0.29642463218260334,1990s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0004,Vivienne Westwood,Yohji Yamamoto,0.2455719695253086,1990s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0005,Vivienne Westwood,Undercover,0.30288181909754014,1990s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0009,Vivienne Westwood,Maison Margiela,0.26313154599879546,1990s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0017,Vivienne Westwood,Undercover,0.33975286870747023,1990s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0018,Vivienne Westwood,Yohji Yamamoto,0.2877426666787006,1990s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0019,Vivienne Westwood,Yohji Yamamoto,0.2159288909273545,1990s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0023,Vivienne Westwood,Yohji Yamamoto,0.45501176379030267,1990s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0025,Vivienne Westwood,Maison Margiela,0.2472466576596115,1990s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0026,Vivienne Westwood,Yohji Yamamoto,0.38777555766375404,1990s,1990s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0031,Vivienne Westwood,Jean Paul Gaultier,0.3280330752250886,1990s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0034,Vivienne Westwood,Yohji Yamamoto,0.31358150774734406,1990s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0035,Vivienne Westwood,Yohji Yamamoto,0.6662473214574768,1990s,1990s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0036,Vivienne Westwood,Yohji Yamamoto,0.235110541478389,1990s,1990s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0038,Vivienne Westwood,Jean Paul Gaultier,0.3470662266810528,1990s,1990s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0040,Vivienne Westwood,Yohji Yamamoto,0.30600127882348577,1990s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0043,Vivienne Westwood,Yohji Yamamoto,0.2777781729760907,1990s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0045,Vivienne Westwood,Jean Paul Gaultier,0.32406747131211816,1990s,1990s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0049,Vivienne Westwood,Jean Paul Gaultier,0.27443374314233604,1990s,1990s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0050,Vivienne Westwood,Yohji Yamamoto,0.33738773831019264,1990s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0052,Vivienne Westwood,Issey Miyake,0.23435399552214767,1990s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0054,Vivienne Westwood,Jean Paul Gaultier,0.3115177893537422,1990s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0059,Vivienne Westwood,Undercover,0.2781903555731919,1990s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw97_0061,Vivienne Westwood,Yohji Yamamoto,0.2755477802109918,1990s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw07_022,Vivienne Westwood,Jean Paul Gaultier,0.20770262823215419,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw07_031,Vivienne Westwood,Vivienne Westwood,0.43328576797326984,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw07_038,Vivienne Westwood,Issey Miyake,0.17390580421366075,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw07_088,Vivienne Westwood,Vivienne Westwood,0.23387868763567593,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw07_092,Vivienne Westwood,Yohji Yamamoto,0.24119256541955084,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw07_101,Vivienne Westwood,Yohji Yamamoto,0.3141110045220582,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw07_112,Vivienne Westwood,Vivienne Westwood,0.296644100156729,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw07_139,Vivienne Westwood,Jean Paul Gaultier,0.23045446161243524,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw07_174,Vivienne Westwood,Jean Paul Gaultier,0.3066009317816486,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw07_179,Vivienne Westwood,Jean Paul Gaultier,0.5024577217912432,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw07_199,Vivienne Westwood,Junya Watanabe,0.24237945192727858,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw07_206,Vivienne Westwood,Jean Paul Gaultier,0.3079769814087393,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw08_014,Vivienne Westwood,Jean Paul Gaultier,0.2794178653253099,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw08_019,Vivienne Westwood,Yohji Yamamoto,0.25863611709317214,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw08_022,Vivienne Westwood,Yohji Yamamoto,0.3722383475663823,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw08_065,Vivienne Westwood,Vivienne Westwood,0.3714445819732901,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw08_101,Vivienne Westwood,Jean Paul Gaultier,0.5095325381551186,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw08_106,Vivienne Westwood,Jean Paul Gaultier,0.2639632845434625,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw08_133,Vivienne Westwood,Yohji Yamamoto,0.21935388754767046,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw08_139,Vivienne Westwood,Undercover,0.3155606447696741,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw08_189,Vivienne Westwood,Vivienne Westwood,0.3173751507332474,2000s,1990s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw08_215,Vivienne Westwood,Jean Paul Gaultier,0.28356034466765145,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw08_231,Vivienne Westwood,Yohji Yamamoto,0.5089019330372951,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss02_005,Vivienne Westwood,Raf Simons,0.20837531355831498,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss02_007,Vivienne Westwood,Issey Miyake,0.2627513039920428,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss02_011,Vivienne Westwood,Maison Margiela,0.2266941884463207,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss02_014,Vivienne Westwood,Comme des Garcons,0.24717120642515777,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss02_020,Vivienne Westwood,Vivienne Westwood,0.27340896144770443,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss02_022,Vivienne Westwood,Raf Simons,0.2664299615024334,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss02_027,Vivienne Westwood,Raf Simons,0.3077366089359948,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss02_034,Vivienne Westwood,Vivienne Westwood,0.24973935229434188,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss02_036,Vivienne Westwood,Raf Simons,0.3125173501474374,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss02_041,Vivienne Westwood,Yohji Yamamoto,0.27587477358932755,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss02_044,Vivienne Westwood,Yohji Yamamoto,0.31231929711878353,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss02_047,Vivienne Westwood,Raf Simons,0.1938010233649228,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss02_001,Vivienne Westwood,Vivienne Westwood,0.39739703667536824,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss02_004,Vivienne Westwood,Comme des Garcons,0.2531482057659362,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss02_025,Vivienne Westwood,Yohji Yamamoto,0.279648936606808,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss02_028,Vivienne Westwood,Vivienne Westwood,0.46423278733651646,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss02_033,Vivienne Westwood,Issey Miyake,0.41779498411312904,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss02_049,Vivienne Westwood,Undercover,0.2825897577357077,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss02_056,Vivienne Westwood,Helmut Lang,0.26091333237178255,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss02_058,Vivienne Westwood,Maison Margiela,0.28705689069056567,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss02_063,Vivienne Westwood,Vivienne Westwood,0.35565720231650244,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss02_069,Vivienne Westwood,Vivienne Westwood,0.34414013861910664,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss02_082,Vivienne Westwood,Yohji Yamamoto,0.21434082208723224,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss04_014,Vivienne Westwood,Vivienne Westwood,0.33843850358064415,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss04_025,Vivienne Westwood,Comme des Garcons,0.2774690901448143,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss04_027,Vivienne Westwood,Vivienne Westwood,0.29343604285897196,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss04_030,Vivienne Westwood,Issey Miyake,0.3334343863170256,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss04_034,Vivienne Westwood,Junya Watanabe,0.21864681767297695,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss04_037,Vivienne Westwood,Issey Miyake,0.2212190490890504,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss04_038,Vivienne Westwood,Issey Miyake,0.2246226823280492,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss04_039,Vivienne Westwood,Issey Miyake,0.2844936889611904,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss04_040,Vivienne Westwood,Maison Margiela,0.1786160554751258,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss04_041,Vivienne Westwood,Issey Miyake,0.2631000189802559,2000s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_mss04_053,Vivienne Westwood,Raf Simons,0.36612154366270594,2000s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_aw10_0038,Vivienne Westwood,Vivienne Westwood,0.21979215702996233,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_aw10_0146,Vivienne Westwood,Vivienne Westwood,0.4854468816669984,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_aw10_0238,Vivienne Westwood,Vivienne Westwood,0.5861599646676715,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_aw10_0472,Vivienne Westwood,Vivienne Westwood,0.4334381557520695,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_aw10_0544,Vivienne Westwood,Vivienne Westwood,0.33235379434576356,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_aw10_0701,Vivienne Westwood,Vivienne Westwood,0.3112743603171888,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_aw10_0744,Vivienne Westwood,Jean Paul Gaultier,0.2720098787881857,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_aw10_0769,Vivienne Westwood,Vivienne Westwood,0.3688022210957095,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_aw10_0784,Vivienne Westwood,Vivienne Westwood,0.24251222876438364,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_aw10_0811,Vivienne Westwood,Yohji Yamamoto,0.403256049902567,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_aw10_0929,Vivienne Westwood,Issey Miyake,0.3275708576962953,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_aw10_0944,Vivienne Westwood,Helmut Lang,0.2739784251467146,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw15_0002,Vivienne Westwood,Jean Paul Gaultier,0.389499251839439,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw15_0004,Vivienne Westwood,Jean Paul Gaultier,0.2145299855618778,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw15_0015,Vivienne Westwood,Jean Paul Gaultier,0.34243186831272976,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw15_0038,Vivienne Westwood,Yohji Yamamoto,0.25678721174266245,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw15_0045,Vivienne Westwood,Vivienne Westwood,0.40773556296609453,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw15_0071,Vivienne Westwood,Junya Watanabe,0.32304021433435787,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw15_0080,Vivienne Westwood,Issey Miyake,0.20151446311681362,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw15_0103,Vivienne Westwood,Raf Simons,0.23903044980272958,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw15_0124,Vivienne Westwood,Jean Paul Gaultier,0.19923131358198357,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw15_0131,Vivienne Westwood,Comme des Garcons,0.3592174899000457,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw15_0138,Vivienne Westwood,Jean Paul Gaultier,0.28960506049474166,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_aw15_0146,Vivienne Westwood,Jean Paul Gaultier,0.3049980373824994,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss10_0092,Vivienne Westwood,Vivienne Westwood,0.4140959397821877,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss10_0118,Vivienne Westwood,Comme des Garcons,0.2456877448274969,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss10_0148,Vivienne Westwood,Vivienne Westwood,0.2212803896601972,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss10_0202,Vivienne Westwood,Undercover,0.22160493858552308,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss10_0265,Vivienne Westwood,Vivienne Westwood,0.19589909641929318,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss10_0346,Vivienne Westwood,Yohji Yamamoto,0.23039573047403075,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss10_0427,Vivienne Westwood,Comme des Garcons,0.25269863500549833,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss10_0456,Vivienne Westwood,Undercover,0.2566146730947676,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss10_0575,Vivienne Westwood,Vivienne Westwood,0.27296191216575527,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss10_0582,Vivienne Westwood,Maison Margiela,0.22511722542542467,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss10_0630,Vivienne Westwood,Vivienne Westwood,0.17662945916957562,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss10_0761,Vivienne Westwood,Vivienne Westwood,0.2696013915652495,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss10_0312,Vivienne Westwood,Jean Paul Gaultier,0.4249047659688429,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss10_0330,Vivienne Westwood,Comme des Garcons,0.3549542607366244,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss10_0467,Vivienne Westwood,Vivienne Westwood,0.19500326709823904,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss10_0485,Vivienne Westwood,Junya Watanabe,0.20597767382308854,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss10_0598,Vivienne Westwood,Vivienne Westwood,0.21314817300891006,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss10_0671,Vivienne Westwood,Undercover,0.2655870473634019,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss10_0744,Vivienne Westwood,Comme des Garcons,0.27200977984406655,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss10_0857,Vivienne Westwood,Jean Paul Gaultier,0.37573086069147915,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss10_0879,Vivienne Westwood,Jean Paul Gaultier,0.2605780404966514,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss10_1007,Vivienne Westwood,Vivienne Westwood,0.20842220879701828,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss10_1166,Vivienne Westwood,Undercover,0.2632765406657853,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_ss10_1239,Vivienne Westwood,Comme des Garcons,0.5499584200717538,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss11_052,Vivienne Westwood,Vivienne Westwood,0.4703145954752323,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss11_206,Vivienne Westwood,Vivienne Westwood,0.49326353774267806,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss11_276,Vivienne Westwood,Issey Miyake,0.2711372268522131,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss11_322,Vivienne Westwood,Vivienne Westwood,0.34894645972624855,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss11_334,Vivienne Westwood,Jean Paul Gaultier,0.2000681115187235,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss11_364,Vivienne Westwood,Vivienne Westwood,0.32608098270691843,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss11_421,Vivienne Westwood,Vivienne Westwood,0.29977266825525195,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss11_444,Vivienne Westwood,Maison Margiela,0.1833247536135371,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss11_496,Vivienne Westwood,Vivienne Westwood,0.23059248858133138,2010s,2000s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss11_523,Vivienne Westwood,Vivienne Westwood,0.4033332313846338,2010s,2010s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss11_684,Vivienne Westwood,Issey Miyake,0.21303146584263732,2010s,1990s,1.0
+2048212_europeana_fashion_vivienne_westwood_red_label_ss11_845,Vivienne Westwood,Maison Margiela,0.2124272820759018,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0006,Yohji Yamamoto,Yohji Yamamoto,0.5249801813445891,1990s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0007,Yohji Yamamoto,Yohji Yamamoto,0.35108932324416064,1990s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0008,Yohji Yamamoto,Raf Simons,0.4646220205231442,1990s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0009,Yohji Yamamoto,Yohji Yamamoto,0.4266990172294678,1990s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0011,Yohji Yamamoto,Vivienne Westwood,0.23935778786230266,1990s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0012,Yohji Yamamoto,Issey Miyake,0.3257584523659262,1990s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0013,Yohji Yamamoto,Yohji Yamamoto,0.2651840831232492,1990s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0014,Yohji Yamamoto,Yohji Yamamoto,0.6898253010470029,1990s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0016,Yohji Yamamoto,Yohji Yamamoto,0.38795777589528263,1990s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0020,Yohji Yamamoto,Jean Paul Gaultier,0.30778955092677296,1990s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0021,Yohji Yamamoto,Yohji Yamamoto,0.4101702394776143,1990s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0023,Yohji Yamamoto,Junya Watanabe,0.29595332432289345,1990s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0026,Yohji Yamamoto,Issey Miyake,0.4806205199586022,1990s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0029,Yohji Yamamoto,Issey Miyake,0.3121744147648823,1990s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0030,Yohji Yamamoto,Yohji Yamamoto,0.5531963835194672,1990s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0035,Yohji Yamamoto,Issey Miyake,0.36623654572645586,1990s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0036,Yohji Yamamoto,Issey Miyake,0.30938835115431584,1990s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0040,Yohji Yamamoto,Yohji Yamamoto,0.2877483404190006,1990s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0042,Yohji Yamamoto,Jean Paul Gaultier,0.29491886612997076,1990s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0045,Yohji Yamamoto,Issey Miyake,0.27305436632142677,1990s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0050,Yohji Yamamoto,Vivienne Westwood,0.26642491263698315,1990s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0053,Yohji Yamamoto,Comme des Garcons,0.47632353023996044,1990s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0055,Yohji Yamamoto,Yohji Yamamoto,0.2526625203193906,1990s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0057,Yohji Yamamoto,Yohji Yamamoto,0.39985079306104626,1990s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw97_0059,Yohji Yamamoto,Helmut Lang,0.4435107360734244,1990s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_caw03_0003,Yohji Yamamoto,Vivienne Westwood,0.43008217085137307,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_caw03_0006,Yohji Yamamoto,Yohji Yamamoto,0.23933051029757882,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_caw03_0009,Yohji Yamamoto,Jean Paul Gaultier,0.2063475869922649,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_caw03_0015,Yohji Yamamoto,Maison Margiela,0.17751547602218948,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_caw03_0017,Yohji Yamamoto,Yohji Yamamoto,0.4572394089961926,2000s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_caw03_0021,Yohji Yamamoto,Vivienne Westwood,0.30659833361283945,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_caw03_0026,Yohji Yamamoto,Yohji Yamamoto,0.42232065120496814,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_caw03_0030,Yohji Yamamoto,Yohji Yamamoto,0.34598964046429365,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_caw03_0031,Yohji Yamamoto,Jean Paul Gaultier,0.3079333622637635,2000s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_caw03_0032,Yohji Yamamoto,Yohji Yamamoto,0.2277609896514958,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_caw03_0035,Yohji Yamamoto,Yohji Yamamoto,0.4209674091805136,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw08_009,Yohji Yamamoto,Yohji Yamamoto,0.6392103761844036,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw08_013,Yohji Yamamoto,Yohji Yamamoto,0.5053504166514653,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw08_030,Yohji Yamamoto,Yohji Yamamoto,0.5869407979486151,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw08_038,Yohji Yamamoto,Yohji Yamamoto,0.4233358121189903,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw08_055,Yohji Yamamoto,Yohji Yamamoto,0.31605554231735644,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw08_071,Yohji Yamamoto,Issey Miyake,0.4469008807134308,2000s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw08_079,Yohji Yamamoto,Vivienne Westwood,0.46761589432582784,2000s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw08_088,Yohji Yamamoto,Yohji Yamamoto,0.5562432749084882,2000s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw08_109,Yohji Yamamoto,Issey Miyake,0.2443978077783557,2000s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw08_112,Yohji Yamamoto,Yohji Yamamoto,0.439495630858772,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw08_121,Yohji Yamamoto,Yohji Yamamoto,0.6226827715193526,2000s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_maw09_023,Yohji Yamamoto,Yohji Yamamoto,0.6934250559601887,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_maw09_052,Yohji Yamamoto,Yohji Yamamoto,0.48762481243834627,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_maw09_060,Yohji Yamamoto,Yohji Yamamoto,0.589888335816043,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_maw09_069,Yohji Yamamoto,Yohji Yamamoto,0.4516223264108,2000s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_maw09_117,Yohji Yamamoto,Yohji Yamamoto,0.49900275877210437,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_maw09_142,Yohji Yamamoto,Junya Watanabe,0.29266873858618137,2000s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_maw09_150,Yohji Yamamoto,Yohji Yamamoto,0.29514998849945157,2000s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_maw09_178,Yohji Yamamoto,Yohji Yamamoto,0.615400275350553,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_maw09_190,Yohji Yamamoto,Yohji Yamamoto,0.5652172315985206,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_maw09_227,Yohji Yamamoto,Yohji Yamamoto,0.40868938728137794,2000s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_maw09_299,Yohji Yamamoto,Yohji Yamamoto,0.6425733078902148,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_maw09_407,Yohji Yamamoto,Junya Watanabe,0.30246951277241313,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss04_040,Yohji Yamamoto,Yohji Yamamoto,0.5052047060111358,2000s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss04_044,Yohji Yamamoto,Comme des Garcons,0.3534938817475729,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss04_045,Yohji Yamamoto,Yohji Yamamoto,0.44055508636146673,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss04_046,Yohji Yamamoto,Issey Miyake,0.36903425311516624,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss04_049,Yohji Yamamoto,Yohji Yamamoto,0.3314210201252389,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss04_051,Yohji Yamamoto,Yohji Yamamoto,0.29850267742988984,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss04_052,Yohji Yamamoto,Yohji Yamamoto,0.5696089354986971,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss04_053,Yohji Yamamoto,Yohji Yamamoto,0.4861922089028731,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss04_054,Yohji Yamamoto,Issey Miyake,0.3170828776591335,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss04_055,Yohji Yamamoto,Issey Miyake,0.4837878303779871,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss04_059,Yohji Yamamoto,Yohji Yamamoto,0.33446307428184585,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss04_031,Yohji Yamamoto,Maison Margiela,0.20910971031977357,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss04_036,Yohji Yamamoto,Yohji Yamamoto,0.5811715754771315,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss04_046,Yohji Yamamoto,Yohji Yamamoto,0.4000007166280169,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss04_052,Yohji Yamamoto,Yohji Yamamoto,0.4524605612742781,2000s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss04_056,Yohji Yamamoto,Yohji Yamamoto,0.40848534539742015,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss04_061,Yohji Yamamoto,Yohji Yamamoto,0.4247908280259031,2000s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss04_070,Yohji Yamamoto,Raf Simons,0.2200171513082282,2000s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss04_075,Yohji Yamamoto,Yohji Yamamoto,0.30610075948904175,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss04_081,Yohji Yamamoto,Yohji Yamamoto,0.4984384788491222,2000s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss04_082,Yohji Yamamoto,Yohji Yamamoto,0.5191933105645504,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss04_083,Yohji Yamamoto,Yohji Yamamoto,0.5180788814363051,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss04_097,Yohji Yamamoto,Yohji Yamamoto,0.40510424697207453,2000s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0031,Yohji Yamamoto,Yohji Yamamoto,0.6512771090460332,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0048,Yohji Yamamoto,Yohji Yamamoto,0.6565511413903655,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0074,Yohji Yamamoto,Yohji Yamamoto,0.399295675194989,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0110,Yohji Yamamoto,Yohji Yamamoto,0.29164654888198766,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0200,Yohji Yamamoto,Yohji Yamamoto,0.5225444649192595,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0239,Yohji Yamamoto,Yohji Yamamoto,0.8773984096928781,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0277,Yohji Yamamoto,Junya Watanabe,0.25821090107532263,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0300,Yohji Yamamoto,Junya Watanabe,0.32960297293666957,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0309,Yohji Yamamoto,Yohji Yamamoto,0.6430629894991547,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0332,Yohji Yamamoto,Yohji Yamamoto,0.4407730586443015,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0348,Yohji Yamamoto,Yohji Yamamoto,0.5989898335763314,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0381,Yohji Yamamoto,Yohji Yamamoto,0.6947416899516125,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0403,Yohji Yamamoto,Yohji Yamamoto,0.8566866577560797,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0423,Yohji Yamamoto,Yohji Yamamoto,0.295116155754889,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0468,Yohji Yamamoto,Yohji Yamamoto,0.27025839784068495,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0482,Yohji Yamamoto,Yohji Yamamoto,0.6891218807274001,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0521,Yohji Yamamoto,Junya Watanabe,0.20736194403895722,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0566,Yohji Yamamoto,Jean Paul Gaultier,0.20405745030190395,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0596,Yohji Yamamoto,Yohji Yamamoto,0.3563395725994408,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_aw10_0650,Yohji Yamamoto,Yohji Yamamoto,0.7267803334328244,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_035,Yohji Yamamoto,Yohji Yamamoto,0.7264495796515096,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_052,Yohji Yamamoto,Yohji Yamamoto,0.598482829807595,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_071,Yohji Yamamoto,Yohji Yamamoto,0.33802218517905325,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_091,Yohji Yamamoto,Yohji Yamamoto,0.6022176899090956,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_128,Yohji Yamamoto,Yohji Yamamoto,0.428273582751839,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_210,Yohji Yamamoto,Yohji Yamamoto,0.5804704642693259,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_254,Yohji Yamamoto,Yohji Yamamoto,0.7789351957865812,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_310,Yohji Yamamoto,Yohji Yamamoto,0.49979754911371166,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_374,Yohji Yamamoto,Yohji Yamamoto,0.6697030006105984,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_404,Yohji Yamamoto,Yohji Yamamoto,0.42493123800722205,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_428,Yohji Yamamoto,Yohji Yamamoto,0.6891747842456276,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_441,Yohji Yamamoto,Yohji Yamamoto,0.6684662221381366,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_539,Yohji Yamamoto,Issey Miyake,0.248302268086283,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_573,Yohji Yamamoto,Yohji Yamamoto,0.32546268085653085,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_592,Yohji Yamamoto,Yohji Yamamoto,0.545488499379014,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_608,Yohji Yamamoto,Yohji Yamamoto,0.83440099760937,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_639,Yohji Yamamoto,Yohji Yamamoto,0.6682391767859363,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_702,Yohji Yamamoto,Yohji Yamamoto,0.3030801463425661,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_719,Yohji Yamamoto,Yohji Yamamoto,0.3585098520709978,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_ss11_737,Yohji Yamamoto,Yohji Yamamoto,0.5240916924923329,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_601,Yohji Yamamoto,Yohji Yamamoto,0.4012337208056741,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_608,Yohji Yamamoto,Yohji Yamamoto,0.4674746178779054,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_611,Yohji Yamamoto,Issey Miyake,0.3204658583502887,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_615,Yohji Yamamoto,Yohji Yamamoto,0.5437224113074169,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_620,Yohji Yamamoto,Yohji Yamamoto,0.6528025550577912,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_635,Yohji Yamamoto,Issey Miyake,0.3119123390870108,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_640,Yohji Yamamoto,Yohji Yamamoto,0.7008402397505964,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_672,Yohji Yamamoto,Yohji Yamamoto,0.4663282533817565,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_676,Yohji Yamamoto,Yohji Yamamoto,0.43100774827755783,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_681,Yohji Yamamoto,Issey Miyake,0.3301963236169807,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_688,Yohji Yamamoto,Yohji Yamamoto,0.7322425867129003,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_692,Yohji Yamamoto,Yohji Yamamoto,0.4189852420560026,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_697,Yohji Yamamoto,Yohji Yamamoto,0.4094089064155586,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_723,Yohji Yamamoto,Yohji Yamamoto,0.42317868096654593,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_754,Yohji Yamamoto,Yohji Yamamoto,0.551154370929319,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_789,Yohji Yamamoto,Yohji Yamamoto,0.49222714640747595,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_794,Yohji Yamamoto,Yohji Yamamoto,0.4231440379362023,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_805,Yohji Yamamoto,Yohji Yamamoto,0.5038258129092654,2010s,2010s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_809,Yohji Yamamoto,Yohji Yamamoto,0.595978283589199,2010s,2000s,1.0
+2048212_europeana_fashion_yohji_yamamoto_mss12_812,Yohji Yamamoto,Yohji Yamamoto,0.5729862082465355,2010s,2000s,1.0

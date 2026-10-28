@@ -1,0 +1,333 @@
+image_id,brand_true,brand_pred,brand_conf
+654,Gina Tricot,Only,0.9923746
+657,Kappahl,Lindex,0.6231318
+720,Kappahl,Esprit,0.5586612
+832,Kappahl,Lager 157,0.5778522
+864,Isolde,Gina Tricot,0.4828494
+915,Only,Kappahl,0.8678362
+1159,Gina Tricot,Gina Tricot,0.95114315
+1163,H&M,Kappahl,0.60767317
+1173,Lager 157,Zara,0.8885257
+1209,Gina Tricot,Lager 157,0.5402807
+1233,Only,Gina Tricot,0.9875661
+1465,Isolde,Only,0.9999666
+1473,Lindex,Lindex,0.5636492
+1525,H&M,H&M,0.5146049
+1529,Zara,Zara,0.92737496
+1665,Gina Tricot,Isolde,0.68455946
+1734,Kappahl,Lindex,0.95801824
+1794,Lager 157,Lager 157,1.0
+1811,Zara,Zara,0.9986595
+1824,Only,Only,0.96864074
+1836,Lindex,Gina Tricot,0.99602026
+1888,Kappahl,H&M,0.9917129
+1943,Zara,Gina Tricot,0.8087734
+1958,Lindex,Dressman,0.6010785
+2095,Lindex,Lindex,0.70268285
+2108,Kappahl,Gina Tricot,0.6414563
+2112,Lindex,Kappahl,0.86667395
+2116,Indiska,Esprit,0.95082575
+2131,Lindex,Kappahl,0.7853718
+2132,Zara,Kappahl,0.6891054
+2197,H&M,Lindex,0.82330525
+2204,Lager 157,Lager 157,0.75111026
+2214,Lindex,Gina Tricot,0.98373115
+2289,H&M,H&M,0.9237723
+2292,Kappahl,Indiska,0.895843
+2377,Zara,Dressman,0.9604984
+2581,Kappahl,Zara,0.8681206
+2585,Dressman,Lindex,0.58341694
+2702,Kappahl,Lindex,0.9966941
+2705,H&M,Lindex,0.73968613
+2717,Lindex,Gina Tricot,0.78580713
+2737,H&M,Isolde,0.838349
+2920,H&M,H&M,0.8462355
+2991,Gina Tricot,Zara,0.9099837
+3202,Gina Tricot,Lindex,0.58598727
+3609,Indiska,Kappahl,0.6668986
+3695,Isolde,Isolde,0.5106821
+3715,Isolde,Only,0.9937218
+3723,Lindex,Kappahl,0.9967539
+3913,H&M,Lindex,0.99942136
+4014,H&M,Lager 157,0.53790414
+4019,Lindex,Lindex,0.6222381
+4248,Isolde,Lager 157,0.4693303
+4269,Lindex,Lindex,0.51006293
+4388,Lager 157,Lager 157,0.9108957
+4417,Esprit,H&M,0.98913157
+4452,Zara,Lindex,0.85022247
+4476,Zara,Zara,0.9807139
+4501,Indiska,Lindex,0.9705113
+4664,Gina Tricot,Dressman,0.9649612
+4679,Kappahl,Zara,0.9993062
+4698,H&M,Zara,0.5473335
+4721,Kappahl,Kappahl,0.72991616
+4722,Indiska,Esprit,0.40192708
+5308,H&M,H&M,0.93937266
+5310,Esprit,Dressman,0.8246902
+5383,Zara,Lager 157,0.6084534
+5543,Only,Only,0.9376933
+5669,H&M,Esprit,0.9074107
+6008,H&M,Kappahl,0.99878913
+6038,Dressman,Dressman,0.3594182
+6338,Lager 157,Lager 157,0.99998736
+6427,H&M,H&M,0.8594114
+6428,Gina Tricot,Lindex,0.9943619
+6487,Lager 157,Lager 157,0.62839335
+6524,Gina Tricot,Gina Tricot,0.98856133
+6562,Zara,Lindex,0.5266906
+6576,Gina Tricot,Lager 157,0.77375335
+6606,Kappahl,H&M,0.87868214
+6616,Kappahl,Indiska,0.92356926
+6647,Lindex,Lindex,0.99999917
+6673,Kappahl,Lindex,0.69652486
+6982,H&M,Lindex,0.7778691
+7161,Lindex,Lindex,0.9941292
+7441,Lindex,Lindex,1.0
+7466,Isolde,Isolde,0.9090968
+7471,Gina Tricot,Gina Tricot,0.98747265
+7663,Dressman,H&M,0.5630055
+7689,Gina Tricot,Gina Tricot,0.91090196
+7770,Gina Tricot,Isolde,0.999998
+7935,Lindex,Esprit,0.99389654
+8230,Indiska,Esprit,0.99996364
+8262,Gina Tricot,H&M,0.51664215
+8541,Zara,Kappahl,0.7519491
+8666,Gina Tricot,Isolde,0.9999813
+8668,Lindex,Kappahl,0.8708838
+8679,Lindex,Gina Tricot,0.2504612
+8745,Kappahl,H&M,0.58489764
+8785,Dressman,Only,0.6367361
+8826,Dressman,Dressman,0.81524193
+9058,Only,Dressman,0.72535974
+9139,Lindex,Lindex,0.9514641
+9245,Zara,Lager 157,0.5039966
+9252,H&M,H&M,0.98996794
+9267,Only,Isolde,0.9999442
+9271,Isolde,Isolde,0.8302266
+9288,Isolde,Kappahl,0.9993247
+9336,Kappahl,Zara,0.99700147
+9546,Only,Kappahl,0.5304372
+9599,Isolde,Isolde,0.56157345
+9703,Isolde,Isolde,0.6541055
+9785,Gina Tricot,Zara,0.9624053
+9891,Zara,Kappahl,0.53464705
+9916,Indiska,Lager 157,0.66617906
+9982,Esprit,Gina Tricot,0.89628726
+9991,Lager 157,Lindex,0.9920814
+10012,Gina Tricot,Zara,0.8391054
+10078,Gina Tricot,Kappahl,0.32787332
+10098,Dressman,Only,0.87973255
+10104,Dressman,Esprit,0.68775874
+10114,Gina Tricot,Gina Tricot,0.9557221
+10152,Kappahl,Isolde,0.54845035
+10374,H&M,Lager 157,0.9782121
+10383,Lindex,Zara,0.53978705
+10416,Gina Tricot,Gina Tricot,0.51555234
+10508,Dressman,Dressman,0.9885156
+10789,Gina Tricot,Gina Tricot,0.7746839
+10835,Isolde,Isolde,0.8320802
+10908,Zara,Lindex,0.6552398
+10918,Only,H&M,0.4065491
+10940,Isolde,Isolde,1.0
+10962,Isolde,Zara,0.9979444
+11264,Lindex,Only,0.99857247
+11532,Isolde,Isolde,0.6846917
+11639,Gina Tricot,Only,0.84715307
+11644,Lindex,Kappahl,0.9999496
+11846,Isolde,Isolde,0.8687122
+11988,Esprit,Lindex,0.79634273
+12081,Only,Lager 157,0.58438927
+12114,Lager 157,Kappahl,0.4405931
+12157,Esprit,Kappahl,0.990404
+12164,Esprit,Lindex,0.9794601
+12269,H&M,Lindex,0.90172607
+12323,Gina Tricot,H&M,0.7381168
+12350,Lindex,Kappahl,0.99101675
+12357,Lindex,H&M,0.68633443
+12377,Lindex,Esprit,0.4573799
+12520,Lager 157,Lindex,0.8162704
+12551,Zara,Lindex,0.99255943
+12710,Lager 157,Lager 157,0.9999436
+12744,Lager 157,Lager 157,0.99960536
+12895,Lindex,Gina Tricot,0.5527069
+12961,Kappahl,Only,0.99599093
+13054,Dressman,Dressman,0.99959
+13056,Dressman,Dressman,1.0
+13275,Isolde,Isolde,0.99999356
+13310,H&M,Zara,0.96259904
+13349,Zara,Indiska,0.54108924
+13803,Zara,Zara,0.92902714
+13810,Zara,Kappahl,0.58455116
+13829,Indiska,Isolde,0.52050304
+13841,Kappahl,Gina Tricot,0.5283569
+13851,Isolde,Only,0.9963799
+13975,Lager 157,Lager 157,0.9973551
+14203,Kappahl,Kappahl,0.96143854
+14249,Zara,Zara,0.85785633
+14318,Lindex,Lindex,0.7653308
+14429,Gina Tricot,Dressman,0.57419235
+14430,Gina Tricot,Kappahl,0.5193269
+14468,Isolde,Kappahl,0.9997923
+14480,H&M,Lager 157,0.9607943
+14481,Kappahl,Esprit,0.88352156
+14497,Kappahl,Lindex,0.73447907
+14513,Kappahl,Only,0.664703
+14935,Indiska,Zara,0.9412184
+14966,Lindex,Kappahl,0.7119025
+14987,Only,H&M,0.99999213
+15018,Dressman,Lager 157,0.55325365
+15284,Lindex,Indiska,0.77117187
+15350,Zara,Isolde,0.35801032
+15448,Lager 157,Lager 157,0.39650527
+15964,Gina Tricot,Isolde,0.66353947
+15994,Lindex,Kappahl,0.5796094
+16084,Zara,Zara,0.9987521
+16146,Esprit,Kappahl,0.99283
+16158,Gina Tricot,Isolde,0.65616447
+16183,Esprit,Kappahl,0.79223603
+16263,Isolde,Zara,0.99844164
+16654,Gina Tricot,Gina Tricot,0.97603685
+16741,Kappahl,Esprit,0.67110825
+16823,Lindex,Esprit,0.52411586
+16887,Kappahl,Kappahl,0.7538461
+17189,Kappahl,Gina Tricot,0.9812083
+17419,Kappahl,Gina Tricot,0.7108788
+17428,Kappahl,Isolde,0.7019502
+17693,Kappahl,Only,0.5003174
+17702,Lindex,Gina Tricot,0.56207013
+17703,Lager 157,Lager 157,0.6115767
+17754,Lager 157,H&M,0.88131636
+17872,Lager 157,Lager 157,0.95310575
+17903,Kappahl,Esprit,0.9703195
+17922,Indiska,Indiska,0.9218277
+18129,Kappahl,Esprit,0.32716888
+18141,Kappahl,Dressman,0.9982528
+18262,Lager 157,Kappahl,0.99953794
+18880,H&M,Lager 157,0.92453295
+19090,Isolde,Isolde,0.71547663
+19457,Only,H&M,0.6193197
+19551,H&M,H&M,0.42089525
+19590,Kappahl,Lager 157,0.81888634
+19645,Kappahl,Esprit,0.9397217
+19656,Dressman,Dressman,0.5767992
+19678,Gina Tricot,Kappahl,0.67655176
+19711,H&M,Lager 157,0.83573323
+19727,Zara,H&M,0.9760383
+19747,Esprit,Kappahl,0.7712594
+19889,Kappahl,Lindex,0.99435556
+19914,Zara,Zara,0.5383834
+19928,Gina Tricot,Gina Tricot,0.9009246
+19942,H&M,Lindex,0.5022046
+19957,Zara,Zara,0.988901
+19975,Only,Zara,0.46531916
+20046,Gina Tricot,Gina Tricot,0.40881565
+20196,Lager 157,Zara,0.6781073
+20219,H&M,Isolde,0.3307866
+20250,Dressman,Dressman,0.9977264
+20297,Zara,H&M,0.6861364
+20316,Dressman,Dressman,0.9988385
+20508,Kappahl,Zara,0.5016753
+20510,H&M,Lager 157,0.9478424
+20514,Isolde,Lindex,0.95700204
+21058,Lindex,Gina Tricot,0.69422174
+21093,Dressman,Dressman,0.9050192
+21136,Gina Tricot,Kappahl,0.61690295
+21184,Indiska,H&M,0.82032937
+21382,Kappahl,Gina Tricot,0.92191744
+21454,Gina Tricot,Kappahl,0.87331945
+21467,Gina Tricot,Gina Tricot,0.94833195
+21609,Kappahl,Lager 157,0.95577914
+21635,Gina Tricot,Lindex,0.9700809
+21647,Kappahl,Lindex,0.38057786
+21920,Esprit,Lindex,0.91273314
+21977,H&M,Gina Tricot,0.99610907
+22026,H&M,Isolde,0.57072407
+22315,Isolde,Isolde,0.9999937
+22333,Indiska,Indiska,0.99126375
+22348,Kappahl,Lindex,0.5432536
+22354,Indiska,Lindex,0.91451037
+22363,Indiska,Lindex,0.9725686
+22456,Lager 157,Lager 157,0.99755055
+22818,Zara,Lindex,0.99930286
+22830,Kappahl,Only,0.98832
+22914,Indiska,Kappahl,0.8226811
+23292,Lager 157,Lager 157,0.96095175
+23296,Lager 157,Kappahl,0.99923
+23369,H&M,Kappahl,0.7282105
+23519,Gina Tricot,Gina Tricot,0.730214
+23525,Indiska,Gina Tricot,0.99997735
+23611,H&M,H&M,0.7752348
+23670,Dressman,Zara,0.4609561
+23679,Lager 157,Kappahl,0.9563494
+23892,Lindex,Only,0.9524585
+23972,Lindex,Lager 157,0.4842095
+24088,Lindex,Isolde,0.57541806
+24148,Esprit,Lindex,0.78152907
+24151,Esprit,Gina Tricot,0.5441174
+24182,Isolde,Isolde,0.95928067
+24366,Zara,Zara,0.99999964
+24550,H&M,Lindex,0.81942916
+24651,Lager 157,Dressman,0.5786671
+24697,Lindex,Lindex,0.6426619
+24887,Lindex,Zara,0.9789738
+24899,Gina Tricot,Zara,0.96546334
+25428,H&M,Zara,0.9782121
+25481,Gina Tricot,Lindex,0.99951184
+25529,Lindex,Zara,0.99999905
+25535,Only,H&M,0.9978734
+25713,H&M,Esprit,0.39265227
+25753,Lindex,Gina Tricot,0.9271189
+25880,H&M,Gina Tricot,0.9794631
+25952,Lager 157,Indiska,0.9520434
+26105,Indiska,Zara,0.5345368
+26113,Indiska,Indiska,0.77544177
+26725,Kappahl,Gina Tricot,0.99988914
+26726,Gina Tricot,H&M,0.975294
+26728,Only,Gina Tricot,0.9113667
+26731,H&M,Dressman,0.9811183
+26748,Lager 157,Gina Tricot,0.52444565
+26750,Zara,Esprit,0.40583137
+26786,Lager 157,Kappahl,0.7751512
+26801,H&M,Gina Tricot,0.8949057
+26814,Only,Lager 157,0.96930873
+26825,Zara,Gina Tricot,0.40348518
+27079,Indiska,Isolde,0.6259163
+27093,Isolde,Only,0.8787348
+27268,Lager 157,Zara,0.9550194
+27285,Zara,Kappahl,0.79423285
+27300,Lager 157,Esprit,0.9957913
+27317,Lindex,Esprit,0.9661982
+27336,Lindex,Indiska,0.9403126
+27341,Dressman,H&M,0.6035741
+27365,H&M,Only,0.9830839
+27688,Esprit,H&M,0.82858074
+27735,Gina Tricot,Zara,0.987347
+27793,Dressman,Only,0.54899466
+27855,Zara,H&M,0.9474016
+27918,Zara,Zara,0.9996166
+28092,Esprit,Zara,0.999997
+28107,Dressman,Indiska,0.8346383
+28185,Gina Tricot,Zara,0.9965952
+28253,Only,Isolde,0.999894
+28408,H&M,H&M,0.8240635
+28527,Zara,Gina Tricot,0.9466048
+29470,Kappahl,Lindex,0.8777078
+29643,Esprit,Lindex,0.99969184
+29780,Dressman,Lager 157,0.9204595
+29792,Indiska,Lindex,0.9970323
+29824,Gina Tricot,Only,0.8708683
+30061,Esprit,Lindex,0.47930706
+30487,Lindex,Lindex,0.44549856
+30524,Zara,H&M,0.9999994
+30533,H&M,H&M,0.85639715
+30554,H&M,H&M,0.99862015
+30656,H&M,Esprit,0.43747962
+30743,Zara,Zara,0.5702552
+30799,Lager 157,Lindex,0.3701925
+31061,Lindex,Gina Tricot,0.8822197
+31102,H&M,Gina Tricot,0.89932823
+31233,Zara,Lager 157,0.856159
+31264,H&M,H&M,0.5970954
+31561,Lager 157,Lager 157,0.9995547
+31779,Zara,Isolde,0.9163343
