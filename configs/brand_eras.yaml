@@ -1,0 +1,1132 @@
+# Label-based era definitions for the real (label-photo) data.
+# DRAFT from web research (collector guides, museum records, retailer listings), fact-checked by a second
+# pass on 2026-10-28. Every era lists the sources that support it and a confidence; verify against
+# physical garments before training on these labels. `proposed_classes` is the coarser class set we plan
+# to train on (neighbouring eras are merged if a class has fewer than 50 label photos).
+proposed_classes:
+  Comme des Garcons:
+  - label: pre-1988
+    years:
+    - 1969
+    - 1987
+    cue: no AD year on the care label
+  - label: 1988-2000
+    years:
+    - 1988
+    - 2000
+    cue: AD year + hyphenated code with season digit
+  - label: 2001-2007
+    years:
+    - 2001
+    - 2007
+    cue: first season-letter code series
+  - label: 2008-2017
+    years:
+    - 2008
+    - 2017
+    cue: season letters A=SS2008 ... T=AW2017
+  - label: 2018-
+    years:
+    - 2018
+    - 2026
+    cue: season letters restart at A=SS2018
+  Maison Margiela:
+  - label: 1988-1996
+    years:
+    - 1988
+    - 1996
+    cue: blank white label, four white tacks
+  - label: 1997-2008
+    years:
+    - 1997
+    - 2008
+    cue: numbered 0-23 label, Martin Margiela
+  - label: 2009-2014
+    years:
+    - 2009
+    - 2014
+    cue: design team, still 'Maison Martin Margiela'
+  - label: 2015-
+    years:
+    - 2015
+    - 2026
+    cue: '''Maison Margiela'' (Galliano, then Martens)'
+  Undercover:
+  - label: 1990-2002
+    years:
+    - 1990
+    - 2002
+    cue: Tokyo era; year-digit / season-letter codes
+  - label: 2003-2014
+    years:
+    - 2003
+    - 2014
+    cue: Paris era; men's mainline as UNDERCOVERISM
+  - label: 2015-2020
+    years:
+    - 2015
+    - 2020
+    cue: unified UNDERCOVER; 'UC' + season letter
+  - label: 2021-
+    years:
+    - 2021
+    - 2026
+    cue: '''UC'' + 1/2 + year letter (A=2021)'
+research:
+  brands:
+  - brand: Comme des Garçons (main women's line + house-wide care-tag/code system)
+    eras:
+    - name: 'Earliest tags: no style code, then ruled-line care tags'
+      start_year: 1969
+      end_year: 1981
+      label_cues: 'One collector guide (note.com, Tsukiyama, 2025) describes the earliest inner tags: 1969-72 tags
+        carry no style number, no fibre content and no company name; from the 1970s the company name (株式会社 コム デ
+        ギャルソン, company formed 1973) is added, still without material or style number; ''ruled-line'' (罫線) care tags,
+        some with stamped numbers and in several fonts, were used from the 1970s until about AW1981. geeksblog describes
+        early-1980s tags as very small wrap-around tags. No museum example from this period was found, so these
+        cues are unverified.'
+      sources:
+      - https://note.com/tkiy_0/n/n48d20e755ff3
+      - https://geeksblog.jp/comme-des-garcons-tag
+      - https://www.encyclopedia.com/fashion/encyclopedias-almanacs-transcripts-and-maps/comme-des-garcons
+      - https://www.fhcm.paris/en/node/574
+      confidence: low
+    - name: Typed style codes with season digit, no AD year
+      start_year: 1981
+      end_year: 1988
+      label_cues: 'From AW1981 the ruled lines disappear and style numbers are typed rather than stamped (note.com).
+        Code = [line letter][garment letter][season digit 0 = AW, 1 = SS][digits]; NGV''s SS1983 top has the unhyphenated
+        ''ET100160'' (digit 1 = SS, matching the museum date) on a printed ''COMME des GARÇONS / MADE IN JAPAN /
+        FABRIQUE AU JAPON / 100% COTTON'' label. Main labels: printed black on white synthetic (NGV SS1983; NGV
+        notes a mark under the C) or on white polyester (NGV c.1985 jumpsuit), or woven bronze on black synthetic
+        (NGV AW1983-84). From about SS1984 Japanese care labels print the textile-labeller number ''D-TK9210'' (D
+        = retailer, TK = Tokyo, 9210 = Comme des Garçons); it is absent on AW1983 main-line pieces (kaitorihanbaiichiba;
+        note.com). No AD year until AW1988 production (note.com; geeksblog). Sub-lines launched: Homme 1978, tricot
+        and robe de chambre 1981, Homme Plus 1984, Noir 1987 (encyclopedia.com).'
+      sources:
+      - https://www.ngv.vic.gov.au/explore/collection/work/76984/
+      - https://www.ngv.vic.gov.au/explore/collection/work/127450/
+      - https://www.ngv.vic.gov.au/explore/collection/work/76985/
+      - https://note.com/tkiy_0/n/n48d20e755ff3
+      - https://kaitorihanbaiichiba.net/garcons/2023/07/27/comme-des-garcons-shirt-%E3%81%AE%E5%B9%B4%E4%BB%A3%E8%80%83%E5%AF%9F%E3%81%A8%E5%86%85%E3%82%BF%E3%82%B0%E3%81%AE%E3%80%8Cd-tk9210%E3%80%8D%E3%81%AE%E3%81%A4%E3%81%84%E3%81%A6/
+      - https://geeksblog.jp/comme-des-garcons-tag
+      - https://www.encyclopedia.com/fashion/encyclopedias-almanacs-transcripts-and-maps/comme-des-garcons
+      confidence: medium
+    - name: AD year + pre-2001 hyphenated code (garment letter 2nd, season digit 3rd)
+      start_year: 1988
+      end_year: 2001
+      label_cues: 'From AW1988 production care labels add ''AD'' + production year (note.com; geeksblog; earliest
+        seen in a listing: GP-05032M with AD1988). Code = [line][garment]-[0 = AW / 1 = SS][4 digits][size letter
+        or 0]: GO-04021M (NGV AW1993-94), ES-10017M and ''O 10019M'' (NGV ''(1995) spring-summer''), EJ-10006M and
+        EO-10054M with ''AD 1997'' on the reverse (NGV SS1998), GS-04063S AD2000 (listing sold as 2000AW), PV-110010
+        AD1991 (Truss photo). Japanese domestic labels print 品番 (style no.), the AD year, a 縫製責任者 (sewing supervisor)
+        field and ''(株)コム デ ギャルソン D-TK9210'' (Truss photo). Export pieces in NGV have white plastic bilingual labels
+        (''MAIN / ATTACHED FABRIC / TISSUS AJOUTE'', ''COMME des GARCONS CO., LTD.'', ''MADE IN JAPAN / FABRIQUE
+        AU JAPON'') with Japanese text and the AD year on the reverse. ''D-TK9210'' disappears from garments made
+        from 1998 (last on SS1998, absent from AW1998), after Japan''s 1997 revision of the textile labelling rules
+        (kaitorihanbaiichiba; note.com). Main label: woven gold/yellow on black (jackets and some dresses) and printed
+        black on white acetate or synthetic (skirts, trousers, many dresses) appear in the same collections (NGV
+        AW1995-96, SS1998, AW1998-99). Noir: woven white on black ''COMMEdes GARÇONS / NOIR'' (NGV SS1990, code
+        AO-31010S). robe de chambre: woven black on white ''robe de chambre COMME des GARÇONS / MADE IN JAPAN''
+        (NGV SS1997). The old format runs through SS2001 (note.com cites an AD2001 ''PJ-10067M''); AW2001 production
+        mixes old and new formats. Sub-lines: SHIRT 1988, Junya Watanabe 1992, CDG CDG 1993 (encyclopedia.com).'
+      sources:
+      - https://www.trussarchive.com/guides/how-to-identify-comme-des-garcons
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/657829866064accb7a106603_commes%20des%20garcons%20serial%20number%20and%20tags%20pre-2001%20(1).jpeg
+      - https://www.ngv.vic.gov.au/explore/collection/work/76983/
+      - https://www.ngv.vic.gov.au/explore/collection/work/59046/
+      - https://www.ngv.vic.gov.au/explore/collection/work/141077/
+      - https://www.ngv.vic.gov.au/explore/collection/work/142326/
+      - https://www.ngv.vic.gov.au/explore/collection/work/136060/
+      - https://www.ngv.vic.gov.au/explore/collection/work/138978/
+      - https://www.ngv.vic.gov.au/explore/collection/work/142273/
+      - https://www.ngv.vic.gov.au/explore/collection/work/134283/
+      - https://www.ngv.vic.gov.au/explore/collection/work/138958/
+      - https://www.ngv.vic.gov.au/explore/collection/work/76982/
+      - https://www.ngv.vic.gov.au/explore/collection/work/133992/
+      - https://note.com/tkiy_0/n/n48d20e755ff3
+      - https://geeksblog.jp/comme-des-garcons-tag
+      - https://www.bazzstore.com/5477/
+      - https://kaitorihanbaiichiba.net/garcons/2023/07/27/comme-des-garcons-shirt-%E3%81%AE%E5%B9%B4%E4%BB%A3%E8%80%83%E5%AF%9F%E3%81%A8%E5%86%85%E3%82%BF%E3%82%B0%E3%81%AE%E3%80%8Cd-tk9210%E3%80%8D%E3%81%AE%E3%81%A4%E3%81%84%E3%81%A6/
+      - https://fril.jp/brand/188/used/16
+      - https://fril.jp/brand/188/used/42
+      - https://www.fashionsnap.com/article/mustbuy-vintage-vol22/
+      - https://www.encyclopedia.com/fashion/encyclopedias-almanacs-transcripts-and-maps/comme-des-garcons
+      confidence: high
+    - name: Post-2001 code, first season-letter series (AW2001-AW2007)
+      start_year: 2001
+      end_year: 2007
+      label_cues: 'Code becomes [line][season letter]-[garment letter][3 digits] (Truss; note.com; geeksblog). Season
+        letters (Truss table credited to ''Playful Blog''; geeksblog; bazzstore agree): C or D = AW2001, E or F
+        = SS2002, G or H = AW2002, I or J = SS2003, K or L = AW2003, then one letter per season M = SS2004 to T
+        = AW2007. Truss also lists A or B for SS2001, which note.com says was used only on a few items. Museum check:
+        GE-O007 on NGV''s SS2002 ''Ethnic Couture'' dress (printed white side label) = E = SS2002. Truss photo:
+        WK-P029 / AD2003 (K = AW2003). Listing: GQ-T037 (2006SS). Main labels stay woven yellow on black (NGV AW2003
+        ''COMME des GARCONS / M'', AW2006) with printed white labels on bottoms; one woven white-on-blue label is
+        recorded (design SS2003, 2007 reissue, NGV). Tao Kurihara''s separate line tao COMME des GARÇONS (AW2005-SS2011;
+        line digit 3) used printed ''t a o / COMME des GARCONS'' labels on cream cotton (NGV AW2006). PLAY launched
+        2002 (AnOther).'
+      sources:
+      - https://www.trussarchive.com/guides/how-to-identify-comme-des-garcons
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/66e93f7b5653da7ed053af94_65782bbcf75049dbc6488f96_Screenshot%25202023-12-12%2520at%252009.45.13.png
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/657822ff0f0e0f320d408d2f_commes%20des%20garcons%20serial%20number%20and%20tags.jpeg
+      - https://www.ngv.vic.gov.au/explore/collection/work/142319/
+      - https://www.ngv.vic.gov.au/explore/collection/work/122942/
+      - https://www.ngv.vic.gov.au/explore/collection/work/117235/
+      - https://www.ngv.vic.gov.au/explore/collection/work/112351/
+      - https://www.ngv.vic.gov.au/explore/collection/work/145476/
+      - https://geeksblog.jp/comme-des-garcons-tag
+      - https://www.bazzstore.com/5477/
+      - https://note.com/tkiy_0/n/n48d20e755ff3
+      - https://www.anothermag.com/art-photography/1973/a-guide-to-comme-des-garcons-play
+      - https://selectshopframe.com/blogs/frame-zine/tao
+      - https://fril.jp/brand/188/used/42
+      confidence: high
+    - name: 'Season-letter cycle 2: A = SS2008 ... T = AW2017'
+      start_year: 2008
+      end_year: 2017
+      label_cues: 'One letter per season from A = SS2008 to T = AW2017 (Truss table; geeksblog; bazzstore). Japanese
+        care label example: HG-T029 / AD2010 with a red 縫製責任者 seal and ''日本製 株式会社 コム デ ギャルソン 東京都港区南青山5-11-5'' (Truss
+        photo). Listings agree: GD-T036 AD2009, PE-B041 AD2009, HG-B030 AD2010 (11SS), GL-T043 (2013AW), PN-N025
+        and HN-N011 AD2014 (14AW), GO-P001 AD2014, DO-J072 AD2014 (15SS), TQ-T011 AD2015 (16SS), GR-N006 (2016AW),
+        HS-P050 AD2016, PS-T058 (2017SS). Staple items use Z as the second letter, probably from about AD2011 (note.com).
+        Japan''s new JIS L 0001 care symbols apply from 1 December 2016 (Consumer Affairs Agency), so tags made
+        from late 2016 drop the old symbols with Japanese text. No redesign of the woven main label is documented.'
+      sources:
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/66e93f7b5653da7ed053af94_65782bbcf75049dbc6488f96_Screenshot%25202023-12-12%2520at%252009.45.13.png
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/65783e584fa1ee60fa4ce842_commes%20des%20garcons%20tags%20post-%202001%20(1).jpeg
+      - https://geeksblog.jp/comme-des-garcons-tag
+      - https://www.bazzstore.com/5477/
+      - https://note.com/tkiy_0/n/n48d20e755ff3
+      - https://www.caa.go.jp/policies/policy/representation/household_goods/guide/wash_01.html
+      - https://fril.jp/brand/188/used/42
+      - https://fril.jp/brand/188/used/16
+      - https://fril.jp/brand/5385/used/54
+      - https://fril.jp/brand/5385/used/48
+      - https://fril.jp/brand/5385/used/40
+      confidence: high
+    - name: 'Season-letter cycle 3: restarts A = SS2018 (current)'
+      start_year: 2018
+      end_year: 2026
+      label_cues: 'Letters restart at A = SS2018 (the Truss table runs to K = SS2023; geeksblog extends it to Q
+        = SS2026, R = AW2026). Listings: PA-B018 AD2017 (18SS), PB-P028 AD2018, GD-T045 AD2019, DD-C005 AD2019 (19AW),
+        RE-C002 AD2019, GF-J028 (2020AW), RG-O008 AD2020, PG-J053 AD2020 (21SS), GI-P001 AD2021, TJ-N032 AD2022
+        (2022 A/W), GK-O010 (2023SS), RL-P004 AD2023, GO-B019 AD2024 (25SS), HN-P011 AD2024 (24AW), PP-J043 AD2025.
+        From SS2022 Junya Watanabe labels drop ''COMME des GARÇONS'' and tricot COMME des GARÇONS becomes ''Tao''
+        (see those entries). The cycle predicts S = SS2027, T = AW2027, then A again from SS2028 (unconfirmed).'
+      sources:
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/66e93f7b5653da7ed053af94_65782bbcf75049dbc6488f96_Screenshot%25202023-12-12%2520at%252009.45.13.png
+      - https://geeksblog.jp/comme-des-garcons-tag
+      - https://www.bazzstore.com/5477/
+      - https://fril.jp/brand/188/used/42
+      - https://fril.jp/brand/188/used/16
+      - https://fril.jp/brand/5385/used/54
+      - https://fril.jp/brand/5385/used/48
+      - https://fril.jp/brand/5385/used/40
+      - https://fril.jp/brand/5385/used/30
+      - https://www.fashion-press.net/brands/27
+      - https://www.wwdjapan.com/?p=1277418
+      confidence: high
+    date_codes: 'Two printed elements on the white care/composition label, which usually sits low on a side seam
+      (VFG forum). (1) AD + 4-digit year = PRODUCTION year, not season (Truss; Fashionsnap 製造年; note.com). CDG launches
+      SS in February and AW in August, so SS goods normally carry the previous year (note.com: rarely the same year):
+      NGV''s SS1998 jacket has ''AD 1997'' on the reverse; listings pair PA-B018/AD2017 with 18SS, PG-J053/AD2020
+      with 21SS and GO-B019/AD2024 with 25SS, while AW goods carry the same year (PN-N025/AD2014 = 14AW). AD appears
+      from AW1988 production (note.com; geeksblog; earliest listing GP-05032M AD1988) and only on clothing; bags
+      have none (note.com). (2) STYLE CODE, AW1981-SS2001 (note.com; geeksblog; bazzstore): [line][garment]-[season
+      digit][4 digits][size letter or 0]. Season digit 0 = AW, 1 = SS, so AD N + 0 = AW N and AD N + 1 = SS N+1
+      (bazzstore: GJ-110710 AD1991 = SS1992). Museum checks: ET100160 (SS1983), ES-10017M (SS), EJ-10006M and EO-10054M
+      (SS1998), GO-04021M (AW1993) all fit; Noir ''AO-31010S'' (SS1990) does not (digit 3). This contradicts Truss''s
+      statement that pre-2001 codes carry no season. In the codes collected here a size letter ends 5-digit codes
+      (EJ-10006M on a size-M piece; AO-31010S on a size-S piece) and 6-digit codes end in 0 (PT-050200, PV-110010,
+      HT-080270). Garment letters: J jacket, C coat, N knit, V vest, T top/T-shirt/jersey, O dress, S skirt, P pants,
+      B blouse/shirt, A overalls, U jumpsuit, K accessories and bags (Truss; geeksblog; bazzstore). Export tags
+      on 1990s menswear start with X (geeksblog), e.g. XJ-07027M (V&A 1996 Homme Plus coat). STYLE CODE, AW2001
+      onward: [line][season letter]-[garment letter][3 digits] (Truss). Season letters: AW2001 C/D, SS2002 E/F,
+      AW2002 G/H, SS2003 I/J, AW2003 K/L, SS2004 M ... AW2007 T; SS2008 A ... AW2017 T; SS2018 A ... SS2026 Q, AW2026
+      R (Truss table; geeksblog; bazzstore). DECODER: let i be the letter index (A = 0). If AD is 2000-2003 and
+      the letter is A-L, use pairs: s = floor(i/2), SS if s is even, AW if odd, year = 2001 + floor(s/2). Otherwise:
+      SS if i is even, AW if odd, year = base + floor(i/2), with base 1998 (letters M-T only, AD2003-2007), 2008
+      or 2018 (2028 next), chosen so that AD = year (AW) or year - 1 (SS). Fixed second letters: Z = staple, no
+      season (from about AD2011; note.com); PLAY uses AZ, and AX from AD2023 (note.com). Other non-collection goods
+      seen: VZ-T041 (CDG x The Beatles tee, AD2025), OX-T005 (AD2023 track jacket), OA-K201 (backpack), PZ-K205
+      (Homme Plus backpack). Exception: some 2006SS Rolling Stones tees carry P (geeksblog). LINE LETTERS (Truss;
+      geeksblog; bazzstore): G CDG; R CDG CDG or robe de chambre; T tricot (Tao from SS2022); 3 tao COMME des GARÇONS
+      (2005-SS2011) and later Noir Kei Ninomiya (from SS2013); P Homme Plus; H Homme; D Homme Deux; I Homme Homme;
+      J Junya Watanabe; W Junya Watanabe MAN and eYe; U Junya Watanabe MAN PINK; A PLAY; 1 BLACK CDG; N CDG GIRL;
+      E Ganryu; B parfums (Truss); O and V wallet and other non-collection goods; F SHIRT (from 2021; earlier SHIRT
+      codes start with an S/W season prefix, which is probably why Truss lists ''S'' for SHIRT). Pre-2001 observations:
+      E on export main-line pieces (NGV 1983, 1995, 1998), G on domestic main line (1988, 1993, 2000 listings and
+      NGV 1993), A on Noir 1990, X on export Homme Plus tailoring 1996-1999. (3) ''D-TK9210'' printed on Japanese
+      care labels from about SS1984 to SS1998 (kaitorihanbaiichiba; note.com).'
+    notes: 'The woven main label ''COMME des GARÇONS'' looks stable in museum records from 1983 to 2006 (bronze,
+      gold or yellow on black), with printed black-on-white labels in the same collections, so label colour follows
+      garment type, not era. Date from the care tag (AD year, code format, D-TK9210, care symbols). NGV catalogue
+      dates often but not always put SS pieces in the previous calendar year (SS1996 ''Kaleidoscope'' catalogued
+      as 1995; SS1998 pieces catalogued as both 1997 and 1998). The post-2001 season table is now corroborated by
+      the Truss table image and three independent Japanese reseller guides (geeksblog, bazzstore, note.com), and
+      about 40 fril.jp listings agree with it. Seller-stated seasons can still be wrong: DI-J033 (Homme Deux, AD2021)
+      was sold as 2021SS, while I = SS2022.'
+  - brand: Comme des Garçons Homme Plus
+    eras:
+    - name: 'Pre-2001 tags: P- codes with season digit (AD year from AW1988); X- codes on export tailoring'
+      start_year: 1984
+      end_year: 2001
+      label_cues: 'Label text ''Comme des Garçons / Homme Plus'' with a separate S/M/L size label; export care text
+        ''Do not bleach / Use cool iron / Dry clean only / Comme des Garçons / Made in Japan'' and ''Comme des Garçons
+        Co., LTD.'' (V&A 1992 coat, trousers, waistcoat; 1996 suit). Japanese care label example: 品番 PV-110010,
+        AD1991, ''(株)コム デ ギャルソン D-TK9210'' (Truss photo). Codes = P + garment letter + ''-'' + season digit (0 =
+        AW, 1 = SS) + 4 digits + size letter or 0: PT-050200 (AD1992), PB-100280 (AD1995), PC-040200 and PJ-04057L
+        (AD1996), PJ-10033 and PT-100480 (AD1997), PJ-04086S, PJ-040910 and PT-100470 (AD1998) (listings). Export
+        tailoring uses X codes (geeksblog: export codes start with X): XJ-07027M (V&A 1996 coat, size M), XJ-07068M
+        (sold as 1999AW), XJ-01079L (AD1999, sold as AW1999 ''Souvenir Kitsch''). No AD year before AW1988; ''D-TK9210''
+        on Japanese labels until SS1998 (kaitorihanbaiichiba).'
+      sources:
+      - https://api.vam.ac.uk/v2/museumobject/O1193118
+      - https://api.vam.ac.uk/v2/museumobject/O1193125
+      - https://api.vam.ac.uk/v2/museumobject/O1193226
+      - https://api.vam.ac.uk/v2/museumobject/O1193229
+      - https://www.trussarchive.com/guides/how-to-identify-comme-des-garcons
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/657829866064accb7a106603_commes%20des%20garcons%20serial%20number%20and%20tags%20pre-2001%20(1).jpeg
+      - https://fril.jp/brand/5385/used/53
+      - https://fril.jp/brand/5385/used/48
+      - https://fril.jp/brand/5385/used/40
+      - https://fril.jp/brand/5385/used/30
+      - https://geeksblog.jp/comme-des-garcons-tag
+      - https://note.com/tkiy_0/n/n48d20e755ff3
+      - https://kaitorihanbaiichiba.net/garcons/2023/07/27/comme-des-garcons-shirt-%E3%81%AE%E5%B9%B4%E4%BB%A3%E8%80%83%E5%AF%9F%E3%81%A8%E5%86%85%E3%82%BF%E3%82%B0%E3%81%AE%E3%80%8Cd-tk9210%E3%80%8D%E3%81%AE%E3%81%A4%E3%81%84%E3%81%A6/
+      - https://www.encyclopedia.com/fashion/encyclopedias-almanacs-transcripts-and-maps/comme-des-garcons
+      - https://www.fashionsnap.com/article/mustbuy-vintage-vol22/
+      confidence: medium
+    - name: Post-2001 codes, first series (AW2001-AW2007)
+      start_year: 2001
+      end_year: 2007
+      label_cues: 'P + season letter + ''-'' + garment letter + 3 digits. Listings fit the Truss table: PC-P057
+        (sold as 2001AW; C = AW2001), PM-J034 and PM-P057 (2004SS), PN-J004 (2004AW), PO-J014 (2005SS), PR-J062
+        (2006AW), PS-B043 and PS-T209 (2007SS); Truss photo PQ-J053 / AD2005 (Q = SS2006). PS-T209 is titled ''EVER
+        GREEN''; whether that marks the Homme Plus Evergreen sub-line is unverified.'
+      sources:
+      - https://fril.jp/brand/5385/used/48
+      - https://fril.jp/brand/5385/used/53
+      - https://fril.jp/brand/5385/used/54
+      - https://fril.jp/brand/5385/used/72
+      - https://fril.jp/brand/5385/used/40
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/66e93f7b5653da7ed053af94_65782bbcf75049dbc6488f96_Screenshot%25202023-12-12%2520at%252009.45.13.png
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/65783f6aec26eb56fff2fcb7_commes%20des%20garcons%20WASH%20TAG%20CODES.jpeg
+      - https://geeksblog.jp/comme-des-garcons-tag
+      confidence: high
+    - name: Cycle A = SS2008 ... T = AW2017
+      start_year: 2008
+      end_year: 2017
+      label_cues: 'Listings: PA-P026 (2008SS), PB-N020 (08AW), PC-T018 AD2008 (09SS), PC-N024 and PC-T056 (2009SS),
+        PD-T005 (2009AW), PE-P041 (2010SS), PF-J085 AD2010, PG-B034 AD2010 (2011SS), PL-J012 (2013AW), PM-J029 (2014SS),
+        PN-N025 AD2014 (14AW), PO-P085 (2015SS), PS-T058 (2017SS).'
+      sources:
+      - https://fril.jp/brand/5385/used/54
+      - https://fril.jp/brand/5385/used/53
+      - https://fril.jp/brand/5385/used/48
+      - https://fril.jp/brand/5385/used/72
+      - https://fril.jp/brand/5385/used/40
+      - https://fril.jp/brand/5385/used/30
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/66e93f7b5653da7ed053af94_65782bbcf75049dbc6488f96_Screenshot%25202023-12-12%2520at%252009.45.13.png
+      confidence: high
+    - name: Cycle restarting A = SS2018 (current)
+      start_year: 2018
+      end_year: 2026
+      label_cues: 'Listings: PA-B018 AD2017 (18SS), PA-P004 AD2017, PB-P028 AD2018, PD-P042 (2019AW), PE-N016, PE-B502
+        and PE-J026 (2020SS), PF-J046 and PF-N021 (2020AW), PG-J053 AD2020 and PG-N009 (2021SS), PH-J001 and PH-T022
+        (2021AW), PI-T032, PI-P030 and PI-B026 (2022SS), PJ-J038 and PJ-N007 (2022AW), PK-T014 and PK-T013 (2023SS),
+        PL-B025 (2023AW), PM-N001, PM-J055 and PM-B022 (2024SS), PN-J030, PN-J050 and PN-P038 (2024AW), PO-T002
+        and PO-T033 (2025SS), PO-T008 AD2024, PP-P043 (25AW), PP-J043 AD2025.'
+      sources:
+      - https://fril.jp/brand/5385/used/54
+      - https://fril.jp/brand/5385/used/53
+      - https://fril.jp/brand/5385/used/48
+      - https://fril.jp/brand/5385/used/40
+      - https://fril.jp/brand/5385/used/30
+      - https://fril.jp/brand/188/used/42
+      - https://geeksblog.jp/comme-des-garcons-tag
+      confidence: high
+    date_codes: 'House system with line letter P (Truss). AD year = production year: SS goods carry the prior year
+      (PG-B034 AD2010 = 2011SS; PA-B018 AD2017 = 18SS), AW goods the same year (PN-N025 AD2014 = 14AW). Pre-2001:
+      P + garment letter + ''-'' + season digit (0 = AW, 1 = SS) + digits, e.g. PT-050200 AD1992 = AW1992, PB-100280
+      AD1995 = SS1996, PJ-04086S AD1998 = AW1998. Export tags use X (XJ-). Post-2001: P + season letter (see the
+      main CDG entry) + ''-'' + garment letter + 3 digits. Bags use garment letter K with a fixed Z (PZ-K204, PZ-K205).'
+    notes: 'Homme Plus launched 1984 (encyclopedia.com; Fashionsnap); a geeksblog article says 1985. Fetched sources
+      describe no redesign of the woven label, so these eras are defined by tag-code format. Evidence: V&A label
+      transcriptions, the Truss photos, three Japanese reseller guides and fril.jp listings.'
+  - brand: Comme des Garçons Homme
+    eras:
+    - name: '''HOMME COMME des GARÇONS'' label (collector nickname デカオム)'
+      start_year: 1978
+      end_year: 1983
+      label_cues: The first menswear label reads 'HOMME COMME des GARÇONS', nicknamed デカオム ('big HOMME') by Japanese
+        collectors, used AW1978-AW1983 (note.com; kaitorihanbaiichiba, which files it as '1978-1983AW HOMME COMME
+        des GARCONS'). Its care tags are the ruled-line type (seen on an AW1981 piece) or the typed 1981-83 type;
+        late pieces made from 1984 already show 'D-TK9210' (kaitorihanbaiichiba). Designed by Rei Kawakubo (Fashionsnap).
+      sources:
+      - https://note.com/tkiy_0/n/n48d20e755ff3
+      - https://kaitorihanbaiichiba.net/garcons/2023/07/27/comme-des-garcons-shirt-%E3%81%AE%E5%B9%B4%E4%BB%A3%E8%80%83%E5%AF%9F%E3%81%A8%E5%86%85%E3%82%BF%E3%82%B0%E3%81%AE%E3%80%8Cd-tk9210%E3%80%8D%E3%81%AE%E3%81%A4%E3%81%84%E3%81%A6/
+      - https://www.fashionsnap.com/article/mustbuy-vintage-vol22/
+      - https://www.encyclopedia.com/fashion/encyclopedias-almanacs-transcripts-and-maps/comme-des-garcons
+      confidence: medium
+    - name: Kawakubo-era COMME des GARÇONS HOMME (1984-1989)
+      start_year: 1984
+      end_year: 1989
+      label_cues: Kawakubo designed the line until 1990 (Fashionsnap). note.com shows an SS1984 Homme care tag following
+        the 1980s rule (season digit, no AD year); AD years start with AW1988 production. kaitorihanbaiichiba files
+        these pieces as '1980s COMME des GARCONS HOMME'. No fetched source describes the brand-label artwork for
+        this period.
+      sources:
+      - https://www.fashionsnap.com/article/mustbuy-vintage-vol22/
+      - https://note.com/tkiy_0/n/n48d20e755ff3
+      - https://kaitorihanbaiichiba.net/garcons/2023/07/27/comme-des-garcons-shirt-%E3%81%AE%E5%B9%B4%E4%BB%A3%E8%80%83%E5%AF%9F%E3%81%A8%E5%86%85%E3%82%BF%E3%82%B0%E3%81%AE%E3%80%8Cd-tk9210%E3%80%8D%E3%81%AE%E3%81%A4%E3%81%84%E3%81%A6/
+      confidence: low
+    - name: '''Tanaka Homme'' (designer Keiichi Tanaka)'
+      start_year: 1990
+      end_year: 2003
+      label_cues: 'Fashionsnap: Tanaka-era shirts have a GREY brand label with WHITE lettering (グレー地に白文字), and the
+        inner tag''s ''AD'' production year confirms Tanaka-era pieces. A seller calls it ''銀タグ'' (silver tag) on
+        an AD1989 piece (consistent with SS1990). Code example: HT-080270 (AD1992, sold as 92AW; season digit 0
+        = AW). Tanaka left in 2003 (Fashionsnap); kaitorihanbaiichiba groups the era as 1990-2004.'
+      sources:
+      - https://www.fashionsnap.com/article/mustbuy-vintage-vol22/
+      - https://fril.jp/brand/188/used/16
+      - https://fril.jp/brand/188/used/42
+      - https://kaitorihanbaiichiba.net/garcons/2023/07/27/comme-des-garcons-shirt-%E3%81%AE%E5%B9%B4%E4%BB%A3%E8%80%83%E5%AF%9F%E3%81%A8%E5%86%85%E3%82%BF%E3%82%B0%E3%81%AE%E3%80%8Cd-tk9210%E3%80%8D%E3%81%AE%E3%81%A4%E3%81%84%E3%81%A6/
+      confidence: medium
+    - name: Junya Watanabe-designed Homme
+      start_year: 2004
+      end_year: 2026
+      label_cues: 'fashion-press: Watanabe took over COMME des GARÇONS HOMME design in 2003; the first season is
+        not stated (Fashionsnap: since Tanaka left in 2003). Codes are H + season letter: HG-T029 AD2010 (Truss
+        photo), HG-B030 AD2010 (11SS), HQ-B024, HN-N011 AD2014 (14AW), HS-P050 AD2016, HN-P011 AD2024 (24AW). Label
+        artwork changes are not documented.'
+      sources:
+      - https://www.fashion-press.net/brands/27
+      - https://www.fashionsnap.com/article/mustbuy-vintage-vol22/
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/65783e584fa1ee60fa4ce842_commes%20des%20garcons%20tags%20post-%202001%20(1).jpeg
+      - https://fril.jp/brand/188/used/42
+      - https://fril.jp/brand/188/used/16
+      - https://fril.jp/brand/5385/used/48
+      confidence: medium
+    date_codes: 'House system with line letter H (Truss; geeksblog). AD year = production year. Pre-2001: H + garment
+      + ''-'' + season digit (HT-080270 AD1992 = AW1992). Post-2001 season letters are shared with the main line
+      (HG = SS2011, HN = AW2014 in cycle 2; HN = AW2024 in cycle 3).'
+    notes: 'Do not confuse with Homme Plus (P, Kawakubo, from 1984). Homme Deux (line letter D) follows the same
+      letters: DO-J072 (AD2014, 15SS), DC-N101 (AD2018), DD-C005 (AD2019, 19AW), DI-B023 (AD2021, 22SS). Homme Homme
+      uses I (geeksblog). Homme Deux''s launch year was not verified.'
+  - brand: Comme des Garçons PLAY
+    eras:
+    - name: PLAY (single era to date)
+      start_year: 2002
+      end_year: 2026
+      label_cues: Launched 2002. Logo by Filip Pagowski, 'a red heart with a set of eyes', used e.g. as an appliqué
+        patch on the left chest (AnOther). Tags carry an AD year and an 'AZ-' code from the 2002 launch (note.com;
+        listings AZ-T066 AD2022, AZ-B004); note.com (single source) reports 'AX-' codes as well from AD2023.
+      sources:
+      - https://www.anothermag.com/art-photography/1973/a-guide-to-comme-des-garcons-play
+      - https://note.com/tkiy_0/n/n48d20e755ff3
+      - https://fril.jp/brand/188/used/16
+      - https://geeksblog.jp/comme-des-garcons-tag
+      confidence: high
+    date_codes: Only the AD year (production year) dates PLAY. The second letter is fixed (Z, or X from AD2023),
+      so the code does not encode season; PLAY 'isn't tied to a particular season' (AnOther). geeksblog suggests
+      searching the exact code to find the season.
+    notes: Only one era is documented. Treat the heart logo as a line cue, not proof of authenticity.
+  - brand: tricot COMME des GARÇONS (renamed Tao from SS2022)
+    eras:
+    - name: tricot label with pre-2001 codes
+      start_year: 1981
+      end_year: 2001
+      label_cues: 'Label woven white on black: ''tricot / COMME des GARÇONS'' (NGV SS1983 top and skirt; same label
+        on a c.1998 jacket whose trousers carry a printed black-on-white ''COMME des GARCONS'' label, NGV). Codes
+        use T or t with the season digit: ''tj-04034m'' (AD1993, 0 = AW1993) and ''TS-100040'' (AD1997, 1 = SS1998)
+        (listings). Designers: Kawakubo, then Junya Watanabe from 1987 (fashion-press), then Tao Kurihara from 2002
+        (Frame Zine).'
+      sources:
+      - https://www.ngv.vic.gov.au/explore/collection/work/76986/
+      - https://www.ngv.vic.gov.au/explore/collection/work/120655/
+      - https://fril.jp/brand/188/used/16
+      - https://www.fashion-press.net/brands/27
+      - https://selectshopframe.com/blogs/frame-zine/tao
+      - https://www.encyclopedia.com/fashion/encyclopedias-almanacs-transcripts-and-maps/comme-des-garcons
+      - https://forums.vintagefashionguild.org/threads/my-first-commes-des-garcons-b-w-striped-top-coming-up-empty.66981/
+      confidence: medium
+    - name: tricot with post-2001 season-letter codes
+      start_year: 2001
+      end_year: 2021
+      label_cues: T + season letter, e.g. TQ-T011 (AD2015, 16SS). Designed by Tao Kurihara from 2002 (Frame Zine).
+        Post-2001 label artwork is not documented in fetched sources.
+      sources:
+      - https://fril.jp/brand/188/used/16
+      - https://selectshopframe.com/blogs/frame-zine/tao
+      - https://geeksblog.jp/comme-des-garcons-tag
+      - https://www.bazzstore.com/5477/
+      confidence: medium
+    - name: Renamed 'Tao' (SS2022 onward)
+      start_year: 2022
+      end_year: 2026
+      label_cues: 'tricot COMME des GARÇONS was renamed ''Tao'' from SS2022, announced with an October 2021 show
+        at the CDG offices, with Tao Kurihara still designing and the team unchanged (WWD Japan; Frame Zine; Sudden
+        Chic; bazzstore notes the 22SS name change). The line letter stays T: TJ-N032 (AD2022, sold as 2022 A/W
+        and tagged #TAO). Expect labels reading ''Tao'' instead of ''tricot COMME des GARÇONS''; the label artwork
+        itself was not verified.'
+      sources:
+      - https://www.wwdjapan.com/?p=1277418
+      - https://selectshopframe.com/blogs/frame-zine/tao
+      - https://www.suddenchic.com/?p=3101
+      - https://www.bazzstore.com/5477/
+      - https://fril.jp/brand/188/used/16
+      confidence: high
+    date_codes: Line letter T (geeksblog; bazzstore; omitted from Truss's list). AD year = production year. Pre-2001
+      codes carry the 0 = AW / 1 = SS digit; post-2001 codes use the shared season letters (TQ = SS2016, TJ = AW2022).
+    notes: Launched 1981 (encyclopedia.com). A VFG forum member also says Watanabe headed tricot from 1987. Do not
+      confuse with Tao Kurihara's separate Paris line 'tao COMME des GARÇONS' (AW2005-SS2011, Frame Zine and Sudden
+      Chic; line digit 3 per bazzstore; printed 't a o / COMME des GARCONS' label on cream cotton, NGV AW2006),
+      nor treat 2022+ 'Tao' pieces as that earlier line.
+  - brand: Comme des Garçons SHIRT
+    eras:
+    - name: Early embroidered labels, no style number
+      start_year: 1988
+      end_year: 1994
+      label_cues: SHIRT is planned by the Paris company COMME des GARÇONS S.A.S., started AW1988 and was sold in
+        Japan from 1989 (note.com); it was 'manufactured in France' for a European audience (encyclopedia.com).
+        Early labels are embroidered, with English and French text side by side (bazzstore; note.com calls them
+        初期タグ / 刺繍タグ, to SS1994). SHIRT tags before about AW2000 carry no style number (geeksblog). One AD1994 French-made
+        SHIRT with code 'FW-01033S' (0 = AW1994) is reported (note.com, citing a DonDonDown blog).
+      sources:
+      - https://note.com/tkiy_0/n/n48d20e755ff3
+      - https://www.bazzstore.com/5477/
+      - https://geeksblog.jp/comme-des-garcons-tag
+      - https://www.encyclopedia.com/fashion/encyclopedias-almanacs-transcripts-and-maps/comme-des-garcons
+      confidence: low
+    - name: Side-sewn care tags (横タグ)
+      start_year: 1995
+      end_year: 2001
+      label_cues: From AW1995 the care tag is sewn along its side edge instead of its top (note.com). AW1995-SS1998
+        tags print 'D-TK9210'; AW1998-SS2001 tags drop it and print the head-office address (note.com; kaitorihanbaiichiba).
+        Late-1990s SHIRT pieces without 'D-TK9210' include Hong Kong-made items (kaitorihanbaiichiba), so 'Made
+        in France' is not universal.
+      sources:
+      - https://note.com/tkiy_0/n/n48d20e755ff3
+      - https://kaitorihanbaiichiba.net/garcons/2023/07/27/comme-des-garcons-shirt-%E3%81%AE%E5%B9%B4%E4%BB%A3%E8%80%83%E5%AF%9F%E3%81%A8%E5%86%85%E3%82%BF%E3%82%B0%E3%81%AE%E3%80%8Cd-tk9210%E3%80%8D%E3%81%AE%E3%81%A4%E3%81%84%E3%81%A6/
+      confidence: low
+    - name: S/W season-prefix codes
+      start_year: 2001
+      end_year: 2020
+      label_cues: 'From about AW2001 the style code is [S = spring/summer | W = autumn/winter][two digits = year
+        + 8][digits]: S25102 = SS2017 (note.com), W20... = AW2012 (geeksblog), S10068 = SS2002 (bazzstore). Some
+        codes have a letter in the third position (bazzstore; rule not verified).'
+      sources:
+      - https://note.com/tkiy_0/n/n48d20e755ff3
+      - https://geeksblog.jp/comme-des-garcons-tag
+      - https://www.bazzstore.com/5477/
+      confidence: medium
+    - name: House-standard codes with line letter F
+      start_year: 2021
+      end_year: 2026
+      label_cues: From SS2021 SHIRT uses the standard [line][season letter]-[garment][digits] format (note.com compares
+        20AW and 21SS tags; geeksblog's text agrees, though its line table dates the F prefix from AW2021).
+      sources:
+      - https://note.com/tkiy_0/n/n48d20e755ff3
+      - https://geeksblog.jp/comme-des-garcons-tag
+      confidence: medium
+    date_codes: '1988-c.2000: no style number (one AD1994 example, FW-01033S). AW2001-AW2020: S or W + (last two
+      digits of year + 8) + digits. From 2021: house-standard line letter F + season letter. Truss''s line letter
+      ''S'' for SHIRT probably reflects the S season prefix. Whether pre-2001 French-made SHIRT tags carry an AD
+      year is unclear beyond the single AD1994 example.'
+    notes: All SHIRT tag eras come from Japanese collector and reseller guides (note.com, bazzstore, geeksblog,
+      kaitorihanbaiichiba); no museum record was fetched. The University of Westminster Menswear Archive record
+      seen earlier was not fetchable and is not cited.
+  - brand: JUNYA WATANABE (COMME des GARÇONS) - added by fact-check
+    eras:
+    - name: '''JUNYA WATANABE COMME des GARÇONS'' (women''s)'
+      start_year: 1992
+      end_year: 2021
+      label_cues: Line started 1992 (Tokyo debut; Paris 1993) as 'JUNYA WATANABE COMME des GARÇONS' (fashion-press;
+        encyclopedia.com). Line letter J (Truss; geeksblog; bazzstore); dating follows the house AD + code rules.
+        Label artwork is not described in fetched sources.
+      sources:
+      - https://www.fashion-press.net/brands/27
+      - https://www.encyclopedia.com/fashion/encyclopedias-almanacs-transcripts-and-maps/comme-des-garcons
+      - https://www.trussarchive.com/guides/how-to-identify-comme-des-garcons
+      - https://geeksblog.jp/comme-des-garcons-tag
+      - https://www.bazzstore.com/5477/
+      confidence: medium
+    - name: '''COMME des GARÇONS JUNYA WATANABE MAN'' (+ MAN PINK, eYe)'
+      start_year: 2001
+      end_year: 2021
+      label_cues: 'First men''s collection in Paris 2001; COMME des GARÇONS JUNYA WATANABE MAN PINK 2003-AW2005;
+        eYe JUNYA WATANABE MAN from 2005 (fashion-press). Line letters W (MAN, eYe) and U (MAN PINK) (geeksblog;
+        bazzstore). Truss photo: WK-P029 / AD2003 (K = AW2003).'
+      sources:
+      - https://www.fashion-press.net/brands/27
+      - https://geeksblog.jp/comme-des-garcons-tag
+      - https://www.bazzstore.com/5477/
+      - https://www.trussarchive.com/guides/how-to-identify-comme-des-garcons
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/657822ff0f0e0f320d408d2f_commes%20des%20garcons%20serial%20number%20and%20tags.jpeg
+      confidence: medium
+    - name: Renamed 'JUNYA WATANABE' / 'JUNYA WATANABE MAN'
+      start_year: 2022
+      end_year: 2026
+      label_cues: From the SS2022 collection the brand name became 'JUNYA WATANABE', and the men's and second lines
+        'JUNYA WATANABE MAN' and 'eYe JUNYA WATANABE MAN' (fashion-press; bazzstore notes the 22SS label change).
+        Labels without 'COMME des GARÇONS' therefore indicate SS2022 or later.
+      sources:
+      - https://www.fashion-press.net/brands/27
+      - https://www.bazzstore.com/5477/
+      confidence: high
+    date_codes: 'House system: J = women''s, W = MAN and eYe, U = MAN PINK; AD year + shared season letters (see
+      the main CDG entry).'
+    notes: Not in the original draft; added because the SS2022 rename is a well-documented, datable label change
+      within the CDG house.
+  - brand: Maison Margiela (Maison Martin Margiela; numbered-line labels)
+    eras:
+    - name: Martin Margiela blank-label era (before the numbered label)
+      start_year: 1988
+      end_year: 1996
+      label_cues: 'Blank white cotton label attached by four white tacks that show on the outside as four stitched
+        points (NGV AW1990-91; Wikipedia: ''simple blank white labels with four white tacks''; V&A). Printed white
+        cotton season labels read ''COLLECTION / PRINTEMPS ETE / 1989'' or ''COLLECTION / AUTOMNE HIVER / 1991-1992'',
+        with a woven script ''Made in Italy'' tab (Truss photos; Truss dates these labels 1988-1993). NGV transcribes
+        the same label as ''COLLECTION / AUTUMNE HIVER / 1990-91 / Made in Italy'' and ''... 1992-1993''; the photographed
+        spelling is AUTOMNE. Concept labels: bilingual ''REPRODUCTION D''UNE SERIE DE VETEMENTS ANCIENS / REPRODUCTION
+        OF A SERIES OF OLD GARMENTS'' (NGV AW1992-93). Early-1990s care tags, French-made tags and ''BY MISS DEANNA''
+        knitwear tags carry no readable date (geeksblog). Japan-market pieces from AW1996 add a distributor tag
+        with company code ''D-HG1118'' (Orizzonti), printed blue or black (geeksblog).'
+      sources:
+      - https://www.trussarchive.com/guides/how-to-identify-maison-margiela
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/64f1d4bbbd89d831972d783d_646c67d4e5f92f9700fc00c5_margiela%252B1989%252Blabel.jpeg
+      - https://en.wikipedia.org/wiki/Maison_Margiela
+      - https://api.vam.ac.uk/v2/museumobject/O1807544
+      - https://www.nssmag.com/en/fashion/19578/the-meaning-of-maison-martin-margiela-s-numbers
+      - https://www.intoarchive.com/editorials/maison-margiela-numbers-label-guide
+      - https://geeksblog.jp/margiela-tag
+      - https://www.ngv.vic.gov.au/explore/collection/work/154816/
+      - https://www.ngv.vic.gov.au/explore/collection/work/58814/
+      confidence: high
+    - name: Numbered 0-23 label under Martin Margiela (women's Line 1 stays all-white)
+      start_year: 1997
+      end_year: 2009
+      label_cues: 'From 1997 a white cotton label printed in black with 0-23 in three rows (0-9 / 10-16 / 17-23),
+        the line number circled (Truss; nssmag; intoarchive; Wikipedia; NGV Artisanal SS2007 and AW2008 with 0 circled;
+        AW2006 bag). The four white tacks remain. Women''s Line 1 (the défilé collection) kept an all-white label
+        until about 2008 (nssmag): the V&A records Margiela''s ''plain white rectangle label'' on AW1997 linen jackets;
+        NGV records blank labels tacked at the corners on an AW1997-98 wig and an AW1999-2000 duvet coat (with a
+        separate woven ''MADE / IN / ITALY / M'' label), and four-point white stitching on a 1997 dress that also
+        has a ''Tissu de Paris'' label. The AW1997 ''42 / SEMI COUTURE / PARIS / BREVETE S.G.E.G / 35059'' is printed
+        on the linen jacket to copy a dressmaker''s form; it is not a label (V&A). Care tags: from 1999 a ''COMM.''
+        number whose last digits give year and season (991 = SS1999 ... 011 = SS2001; then 0012 = AW2001 ... 0092
+        = AW2009) (geeksblog); Truss shows ''COMM. 01592/0042'' (AW2004) on a care label reading ''PRODOTTO DA:
+        STAFF INTERNATIONAL S.P.A.'' and ''MARTIN MARGIELA''. Japan distributor tags: Orizzonti AW1998-AW2001 (mixed
+        with company-code tags in SS1998), ''KOKONOE CO.,LTD.'' AW2000-AW2001, ここのえ株式会社 SS2002-AW2011 (geeksblog).
+        New lines: MM6 1997, shoes (Line 22) 1998, men''s Line 10 SS1999 (Truss). OTB acquired the house in 2002
+        (Wikipedia); no label change is documented for it.'
+      sources:
+      - https://www.trussarchive.com/guides/how-to-identify-maison-margiela
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/6512cd5b4c5ca89fa20b07a0_Untitled%20(6).jpeg
+      - https://www.nssmag.com/en/fashion/19578/the-meaning-of-maison-martin-margiela-s-numbers
+      - https://www.intoarchive.com/editorials/maison-margiela-numbers-label-guide
+      - https://en.wikipedia.org/wiki/Maison_Margiela
+      - https://geeksblog.jp/margiela-tag
+      - https://www.ngv.vic.gov.au/explore/collection/work/120172/
+      - https://www.ngv.vic.gov.au/explore/collection/work/120174/
+      - https://www.ngv.vic.gov.au/explore/collection/work/143129/
+      - https://www.ngv.vic.gov.au/explore/collection/work/154597/
+      - https://www.ngv.vic.gov.au/explore/collection/work/143132/
+      - https://www.ngv.vic.gov.au/explore/collection/work/143128/
+      - https://www.ngv.vic.gov.au/explore/collection/work/131867/
+      - https://api.vam.ac.uk/v2/museumobject/O1737826
+      - https://api.vam.ac.uk/v2/museumobject/O1657192
+      confidence: high
+    - name: Post-Martin design team, still 'Maison Martin Margiela'
+      start_year: 2009
+      end_year: 2014
+      label_cues: 'Margiela''s resignation was announced in October 2009; an anonymous team designed until October
+        2014 (Wikipedia). The numbered label ''remained intact'' (intoarchive). The care-tag code becomes year +
+        season: ''00101'' = SS2010, then ''YYYY 01'' (SS) / ''YYYY 02'' (AW) from AW2010 (geeksblog). A 2014 care
+        label made by Staff International reads ''02CA/2014/14319 - 2014 02'' and prints the 0-23 grid above ''Maison
+        Martin Margiela / PARIS'' (Truss photo). Japan distributor: ここのえ until AW2011, Staff International AW2011-AW2017
+        (geeksblog). New lines just before and during this era: 8 eyewear SS2008, 12 fine jewellery 2008, 3 fragrance
+        2010 (Truss).'
+      sources:
+      - https://en.wikipedia.org/wiki/Maison_Margiela
+      - https://www.intoarchive.com/editorials/maison-margiela-numbers-label-guide
+      - https://geeksblog.jp/margiela-tag
+      - https://www.trussarchive.com/guides/how-to-identify-maison-margiela
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/6512cd5b4c5ca89fa20b07a0_Untitled%20(6).jpeg
+      - https://www.nssmag.com/en/fashion/19578/the-meaning-of-maison-martin-margiela-s-numbers
+      confidence: medium
+    - name: Galliano era, renamed 'Maison Margiela'
+      start_year: 2015
+      end_year: 2024
+      label_cues: '''Martin'' was dropped from the name with Galliano''s January 2015 debut (Wikipedia; appointed
+        October 2014, left December 2024). NGV''s AW2014-15 ''Defile'' mules (credited to Galliano) have ''Maison
+        Margiela / PARIS'' incised on the sole beside the 0-23 grid with 22 circled; this conflicts with the AW2014
+        care label still reading ''Maison Martin Margiela'' (Truss photo), so the switchover season is unresolved.
+        NGV records SS2015 Artisanal coats with labels ''printed in black on white cotton'' showing ''two rows of
+        numbers'' (layout not transcribed). The ''YYYY 01/02'' care code continues; the Japan distributor is Margiela
+        Japan from SS2018; from AW2022 the care-tag material and print texture change (geeksblog).'
+      sources:
+      - https://en.wikipedia.org/wiki/Maison_Margiela
+      - https://www.trussarchive.com/guides/how-to-identify-maison-margiela
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/6512cd5b4c5ca89fa20b07a0_Untitled%20(6).jpeg
+      - https://geeksblog.jp/margiela-tag
+      - https://www.ngv.vic.gov.au/explore/collection/work/120171/
+      - https://www.ngv.vic.gov.au/explore/collection/work/152371/
+      - https://www.ngv.vic.gov.au/explore/collection/work/152373/
+      confidence: medium
+    - name: Glenn Martens era
+      start_year: 2025
+      end_year: 2026
+      label_cues: Glenn Martens was appointed in January 2025 (Wikipedia); his first Artisanal show was Fall 2025
+        and his first ready-to-wear Spring 2026 (Sui Generis collection chronology). Wikipedia lists a new Line
+        2, 'Creative collaborations', introduced in 2025. geeksblog's care-code table continues 'YYYY 01/02' through
+        2026 02. No other label change is documented.
+      sources:
+      - https://en.wikipedia.org/wiki/Maison_Margiela
+      - https://suigenerisconsignment.com/pages/designer-authentication-guide/maison-margiela
+      - https://geeksblog.jp/margiela-tag
+      confidence: low
+    date_codes: 'The circled 0-23 number is a LINE code, never a date or style number. Dating sources: (1) 1988-c.1993:
+      printed white cotton season label ''COLLECTION PRINTEMPS ETE'' or ''COLLECTION AUTOMNE HIVER'' + year (Truss;
+      photographed examples ''PRINTEMPS ETE 1989'' and ''AUTOMNE HIVER 1991-1992''). NGV transcribes ''AUTUMNE'';
+      include both spellings in an OCR lexicon. (2) Care-tag ''COMM.'' number from 1999 (geeksblog, with Truss examples):
+      SS1999-SS2001 = last 3 digits YY + season (991 SS99, 992 AW99, 001 SS00, 002 AW00, 011 SS01); AW2001-SS2010
+      = last 4 digits = last three digits of the year + season (0012 AW01 ... 0092 AW09; 00101 SS10); from AW2010
+      = ''YYYY 01'' (SS) or ''YYYY 02'' (AW), e.g. Truss''s ''2014 02'' = AW2014. Truss (single source for scope)
+      says the code is on lines 10 and 14 and most other lines except shoes (22) and Miss Deanna knitwear; Truss''s
+      example ''COMM. 01592/0042'' = AW2004 matches geeksblog. Truss''s claim that 1992-2001 pieces are mostly undatable
+      holds only before 1999. Not datable: early-1990s care tags, French-made (e.g. Artisanal) tags, ''BY MISS DEANNA''
+      knit tags and tags retrofitted on some boutique stock (geeksblog). (3) Japan-market distributor tags (geeksblog):
+      company-code ''D-HG1118'' tag (blue or black) AW1996-SS1998; Orizzonti AW1998-AW2001; ''KOKONOE CO.,LTD.''
+      AW2000-AW2001; ここのえ SS2002-AW2011; Staff International AW2011-AW2017; Margiela Japan from SS2018. The reverse
+      carries ''333-?N...'' with N = 9 (AW1996 or AW2000, told apart by distributor), 2 SS97, 3 AW97, 4 SS98, 5
+      AW98, 6 SS99, 7 AW99, 8 SS00; then a 10-digit number whose first digit is 2 SS01, 3 AW01, 4 SS02, 5 AW02,
+      6 SS03, 7 AW03, 8 SS04, 9 AW04; no number from SS2005. (4) Modern style references such as ''S29AM0093'' (on
+      the 2014 label) are not decoded.'
+    notes: 'Line numbers (Truss unless noted): 0 artisanal women (nssmag: c.1988-c.2006; Truss says the Artisanal
+      line was ''developed in 2006''); 0 10 artisanal men; 1 women''s collection (1988; all-white label to c.2008
+      per nssmag); 2 creative collaborations (2025, Wikipedia only); 3 fragrances (2010); 4 women''s wardrobe (SS2004);
+      6 MM6 (1997); 8 eyewear (SS2008); 10 men''s collection (SS1999; Wikipedia says it debuted in 1998); 11 accessories
+      (nssmag: January 2005); 12 fine jewellery (2008); 13 objects and publications; 14 men''s wardrobe (Truss SS2005;
+      nssmag and Wikipedia SS2004); 15 3 Suisses (1999); 22 shoes (1998; men''s 2008 per nssmag); Replica 1994.
+      Margiela designed Hermès womenswear 1997-2003 (Wikipedia); those pieces carry Hermès labels. The Japan-distributor
+      scheme applies only to pieces sold through Japanese distribution. NGV''s artist page lists 49 Maison Martin
+      Margiela works for further label checks.'
+  - brand: MM6 Maison Margiela
+    eras:
+    - name: Line 6 on the numbered label
+      start_year: 1997
+      end_year: 2004
+      label_cues: 'Line 6 began in October 1997 as part of the 0-23 label (Secundo Store; Wikipedia: launched 1997;
+        thefashionography: ''6'' denotes its collections). The circled number marks the line (Wikipedia; intoarchive),
+        and nssmag''s numbers chart lists it as ''MM⑥ - Garments for ♀'' (chart reproduced by Truss). Secundo implies
+        Line 6 labels used the house''s four stitches. No museum record of an early Line 6 label was fetched.'
+      sources:
+      - https://secundostore.squarespace.com/evolution-of-margielas-line-6
+      - https://en.wikipedia.org/wiki/Maison_Margiela
+      - https://thefashionography.com/fashion-brands/mm6-maison-margiela/
+      - https://www.intoarchive.com/editorials/maison-margiela-numbers-label-guide
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/64f1d4bbbd89d831972d781f_646c6274c939a9d01732da39_nss-magazine-maison-margiela-numbers-3%2520(1).jpeg
+      confidence: medium
+    - name: Rebranded 'MM6', label stitched straight across the top
+      start_year: 2004
+      end_year: 2014
+      label_cues: 'Secundo Store: Line 6 was rebranded MM6 in June 2004, moving away from the four stitches to labels
+        stitched in a straight line across the top, and the MM6 logo was refreshed with a bolder version around
+        2009. nssmag instead dates ''a rebrand of the MM6 line'' to 2006. Both are informal sources, and Secundo
+        wrongly ties the house rename to 2009.'
+      sources:
+      - https://secundostore.squarespace.com/evolution-of-margielas-line-6
+      - https://www.nssmag.com/en/fashion/19578/the-meaning-of-maison-martin-margiela-s-numbers
+      confidence: low
+    - name: '''MM6 Maison Margiela'' after the house rename'
+      start_year: 2015
+      end_year: 2026
+      label_cues: The house dropped 'Martin' in January 2015 (Wikipedia), and the line is now styled 'MM6 Maison
+        Margiela' (thefashionography; Sui Generis). Physical label wording was not verified.
+      sources:
+      - https://en.wikipedia.org/wiki/Maison_Margiela
+      - https://thefashionography.com/fashion-brands/mm6-maison-margiela/
+      - https://suigenerisconsignment.com/pages/designer-authentication-guide/maison-margiela
+      confidence: low
+    date_codes: No MM6-specific scheme was verified. Truss says the year/season care code appears on most Margiela
+      lines except shoes (22) and Miss Deanna knitwear, so MM6 care tags may follow the house formats (COMM. YY+season
+      from 1999; 'YYYY 01/02' from AW2010), but this is unverified for MM6.
+    notes: All MM6 label claims come from secondary or retail sources; this is still the weakest part of the Margiela
+      research. The Marais retailer page cited in the draft could not be fetched (HTTP 429) and has been dropped.
+  - brand: Undercover (Jun Takahashi; incl. UNDERCOVERISM, John UNDERCOVER, Sue UNDERCOVER, the Shepherd UNDERCOVER)
+    eras:
+    - name: Founding / NOWHERE era
+      start_year: 1990
+      end_year: 1994
+      label_cues: Founded in 1990 while Takahashi was at Bunka Fashion College (fashion-press; kaitori-daikichi
+        says 1989); wholesale from 1991; NOWHERE shop with NIGO 1993 (fashion-press). No fetched source describes
+        the labels of this period.
+      sources:
+      - https://www.fashion-press.net/brands/68
+      - https://www.kaitori-daikichi.jp/column/clothes/post-31931/
+      confidence: low
+    - name: Tokyo-collection era ('（有）アンダーカバー' tags; year-digit codes)
+      start_year: 1994
+      end_year: 2002
+      label_cues: 'First Tokyo collection AW1994 and 有限会社 UNDERCOVER founded 1994; men''s and women''s lines in
+        earnest from 1995 (fashion-press). geeksblog: care tags up to SS1998 print ''（有）アンダーカバー'' and an 8-character
+        code whose 3rd character is the last digit of the year and 4th is S (SS) or W (AW), e.g. ...6W... = AW1996;
+        AW1998 codes are 2-3 digits only; SS1999-AW2004 codes are one letter + 2-3 digits with an irregular season
+        letter (99SS C, 99AW Q, 00SS K, 00AW D, 01SS Z, 01AW S, 02SS J, 02AW M, 03SS U, 03AW V, 04SS E, 04AW B).
+        The company became 株式会社 UNDERCOVER in January 2000 (fashion-press), so later tags may read （株） (not verified).
+        Some seasons print the year on the brand label (geeksblog). The brand-label artwork is not documented.'
+      sources:
+      - https://www.fashion-press.net/brands/68
+      - https://www.kaitori-daikichi.jp/column/clothes/post-31931/
+      - https://geeksblog.jp/underdercoverseason
+      confidence: medium
+    - name: 'Paris era: men''s mainline sold as UNDERCOVERISM'
+      start_year: 2003
+      end_year: 2015
+      label_cues: 'Paris debut SS2003 (fashion-press). Highsnobiety: ''UNDERCOVERISM was the original name for UNDERCOVER''s
+        mainline menswear (UNDERCOVER was the women''s line), its pieces denoted by unique tags''; both were unified
+        as UNDERCOVER in 2015. UNDERCOVERISM showed in Paris for SS2009; John UNDERCOVER and Sue UNDERCOVER started
+        AW2013-14 (fashion-press). Codes (geeksblog): SS2005-AW2007 = year digit + S (SS) or A (AW), e.g. 6A = AW2006;
+        SS2008-SS2015 = code starts with a season letter, A = SS2008 ... O = SS2015 (the letter O, not zero); from
+        AW2013 John and Sue codes start with a two-letter line prefix and put the season letter third. When the
+        UNDERCOVERISM name began is not established.'
+      sources:
+      - https://www.highsnobiety.com/p/undercoverism-fw21-collection-lookbook/
+      - https://www.fashion-press.net/brands/68
+      - https://geeksblog.jp/underdercoverseason
+      confidence: medium
+    - name: Unified UNDERCOVER label, 'UC' + one season letter
+      start_year: 2015
+      end_year: 2020
+      label_cues: 'UNDERCOVERISM merged into UNDERCOVER in 2015; the Shepherd UNDERCOVER launched in June 2016 (fashion-press).
+        From AW2015 the main-line code is ''UC'' + season letter + 4 digits (geeksblog): P = AW2015, Q = SS2016,
+        R = AW2016, S = SS2017, T = AW2017, U = SS2018, V = AW2018, W = SS2019, X = AW2019, Y = SS2020, Z = AW2020.
+        Checks: UCP9202-1 (sold as 15AW), UCQ9216 (16SS), UCR1508-6 (16AW), UCT4892-1 (17AW), UCV4503-3 (18AW) (fril
+        listings); UCV4802-4 and UCV4203-1 (Haven FW18); UCX4204-1, UCX4893-4 and T-shirts UCX3801 (Highsnobiety
+        FW19); UCZ4204-1 and UCZ4201-2 (Haven FW20). The Shepherd uses ''US'': USZ4502-1 (sold as 20AW).'
+      sources:
+      - https://www.fashion-press.net/brands/68
+      - https://www.highsnobiety.com/p/undercoverism-fw21-collection-lookbook/
+      - https://geeksblog.jp/underdercoverseason
+      - https://havenshop.com/news/undercover-fw18-collection-delivery-1
+      - https://www.highsnobiety.com/p/undercover-online-store-best-pieces/
+      - https://havenshop.com/news/undercover-fw20-first-delivery
+      - https://fril.jp/brand/827/used/27
+      - https://fril.jp/brand/827/used/9
+      - https://fril.jp/brand/827/used/55
+      - https://fril.jp/brand/827/used/14
+      confidence: high
+    - name: Current code format + revived Undercoverism
+      start_year: 2021
+      end_year: 2026
+      label_cues: 'From SS2021 the code is prefix + half-year digit (1 = SS, 2 = AW) + year letter (A = 2021 ...
+        F = 2026) + 4 digits (geeksblog; Haven SS21 UC1A4103-1; the official store''s Men''s and Women''s 2026 AW
+        pages list UC2F... codes and its Men''s 2026 Pre-Fall page UP2F...; UC1F8F03 on an OTW by Vans collaboration).
+        Listings: UC1A4509-2 (2021SS), UC2A4910-3 (21AW), UC1B4813 (22SS), UC2B4802 (2022AW), UC2C4802 (23AW), UC2D4216-2
+        (24AW), UC2E4904-1 (25AW), UC1F1806 (2026SS); the Shepherd US1A4401-2 (21SS). A new men''s UNDERCOVERISM
+        line launched in June 2021 (FW21) and paused from 2023 pre-fall; Sue UNDERCOVER ended after AW22-23 (fashion-press;
+        Highsnobiety). ''UI2A...'' codes (AW2021) appear on listings without a line name and may be the revived
+        UNDERCOVERISM (unverified). HUMAN MADE signed an agreement on 11 Sep 2026 to acquire all UNDERCOVER shares
+        (fashion-press), which could change labels later. The reissue line ''UNDAKOVRIT'' cannot be dated from its
+        tags (geeksblog).'
+      sources:
+      - https://geeksblog.jp/underdercoverseason
+      - https://havenshop.com/news/undercover-ss21-new-arrivals-3
+      - https://undercoverism.com/
+      - https://undercoverism.com/item?goods_group_id=356
+      - https://undercoverism.com/item?goods_group_id=353
+      - https://undercoverism.com/item?goods_group_id=357
+      - https://undercoverism.com/item?goods_group_id=350
+      - https://fril.jp/brand/827/used/5
+      - https://fril.jp/brand/827/used/9
+      - https://fril.jp/brand/827/used/14
+      - https://fril.jp/brand/827/used/20
+      - https://www.highsnobiety.com/p/undercoverism-fw21-collection-lookbook/
+      - https://www.fashion-press.net/brands/68
+      confidence: high
+    date_codes: 'Product code on care and price tags, in seven formats (geeksblog, cross-checked against retailer,
+      official-store and listing codes from 2015 on): (1) to SS1998: 8 characters; 3rd = last digit of 199X, 4th
+      = S (spring/summer) or W (autumn/winter). (2) AW1998: 2-3 digits only. (3) SS1999-AW2004: letter + 2-3 digits,
+      letter = season from the table 99SS C, 99AW Q, 00SS K, 00AW D, 01SS Z, 01AW S, 02SS J, 02AW M, 03SS U, 03AW
+      V, 04SS E, 04AW B. (4) SS2005-AW2007: year digit (200X) + S or A. (5) SS2008-SS2015: leading season letter
+      A = SS2008 ... O = SS2015; John and Sue UNDERCOVER (from AW2013) put a two-letter line prefix first and the
+      season letter third. (6) AW2015-AW2020: ''UC'' (main) or ''US'' (the Shepherd) + season letter P = AW2015
+      ... Z = AW2020 + 4 digits (+ ''-colour''). (7) From SS2021: prefix + 1 (SS) or 2 (AW) + year letter A = 2021
+      ... F = 2026 + 4 digits; prefixes UC main, UP pre-collection (official store), US the Shepherd (listings),
+      UI unknown (possibly Undercoverism). Parser: after a ''U?'' prefix, a digit means format 7 and a letter means
+      format 6. In the 2026 official store the 4-digit block''s 1st digit was 4 or 9 for men''s and 1 or 8 for women''s
+      (FW19 T-shirts used 3: UCX3801), and its 2nd character marks category: 0 vest, 1 jacket, 2 blouson/outerwear,
+      3 coat, 4 shirt, 5 trousers, 8 cut-and-sew/sweat, 9 knit, A accessory, E eyewear, F footwear, W belt. Other
+      prefixes seen (UAP) are undecoded.'
+    notes: 'No fetched source describes the brand-label artwork (wordmark font, colours, woven vs printed) for any
+      Undercover era, so the eras are defined by line naming and code formats; label visuals must come from photographed
+      garments. Formats 1-5 rest on one specialist reseller guide (geeksblog); formats 6-7 are independently confirmed.
+      Founding year conflicts: 1989 or 1990 depending on source.'
+  - brand: Yohji Yamamoto (main line, Pour Homme, Y's)
+    eras:
+    - name: Paris-debut 'Yohji Yamamoto / PARIS' printed label
+      start_year: 1981
+      end_year: 1984
+      label_cues: Printed label 'Yohji Yamamoto / PARIS' on green cotton (NGV AW1983 coat, with a separate printed
+        'FABRIQUE AU JAPON / MADE IN JAPAN' label) or white synthetic (NGV SS1983 jacket). A c.1983 coat already
+        has a label 'printed in ink and woven in black on grey synthetic' reading 'Yohji Yamamoto / Fabrique au
+        Japan / Made in Japan' with composition and a letter size M, so styles overlapped. geeksblog describes the
+        earliest logo as even rounder than the later round logo. Paris debut and the Yohji Yamamoto line date from
+        1981 (Wikipedia).
+      sources:
+      - https://www.ngv.vic.gov.au/explore/collection/work/76995/
+      - https://www.ngv.vic.gov.au/explore/collection/work/83325/
+      - https://www.ngv.vic.gov.au/explore/collection/work/83327/
+      - https://en.wikipedia.org/wiki/Yohji_Yamamoto
+      - https://geeksblog.jp/yohji-yamamoto-season
+      confidence: medium
+    - name: Round-script logo, no style codes
+      start_year: 1984
+      end_year: 1991
+      label_cues: 'geeksblog: Pour Homme and women''s labels up to SS1991 use a rounded script logo (丸文字ロゴ), and
+        tags carry no style code before SS1992. NGV: woven black on white ''Yohji Yamamoto / FABRIQUE AU JAPON /
+        MADE IN JAPAN'' (AW1985), woven black on white (SS1986), woven white on grey (SS1988). Letter sizes (NGV
+        c.1983 coat already ''M''). The company was incorporated in 1984 (Wikipedia).'
+      sources:
+      - https://geeksblog.jp/yohji-yamamoto-season
+      - https://en.wikipedia.org/wiki/Yohji_Yamamoto
+      - https://www.ngv.vic.gov.au/explore/collection/work/112326/
+      - https://www.ngv.vic.gov.au/explore/collection/work/117217/
+      - https://www.ngv.vic.gov.au/explore/collection/work/117227/
+      - https://www.ngv.vic.gov.au/explore/collection/work/83327/
+      confidence: medium
+    - name: Angular logo, style codes from SS1992, letter sizes
+      start_year: 1991
+      end_year: 1999
+      label_cues: 'From AW1991 the logo is slightly angular (the Y is squared off); AW1991 is the only season with
+        the new logo and no style code (geeksblog). Style codes from SS1992 with a season letter in second position
+        (geeksblog; Truss). Letter sizes S/M/L until AW1999 (Truss; geeksblog); jackets show the size on the brand
+        label (geeksblog). NGV SS1995 ''La Sorbonne'' dress: woven black-on-grey acetate signature, swing tag ''FB-D09-614-1
+        / S''. Pour Homme label: black signature on grey with ''POUR HOMME'' and ®, separate ''M'' size label (Truss
+        photo). geeksblog: Y''s for men 1990s logos are brown (''茶タグ'').'
+      sources:
+      - https://geeksblog.jp/yohji-yamamoto-season
+      - https://www.trussarchive.com/guides/how-to-identify-yohji-yamamoto
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/66d9830bc5813cbffe5a4379_6597b972a7aa7cca90ce16ae_Yohji%2520Pour%2520Homme%2520M%2520tag.jpeg
+      - https://www.ngv.vic.gov.au/explore/collection/work/71957/
+      confidence: medium
+    - name: Numeric sizes, stamped/serif care-label printing
+      start_year: 2000
+      end_year: 2009
+      label_cues: Japanese numeric sizes (00, 0, 1-4) from SS2000 (Truss; geeksblog), matching NGV's SS2000 'Bercy'
+        skirt size label '2' and swing tag 'FB-J15-806-3 / 3'. Main label woven black on grey acetate 'Yohji Yamamoto
+        / FABRIQUE AU JAPAN / MADE IN JAPAN' (NGV SS2000). Care-label figures look stamped (tilted, misaligned)
+        through AW2009 (geeksblog); Truss describes a serif typeface up to AW2009. Y-3 line and collection debuted
+        2003 (Wikipedia; Truss says founded 2002). Yohji Yamamoto Inc. filed for bankruptcy protection on 9 Oct
+        2009 and was restructured with Integral Corp (Tokyo Fashion; Wikipedia). Y's for men paused from SS2010
+        (geeksblog).
+      sources:
+      - https://www.ngv.vic.gov.au/explore/collection/work/71954/
+      - https://www.ngv.vic.gov.au/explore/collection/work/107453/
+      - https://www.trussarchive.com/guides/how-to-identify-yohji-yamamoto
+      - https://geeksblog.jp/yohji-yamamoto-season
+      - https://en.wikipedia.org/wiki/Yohji_Yamamoto
+      - https://tokyofashion.com/yohji-yamamoto-files-for-bankruptcy/
+      confidence: medium
+    - name: Printed sans-serif care labels, old JIS care symbols
+      start_year: 2010
+      end_year: 2016
+      label_cues: 'From SS2010 care details are printed in a sans-serif face (Truss; geeksblog: printed rather than
+        stamped). Old Japanese care symbols with Japanese text and red crosses until the switch (geeksblog). AW2015-16
+        example: centre-back label woven cream on black ''COMPOSITION SUR ETiQUETTE ANNEXE / COMPOSITION: SEE ATTACHED
+        LABEL'', plus a left-front label woven black on cream ''Yohji Yamamoto / ... / MADE IN JAPAN / ... / 2''
+        (NGV). Pour Homme listing: HP-K41-194 (2011-12AW).'
+      sources:
+      - https://www.trussarchive.com/guides/how-to-identify-yohji-yamamoto
+      - https://geeksblog.jp/yohji-yamamoto-season
+      - https://fril.jp/brand/12357/used/2
+      - https://www.ngv.vic.gov.au/explore/collection/work/145683/
+      confidence: medium
+    - name: New JIS care symbols (SS2017 onward)
+      start_year: 2017
+      end_year: 2026
+      label_cues: 'Japan''s new JIS L 0001 care symbols apply from 1 Dec 2016 (Consumer Affairs Agency); geeksblog
+        puts the switch on Yohji tags at SS2017 (new symbols are black only, without Japanese text). Pour Homme
+        codes: HK-J36-120 (Truss photo), HW-H09-100 (18SS), HN-P32-222 (20SS), HG-P59-100 (2022SS), HE-J12-100 and
+        HE-T04-170 (2022AW), HJ-P19-100 (2023AW), HP-B94-541-1 (25SS) (listings). Y''s for men relaunched in AW2023
+        with a grey label and Pour Homme-style codes (geeksblog).'
+      sources:
+      - https://www.caa.go.jp/policies/policy/representation/household_goods/guide/wash_01.html
+      - https://geeksblog.jp/yohji-yamamoto-season
+      - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/6597b8db4db848d776c2bb68_Yohji%20Yamamoto%20Product%20code%20.jpeg
+      - https://fril.jp/brand/12357/used/2
+      confidence: medium
+    date_codes: 'Product code on the care tag (and on swing tags of museum pieces): [line letter][season letter]-[item
+      letter][2 digits]-[3 digits](-[digit]). Line letters: F women''s, H Pour Homme, M Y''s men''s (Truss; 1stDibs).
+      geeksblog: Discord, BLACK Scandal, Yohji Yamamoto COLLECTION and Y''s for men after its AW2023 relaunch use
+      the same season letters; there are no codes before SS1992. Season letters (Truss for SS1993-AW2020, geeksblog
+      for SS1992-AW2026; they agree where they overlap): SS92 Z, AW92 S, SS93 O, AW93 P, SS94 T, AW94 V, SS95 B,
+      AW95 E, SS96 F, AW96 G, SS97 U, AW97 I, SS98 J, AW98 Y, SS99 C, AW99 N, SS00 B, AW00 T, SS01 X, AW01 V, SS02
+      E, AW02 M, SS03 Q, AW03 U, SS04 Z, AW04 J, SS05 Y, AW05 N, SS06 R, AW06 B, SS07 T, AW07 X, SS08 M, AW08 E,
+      SS09 V, AW09 Z, SS10 J, AW10 C, SS11 O, AW11 P, SS12 B, AW12 D, SS13 X, AW13 Q, SS14 G, AW14 F, SS15 U, AW15
+      Y, SS16 O, AW16 R, SS17 D, AW17 K, SS18 W, AW18 V, SS19 H, AW19 C, SS20 N, AW20 R, SS21 D, AW21 X, SS22 G,
+      AW22 V or E, SS23 Z, AW23 J, SS24 S, AW24 O, SS25 P, AW25 M or L, SS26 K, AW26 W. Narrow the candidates with:
+      logo (round to SS1991, angular from AW1991), size (letters to AW1999, numbers from SS2000), care printing
+      (stamped/serif to AW2009, printed sans serif from SS2010), care symbols (old to AW2016, new from SS2017).
+      Still ambiguous: SS2011 vs SS2016 (O), SS2017 vs SS2021 (D), AW2018 vs AW2022 (V) (geeksblog). Checks: NGV
+      FB-D09-614-1 (SS1995, size S) and FB-J15-806-3 (SS2000, size 3) both use B; listings HW (SS18), HN (SS20),
+      HP (2011-12AW), HG (SS22), HE (AW22, two items), HJ (AW23) and HP (SS25) all match. Item letters seen: J jacket/coat,
+      D dress, P pants, T cut-and-sew, K knit, B blouse/shirt, H hat. Y-3 tags print the production month and year
+      instead (e.g. 12 17 = Dec 2017, for SS2018) (geeksblog).'
+    notes: Y's corporation 1973, Tokyo debut 1977 (Wikipedia); Y's Women 1972 and Pour Homme 1984 (Truss). The geeksblog
+      guide (Sept 2026) is the only source for letters after AW2020 and for the logo, stamped-printing and Y's-for-men
+      cues. Sui Generis's Yohji care-tag guide was not reviewed.
+  - brand: Number (N)ine (Takahiro Miyashita)
+    eras:
+    - name: Pre-runway era (graphic tees)
+      start_year: 1996
+      end_year: 2000
+      label_cues: Launched 1996 per Truss, Highsnobiety, ja.wikipedia and FIT (nssmag and Hypebeast say 1997); it
+        began with graphic tees (Highsnobiety). No label or tag description was found.
+      sources:
+      - https://www.trussarchive.com/editorials/number-nine-an-overview-of-the-cult-fashion-brand
+      - https://www.highsnobiety.com/p/number-nine-by-takahiro-miyashita-2026/
+      - https://ja.wikipedia.org/wiki/%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%83%8A%E3%82%A4%E3%83%B3_(%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89)
+      - https://fashionmuseum.fitnyc.edu/objects/132290/mans-ensemble-jacket-sweater-pants-hat-scarf-ruffle
+      - https://www.nssmag.com/en/fashion/31966/number-n-ine-takahiro-miyashita
+      - https://hypebeast.com/2025/9/takahiro-miyashita-announces-numbernine-news-return
+      confidence: low
+    - name: Tokyo-collection era
+      start_year: 2000
+      end_year: 2004
+      label_cues: 'Showed at Tokyo Collection from AW2000 (''REDISUN'') to SS2004 (''DREAM BABY DREAM'') (ja.wikipedia;
+        nssmag: Tokyo 2000-2004). Label cues undocumented; season graphics can be matched to the theme list.'
+      sources:
+      - https://ja.wikipedia.org/wiki/%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%83%8A%E3%82%A4%E3%83%B3_(%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89)
+      - https://www.nssmag.com/en/fashion/31966/number-n-ine-takahiro-miyashita
+      confidence: low
+    - name: Paris era (+ n(n), Classic and '9' lines)
+      start_year: 2004
+      end_year: 2009
+      label_cues: Showed in Paris from AW2004 ('GIVE PEACE A CHANCE') to the final AW2009 'A CLOSED FEELING'. The
+        basic line n(n) launched SS2007 and Classic tailoring AW2007; the women's line '9' was designed by Yumi
+        Suzuki under Miyashita (ja.wikipedia). Miyashita left on 20 Feb 2009 (ja.wikipedia; nssmag misdates this
+        to 2010). Label artwork undocumented.
+      sources:
+      - https://ja.wikipedia.org/wiki/%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%83%8A%E3%82%A4%E3%83%B3_(%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89)
+      - https://www.nssmag.com/en/fashion/31966/number-n-ine-takahiro-miyashita
+      - https://www.trussarchive.com/editorials/number-nine-an-overview-of-the-cult-fashion-brand
+      confidence: low
+    - name: Post-Miyashita trademark era (Kooks Ltd, continuing in parallel)
+      start_year: 2010
+      end_year: 2026
+      label_cues: 'In May 2010 producer Kooks Ltd (有限会社クークス) announced it would keep selling under the trademark
+        with new management and designers and no involvement from Miyashita; it restarted with ''n(n) by number
+        (n)ine'' and added Classic jackets from summer 2011 (ja.wikipedia). Other sub-labels: licensed ''NUMBER
+        (N)INE DENIM'' (sold at Don Quijote and WEGO) and the ''RE：Number (N)ine'' archive-remake line (ja.wikipedia).
+        Highsnobiety says this separately owned label still runs and has collaborated twice with Supreme. Expect
+        these sub-label names on tags; physical tag differences from Miyashita-era tags are unverified.'
+      sources:
+      - https://ja.wikipedia.org/wiki/%E3%83%8A%E3%83%B3%E3%83%90%E3%83%BC%E3%83%8A%E3%82%A4%E3%83%B3_(%E3%83%95%E3%82%A1%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89)
+      - https://www.highsnobiety.com/p/number-nine-by-takahiro-miyashita-2026/
+      confidence: low
+    - name: '''NUMBER(N)INE BY TAKAHIRO MIYASHITA'''
+      start_year: 2025
+      end_year: 2026
+      label_cues: Miyashita's return was announced on a new Instagram account on 9 Sep 2025 (Highsnobiety; reported
+        by Hypebeast on 11 Sep 2025) under the name 'NUMBER(N)INE BY TAKAHIRO MIYASHITA', because the original name
+        belongs to the post-2010 owner. The first drop was graphic T-shirts (Highsnobiety). Tag wording is presumably
+        'by Takahiro Miyashita' (unverified).
+      sources:
+      - https://hypebeast.com/2025/9/takahiro-miyashita-announces-numbernine-news-return
+      - https://www.highsnobiety.com/p/number-nine-by-takahiro-miyashita-2026/
+      confidence: low
+    date_codes: No printed date-code system was documented. Season can be inferred from graphics via the ja.wikipedia
+      theme list (2000-01AW REDISUN; 2001SS TIME MIGRATION; 2001-02AW STANDARD; 2002SS MODERN AGE; 2002-03AW NOWHERE
+      MAN; 2003-04 SS-AW TOUCH ME I'M SICK / A NEW MORNING; 2004SS DREAM BABY DREAM; 2004-05AW GIVE PEACE A CHANCE;
+      2005SS NIGHT CRAWLER; 2005-06AW THE HIGH STREETS; 2006SS WELCOME TO THE SHADOW; 2006-07AW NOIR; 2007SS ABOUT
+      A BOY; 2007-08AW LOVE GOD MURDER; 2008SS BIRDS; 2008-09AW MY OWN PRIVATE PORTLAND; 2009SS THE LONESOME HEROES;
+      2009-10AW A CLOSED FEELING). Post-2010 'RE：Number (N)ine' remakes reproduce old designs, so graphics alone
+      can mislead.
+    notes: 'Weakest-evidence brand: searches found no guide to Number (N)ine tags, only listings using seller era
+      names (宮下期 etc.). Grailed''s ''Master Class: Number (N)ine'' was not fetchable. FIT''s object record gives
+      the brand dates as 1996-2009.'
+  general_sources:
+  - https://www.trussarchive.com/guides/how-to-identify-comme-des-garcons
+  - https://www.trussarchive.com/guides/how-to-identify-maison-margiela
+  - https://www.trussarchive.com/guides/how-to-identify-yohji-yamamoto
+  - https://www.trussarchive.com/guides
+  - https://cdn.prod.website-files.com/64f1d2cc5e0dab718e3de0c4/66e93f7b5653da7ed053af94_65782bbcf75049dbc6488f96_Screenshot%25202023-12-12%2520at%252009.45.13.png
+  - https://note.com/tkiy_0/n/n48d20e755ff3
+  - https://geeksblog.jp/comme-des-garcons-tag
+  - https://geeksblog.jp/margiela-tag
+  - https://geeksblog.jp/underdercoverseason
+  - https://geeksblog.jp/yohji-yamamoto-season
+  - https://www.bazzstore.com/5477/
+  - https://kaitorihanbaiichiba.net/garcons/2023/07/27/comme-des-garcons-shirt-%E3%81%AE%E5%B9%B4%E4%BB%A3%E8%80%83%E5%AF%9F%E3%81%A8%E5%86%85%E3%82%BF%E3%82%B0%E3%81%AE%E3%80%8Cd-tk9210%E3%80%8D%E3%81%AE%E3%81%A4%E3%81%84%E3%81%A6/
+  - https://www.ngv.vic.gov.au/explore/collection/artist/8996/
+  - https://api.vam.ac.uk/v2/objects/search?q=Comme%20des%20Garcons%20label&page_size=50
+  - https://api.vam.ac.uk/v2/objects/search?q=Margiela&page_size=50
+  - https://www.fashionsnap.com/article/mustbuy-vintage-vol22/
+  - https://forums.vintagefashionguild.org/threads/my-first-commes-des-garcons-b-w-striped-top-coming-up-empty.66981/
+  - https://www.encyclopedia.com/fashion/encyclopedias-almanacs-transcripts-and-maps/comme-des-garcons
+  - https://www.1stdibs.com/answers/how-to-identify-yohji-yamamoto
+  - https://www.caa.go.jp/policies/policy/representation/household_goods/guide/wash_01.html
+  - https://www.fashion-press.net/brands/27
+  - https://www.wwdjapan.com/?p=1277418
+  - https://fril.jp/brand/5385/used/30
+  - https://fril.jp/brand/188/used/16
+  - https://fril.jp/brand/827/used/9
+  open_questions:
+  - 'CDG pre-2001 season digit (0 = AW, 1 = SS after the hyphen): three Japanese guides and five museum-dated codes
+    agree, but Noir ''AO-31010S'' (NGV SS1990) has a 3. Check more museum-dated Noir and export pieces, and find
+    out whether the E prefix on NGV''s export women''s pieces (1983, 1995, 1998) is an export marker like the X
+    on menswear export tags.'
+  - 'CDG 2001 transition: note.com says SS2001 still used the old format and AW2001 production mixed old and new;
+    Truss lists A/B for SS2001. Confirm with dated AD2001 tags whether A/B exist and which lines switched first.'
+  - CDG earliest tags (1969-1981 'ruled-line' tags; 1969-72 tags without company name) rest on a single collector
+    blog (note.com). Verify with dated museum or catalogue pieces.
+  - '''D-TK9210'' window (about SS1984 to SS1998) comes from two collector sources. Confirm on museum-dated Japanese-label
+    pieces, and check whether any export labels carry it.'
+  - 'CDG SHIRT: verify the embroidered bilingual early labels (1988-SS1994), the side-sewn tags (AW1995-SS2001),
+    Hong Kong production in the late 1990s, the AD1994 ''FW-01033S'' example, the third-position letter in S/W codes,
+    and whether the F line letter starts SS2021 or AW2021.'
+  - 'CDG Homme: brand-label wording and artwork for 1984-1989, and the first Junya Watanabe season (fashion-press
+    says he took over in 2003; kaitorihanbaiichiba groups Tanaka Homme as 1990-2004). Homme Deux launch year.'
+  - 'CDG Homme Plus: does ''EVER GREEN'' on PS-T209 (SS2007) mean the Evergreen sub-line, and do Evergreen pieces
+    have their own codes?'
+  - 'Junya Watanabe: confirm on garments that men''s labels dropped ''COMME des GARÇONS'' from SS2022 as fashion-press
+    states (press coverage of the SS2022 men''s show still used the old name).'
+  - 'Margiela: in which season did brand text on labels, care tags and soles switch from ''Maison Martin Margiela''
+    to ''Maison Margiela''? A Truss photo shows an AW2014 care label still reading ''Maison Martin Margiela'', while
+    NGV''s AW2014-15 mules (credited to Galliano) read ''Maison Margiela''.'
+  - 'Margiela: NGV describes SS2015 Artisanal labels as ''two rows of numbers'' versus three rows (0-9 / 10-16 /
+    17-23) on 2007-2008 labels. Did the grid layout change? When did women''s Line 1 move from the all-white label
+    to the numbered label (nssmag says 2008)?'
+  - Margiela care codes (991..., 0012..., 'YYYY 01/02') and the Japan distributor-tag scheme come from geeksblog
+    plus two Truss photos. Check them on non-Japan-market pieces, MM6 and Line 22 shoes. Decode modern style references
+    such as 'S29AM0093'.
+  - 'MM6: was the rebrand in June 2004 (Secundo Store) or 2006 (nssmag)? What did the early Line 6 label look like
+    (numbered label with 6 circled vs ''MM6'' wordmark), and when did the straight-line stitching start?'
+  - 'Undercover: verify geeksblog''s pre-2015 code formats on dated garments (8-character codes to SS1998, digits-only
+    AW1998, the irregular 1999-2004 letter table, year digit + S/A for 2005-2007, leading season letter A-O for
+    2008-2015). Did tags change from ''（有）'' to ''（株）アンダーカバー'' after the January 2000 incorporation? What do the
+    ''UI'' (AW2021) and ''UAP'' prefixes mean?'
+  - 'Undercover: document brand-label artwork per era (font, colours, woven vs printed, UNDERCOVER vs UNDERCOVERISM
+    wording, the ''hand print'' tags mentioned in forums). No fetched source covers it. Watch for label or code
+    changes after the September 2026 HUMAN MADE acquisition agreement.'
+  - 'Yohji: geeksblog is the only source for season letters after AW2020 (including the ''V or E'' and ''M or L''
+    entries) and for the round-to-angular logo change at AW1991 and stamped-to-printed care labels at SS2010. Check
+    these on dated garments, plus the Y''s line letter M and the Y''s for men pause (SS2010-AW2023).'
+  - Japan's care-symbol switch (new JIS L 0001 from 1 Dec 2016; revised again from Aug 2024 per the Consumer Affairs
+    Agency) is a cross-brand cue for Japanese-made CDG, Yohji, Undercover and Number (N)ine tags. Confirm the first
+    AD year or season with new symbols for each brand.
+  - 'Number (N)ine: compare physical tags from the Miyashita era (1996-2009), the Kooks era (n(n) by number (n)ine,
+    NUMBER (N)INE DENIM, RE：Number (N)ine remakes) and 2025+ ''by Takahiro Miyashita'' tags: wording, company names
+    on care tags, product-code format, made-in text.'
+  - 'Sources that blocked automated fetching should be reviewed manually: Grailed Dry Clean Only master classes
+    (Margiela returned 403; Undercover and Number (N)ine), the Marais MM6 page (429), RISD Museum records (403),
+    de-suke.com (403) and fukumarche.com (no response) CDG guides, Sui Generis CDG and Yohji guides, StyleForum
+    and Superfuture Undercover threads, and the University of Westminster Menswear Archive.'
+  - fril.jp seller listings are informal and seller seasons can be wrong (e.g. DI-J033 AD2021 sold as 2021SS). The
+    code tables are now backed by Truss and several Japanese guides, but should still be spot-checked against museum
+    or runway-dated garments.
