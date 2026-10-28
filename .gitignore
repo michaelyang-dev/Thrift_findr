@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+
+# Data, features, checkpoints (large; images belong to their owners, never commit them)
+/data/
+outputs/features/
+outputs/checkpoints/
+outputs/logs/
+outputs/figures/
+*.h5
+*.pt
+*.npy
+*.npz
+
+# LaTeX build artifacts
+reports/**/*.aux
+reports/**/*.log
+reports/**/*.out
+reports/**/*.bbl
+reports/**/*.blg
+reports/**/*.fdb_latexmk
+reports/**/*.fls
+reports/**/*.synctex.gz
+reports/**/missfont.log
+
+# Report files that show dataset images (Fashion-Gen is research-only, the runway photos are in
+# copyright); rebuild them with scripts/make_report_assets.py and latexmk instead
+reports/midterm/figures/samples.*
+reports/midterm/midterm.pdf
+
+# OS / editors
+.DS_Store
+.vscode/
+.env
