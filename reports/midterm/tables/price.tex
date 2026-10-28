@@ -1,0 +1,12 @@
+\begin{table}[t]\centering\small
+\caption{Price (retail MSRP) estimation on the Fashion-Gen test split. MdAPE = median absolute percentage error (lower is better); $\rho$ = Spearman rank correlation.}\label{tab:price}
+\setlength{\tabcolsep}{3pt}\begin{tabular}{lccc}\toprule
+Method & MdAPE & $\leq$25\% & $\rho$ \\\midrule
+Global median & 43.5 & 24.1 & --- \\
+Median of true brand & 41.7 & 31.1 & 0.47 \\
+Median of predicted brand (CLIP) & 45.6 & 27.4 & 0.32 \\
+Ridge on log price (CLIP) & 32.5 & 38.7 & 0.72 \\
+$k$-NN retrieval (ResNet-50, $k$=5) & 35.3 & 36.7 & 0.60 \\
+$k$-NN retrieval (DINOv2, $k$=5) & 32.7 & 39.6 & 0.66 \\
+$k$-NN retrieval (CLIP, $k$=10) & 31.2 & 41.2 & 0.70 \\
+\bottomrule\end{tabular}\end{table}

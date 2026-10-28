@@ -1,0 +1,49 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+\usepackage[margin=0.75in,columnsep=0.25in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\renewcommand{\ttdefault}{lmtt}  % Latin Modern Mono; Courier metrics are missing from minimal TeX installs
+\usepackage{graphicx,booktabs,amsmath,amssymb,xcolor,array}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[hidelinks]{hyperref}
+% Small captions with bold labels (the caption package is not installed in every TeX distribution).
+\makeatletter
+\long\def\@makecaption#1#2{\vskip 4pt
+  \sbox\@tempboxa{\small\textbf{#1.} #2}%
+  \ifdim\wd\@tempboxa>\hsize {\small\textbf{#1.} #2\par}%
+  \else\global\@minipagefalse\hb@xt@\hsize{\hfil\box\@tempboxa\hfil}\fi
+  \vskip 2pt}
+\makeatother
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\dbltopfraction}{0.9}
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\floatpagefraction}{0.85}
+\renewcommand{\dblfloatpagefraction}{0.85}
+\setcounter{topnumber}{3}
+\setcounter{dbltopnumber}{3}
+\setcounter{totalnumber}{5}
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\raggedbottom
+\setlength{\dbltextfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\bibsep}{1pt}
+\newcommand{\ci}[2]{{\scriptsize[#1, #2]}}
+
+\title{\vspace{-0.6in}Thrift Findr: Predicting the Brand, Era, and Value of\\Archive Garments from Photos --- Midterm Report\vspace{-0.1in}}
+\author{Michael Yang (msyang9) \qquad Alex Ryan (apryan3)}
+\date{\vspace{-0.3in}}
+
+\begin{document}
+\maketitle
+
+\input{sections/summary}
+\input{sections/related}
+\input{sections/approach}
+\input{sections/results}
+\input{sections/discussion}
+
+{\footnotesize
+\setlength{\bibsep}{0pt plus 0.3ex}
+\bibliographystyle{abbrvnat}
+\bibliography{refs}
+}
+\end{document}

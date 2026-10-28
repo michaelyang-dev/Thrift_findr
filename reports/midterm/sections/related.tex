@@ -1,0 +1,33 @@
+\section{Related Work}
+\label{sec:related}
+\textbf{Fashion recognition and retrieval.} DeepFashion~\cite{liu2016deepfashion} and
+DeepFashion2~\cite{ge2019deepfashion2} provide large benchmarks for clothing categories,
+attributes, landmarks and consumer-to-shop retrieval, and street-to-shop matching finds the exact
+product shown in a photo~\cite{kiapour2015where}. Clothing style has been rated by crowds and
+classified~\cite{kiapour2014hipster} and learned as embeddings from weak
+labels~\cite{simoserra2016fashion}. These systems recognize \emph{what} a garment
+is or find the same product online; they do not predict a second-hand item's provenance (house and
+production era), which is what drives the price of archive pieces.
+\textbf{Dating images and fashion.} Estimating when a photo was taken has been studied for
+historical colour photographs~\cite{palermo2012dating} and a century of yearbook
+portraits~\cite{ginosar2017century}. Closest to our era task,
+\citet{vittayakorn2017when} estimate when clothing was made from dated Flickr and museum images, and
+Runway to Realway~\cite{vittayakorn2015runway} estimates the brand, season and year of runway looks;
+trend studies model how styles evolve from product and outfit
+photos~\cite{alhalah2017fashion,he2016ups,mall2019geostyle,hsiao2021culture}. These works use the
+whole photo, garment or outfit; we target label-level cues for specific houses, where printed date
+codes (and, for Margiela, label changes) give sharp era boundaries.
+\textbf{Price prediction.} \citet{han2020price} regress the prices of second-hand marketplace items
+from images and text. We instead estimate value by retrieval, which is how resellers price archive
+pieces (by finding comparable sales) and which returns the comparables themselves.
+\textbf{Representations and robustness.} We build on pretrained encoders: CLIP~\cite{radford2021clip},
+DINOv2~\cite{oquab2024dinov2}, and ImageNet~\cite{deng2009imagenet} ResNets~\cite{he2016resnet};
+we follow standard transfer protocols~\cite{kornblith2019transfer}, and our schedule loosely follows
+the observation that training a linear head before fine-tuning preserves robustness under
+distribution shift~\cite{kumar2022finetuning}. Telling brands apart is fine-grained
+recognition~\cite{wei2022finegrained}. We evaluate with common
+corruptions~\cite{hendrycks2019corruptions} and check for shortcut
+learning~\cite{geirhos2020shortcut}.
+\textbf{Reading labels.} Brand marks are close to logo detection~\cite{wang2022logodet3k}, and
+printed label text calls for OCR: scene-text detection and recognition~\cite{baek2019craft,shi2017crnn}
+and transformer recognizers~\cite{li2023trocr}.

@@ -1,0 +1,107 @@
+\section{Technical Approach}
+\label{sec:approach}
+\input{sections/eras_table}
+\input{tables/datasets}
+
+\paragraph{Problem formulation.}
+Given a photo $x$ of a second-hand garment (ideally of its label), we predict its brand
+$b \in \mathcal{B}$ (the design house; sub-lines such as \emph{Homme Plus} or \emph{MM6} are folded
+into the house), its era $e \in \mathcal{E}$, and its market value $v$. Brand and era are classification
+heads on an image encoder $f(x)\in\mathbb{R}^d$, and value is estimated by retrieval from the prices
+of the nearest labelled items in an embedding space (so far that of the frozen encoder).
+On the real data, eras are defined per brand by label changes and printed date codes
+(Sec.~\ref{sec:eras}); on the
+proxy datasets they are whatever temporal label each dataset provides.
+
+\paragraph{Datasets.}
+Before collecting our own photos, we validate the pipeline on three public proxy datasets that
+each cover part of the problem (Table~\ref{tab:datasets}):
+(i)~\textbf{Fashion-Gen}~\cite{rostamzadeh2018fashiongen}: SSENSE catalog photos with brand,
+season and retail price; we keep the clothing of nine archive houses (Comme des Gar\c{c}ons,
+Maison Margiela, Undercover, Yohji Yamamoto, Junya Watanabe, Issey Miyake, Helmut Lang,
+Raf Simons, Prada) and use the season year (2014--2018) as era and the list price (MSRP) as
+value;
+(ii)~\textbf{Second-hand labels}~\cite{secondhand2024dataset}: brand-label close-ups of donated
+garments photographed at sorting stations, the closest public match to our in-store label photos
+(mostly Nordic high-street brands, no era); and
+(iii)~\textbf{Europeana runway}~\cite{europeana_api}: catwalk photos of ten archive designers with
+show dates, giving real decade labels: 2000s and 2010s for all ten, plus late-1990s shows of CDG,
+Yohji Yamamoto, Gaultier and Westwood (none for Margiela or Undercover).
+Splits are grouped: all photos of one product, garment or show, and of products that share an
+identical or near-identical photo (32$\times$32 grey thumbnails correlated at $\geq$0.99 and within
+3 grey levels on average), fall in one split; they are stratified by class (5:1:1, i.e.\
+71/14/14\%, overall). Classes with fewer than 50 images or 3 groups are dropped, and a class with
+fewer than seven groups gets one group in validation, one in test and the rest in training, so every
+kept class appears in each split. We share code, never images.
+
+\paragraph{Frozen-feature baselines.}
+We compare three pretrained encoders: CLIP ViT-B/16~\cite{radford2021clip}
+(post-layernorm \texttt{[CLS]} token, 768-d), DINOv2 ViT-S/14~\cite{oquab2024dinov2}
+(\texttt{[CLS]} concatenated with the mean patch token, 768-d, the paper's linear-evaluation
+feature), and an ImageNet~\cite{deng2009imagenet} ResNet-50~\cite{he2016resnet} (2048-d).
+On cached features we fit (a)~a linear probe: class-balanced multinomial logistic regression on
+standardized features, with $C\in\{0.01,0.1,1,10\}$ chosen on validation macro-F1, following
+the transfer protocol of~\cite{kornblith2019transfer}; and (b)~a $k$-NN classifier: cosine
+similarity with votes weighted by $\exp(s/0.07)$, $k\in\{1,5,10,20,50\}$ chosen on validation.
+$k$-NN doubles as a visual-search baseline in the spirit of retrieval-based fashion
+recognition~\cite{liu2016deepfashion,kiapour2015where}.
+
+\paragraph{Fine-tuning.}
+The best frozen backbone is fine-tuned with one linear head per task and the sum of
+class-balanced cross-entropies (label smoothing 0.1). The first epoch trains only the randomly
+initialized heads on the frozen encoder while the learning rate warms up; later epochs unfreeze
+everything with a 50$\times$ smaller encoder learning rate (AdamW~\cite{loshchilov2019adamw},
+$10^{-3}$ heads / $2\cdot10^{-5}$ encoder, weight decay 0.05, cosine decay, 8 epochs, batch 64).
+This only loosely follows linear-probe-then-fine-tune~\cite{kumar2022finetuning}, which distorts
+pretrained features less and matters because our real test photos are out of distribution: after
+one epoch the heads are far from a fitted probe. Starting the heads from the fitted linear probe is
+implemented and is our next ablation. The epoch with the best mean validation macro-F1 is kept.
+
+\paragraph{Augmentation for in-store photos.}
+Training images are perturbed to look like hurried phone photos of a label: random resized
+crops, rotation ($\pm25^\circ$), perspective warps, Gaussian blur, a synthetic specular
+highlight (a soft bright ellipse blended over the image, mimicking glare from a flash or store
+lighting), colour jitter, and JPEG re-compression. Horizontal flips are disabled for label
+images, since mirrored text never occurs in practice. A \emph{light} variant (random resized
+crop only, plus horizontal flips where allowed) serves as the ablation.
+
+\paragraph{Value estimation.}
+Value is predicted by retrieval, as a reseller would: the similarity-weighted geometric mean price
+of the $k$ most similar training items ($k$ chosen on validation). We compare it with a ridge
+regression on log price and with median-price-per-brand lookups using the true or the
+predicted brand. On Fashion-Gen the target is retail MSRP, a proxy for resale value; resale
+prices come from our own listing collection (Sec.~\ref{sec:changes}).
+
+\paragraph{OCR.}
+Labels print much of what we need as text: the brand, the sub-line and, for some houses, a
+production-year mark or season code (Table~\ref{tab:eras}). Our first version runs
+EasyOCR~\cite{easyocr} (CRAFT~\cite{baek2019craft} detection, CRNN~\cite{shi2017crnn} recognition),
+letting it also try each text box rotated, and matches brand names within single text lines; a
+confident match overrides the image model. In weeks 6--7 we add brand-specific parsers for printed
+date codes, so that a confidently read year overrides the era head, and compare with
+TrOCR~\cite{li2023trocr}.
+
+\section{Evaluation Plan}
+\label{sec:evalplan}
+\textbf{Classification.} For brand and era we report accuracy, macro-F1 (classes are
+imbalanced), balanced accuracy, top-3 accuracy, and row-normalized confusion matrices
+(which eras are confused). Because the photos of one product are correlated, 95\% confidence
+intervals come from a bootstrap that resamples whole products or shows. For the joint task we
+report the fraction of images with both brand and era correct, and era accuracy among images
+whose brand is correct. Hyperparameters are tuned only on validation; the test split is used
+once per model.
+\textbf{Value.} Median absolute percentage error (MdAPE), mean absolute error, the fraction of
+items within $\pm25\%$ of the true price, and Spearman rank correlation.
+\textbf{Robustness.} The fine-tuned models and the frozen linear probe of the same backbone (so far
+CLIP) are scored on the test split under six corruptions (blur,
+glare, rotation, perspective, JPEG compression, low light with sensor noise) at three
+severities~\cite{hendrycks2019corruptions}, with identical seeded corruptions for all models.
+\textbf{Ablations.} Backbone (CLIP vs.\ DINOv2 vs.\ ResNet-50), frozen vs.\ fine-tuned,
+light vs.\ phone-photo augmentation, and image-only vs.\ image+OCR (done for brand on label photos;
+for era once the date-code parsers exist).
+\textbf{Real-world test.} The final test set is our own in-store phone photos of labels
+(target: 20--30 garments per brand), never used for training or tuning; the gap between it and
+the proxy test sets measures domain shift.
+\textbf{Shortcut checks.} Era is also evaluated within each brand, since some brands appear
+only in some years, and runway eras are taken from a single photo provider to limit how much photographic medium can
+stand in for the decade; probes on low-level photo statistics measure what remains~\cite{geirhos2020shortcut}.

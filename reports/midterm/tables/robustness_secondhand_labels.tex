@@ -1,0 +1,13 @@
+\begin{table}[t]\centering\small
+\caption{Second-hand labels brand accuracy (\%) under test-time corruptions, averaged over severities 1--3 (CLIP ViT-B/16; FT = fine-tuned with light or strong augmentation).}\label{tab:robustness_secondhand_labels}
+\begin{tabular}{lccc}\toprule
+Condition & Frozen probe & FT, light & FT, strong \\\midrule
+Clean & 78.0 & 83.7 & 84.6 \\\midrule
+Blur & 41.4 & 52.7 & 61.9 \\
+Glare & 75.5 & 80.6 & 81.8 \\
+Rotate & 67.2 & 77.3 & 76.4 \\
+Perspective & 66.4 & 76.8 & 76.7 \\
+JPEG & 62.6 & 74.0 & 75.3 \\
+Dark & 65.3 & 76.3 & 75.5 \\
+\midrule Mean of corruptions & 63.0 & 73.0 & 74.6 \\
+\bottomrule\end{tabular}\end{table}

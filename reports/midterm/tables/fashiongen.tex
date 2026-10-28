@@ -1,0 +1,14 @@
+\begin{table*}[t]\centering\small
+\caption{Fashion-Gen test results (\%; 9 brands, 5 era years; 95\% product-bootstrap intervals in brackets). ``Both'' = brand and era both correct.}\label{tab:fashiongen}
+\begin{tabular}{lccccc}\toprule
+Model & Brand acc. & Brand F1 & Era acc. & Era F1 & Both \\\midrule
+Majority class & 28.9 & --- & 31.7 & --- & --- \\
+8$\times$8 thumbnail, linear probe & 34.4 & 19.1 & 41.4 & 38.2 & --- \\\midrule
+CLIP ViT-B/16, linear probe & 56.9 \ci{53.7}{59.8} & 53.3 & 69.7 \ci{66.9}{72.2} & 69.5 & 40.7 \\
+CLIP ViT-B/16, $k$-NN & 53.4 \ci{50.4}{56.3} & 46.7 & 55.7 \ci{52.8}{58.6} & 54.3 & 34.4 \\
+DINOv2 ViT-S/14, linear probe & 52.5 \ci{49.4}{55.4} & 48.2 & 64.3 \ci{61.6}{66.9} & 64.5 & 35.1 \\
+DINOv2 ViT-S/14, $k$-NN & 49.9 \ci{47.1}{52.7} & 42.9 & 50.6 \ci{47.8}{53.5} & 49.2 & 29.5 \\
+ResNet-50, linear probe & 45.3 \ci{42.5}{48.1} & 41.0 & 53.2 \ci{50.5}{55.9} & 52.6 & 25.7 \\
+ResNet-50, $k$-NN & 44.7 \ci{41.8}{47.6} & 34.2 & 41.9 \ci{39.3}{44.5} & 39.8 & 21.0 \\\midrule
+CLIP ViT-B/16 fine-tuned (strong aug.) & 65.3 \ci{62.2}{68.2} & 62.8 & 81.3 \ci{78.5}{84.0} & 81.5 & 55.0 \\
+\bottomrule\end{tabular}\end{table*}

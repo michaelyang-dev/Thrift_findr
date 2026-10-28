@@ -1,0 +1,46 @@
+\section{Difficulties Encountered}
+\label{sec:difficulties}
+\textbf{Data access.} The proposal planned to collect labelled listings from resale sites, by hand or
+through APIs. Automated collection turned out not to be possible: eBay's Buy APIs are now limited to
+approved partners in production and its June 2025 API license update restricts using eBay content
+with AI, while Grailed and Depop block automated requests. A search of Hugging Face, Kaggle, Zenodo,
+academic releases and museum APIs found no public dataset of designer \emph{label} photos with era
+labels (The Met's API returns no images for these designers; the V\&A has only dozens per brand),
+hence the three proxies.
+\textbf{What the proxies measure.} Fashion-Gen's ``era'' is the season in which SSENSE sold an item
+(2014--2018), not its production date; its prices are retail, not resale; some brands occur only in
+some years; and catalog or runway photos look nothing like a label close-up. Low-level photographic
+cues also carry era information (an 8$\times$8 thumbnail predicts the Fashion-Gen year 41.4\% of the
+time vs.\ a 31.7\% majority), and shoot-level cues such as models and styling may too, so we treat
+proxy era accuracies as optimistic.
+\textbf{Data quality and leakage.} SSENSE reuses one outfit photo for every product in a look, and a
+review of our own code found that our first, product-grouped split therefore put 60 test images whose
+exact copies were in training (inflating $k$-NN most). We now merge products that share an identical
+or near-identical photo, rebuilt the splits and re-ran every Fashion-Gen experiment; a leakage audit
+finds no validation or test image with an exact, near-duplicate or CLIP-cosine $\geq$0.99 copy in
+training on any of the three datasets. In the second-hand data, 46\% of garments have no usable brand
+annotation, some ``label'' photos show care tags, and many labels are upside down or sideways.
+\textbf{Licensing and compute.} Fashion-Gen is research-only and Europeana catwalk images are
+\emph{In Copyright}; only the second-hand data is openly licensed (CC BY 4.0), so we share code but
+never images. Everything runs on one Apple-silicon laptop; fine-tuning CLIP ViT-B/16 takes about
+9 minutes per epoch, so runs are limited to 8 epochs and a single seed for now.
+
+\section{Changes to the Proposal}
+\label{sec:changes}
+\textbf{Data.} Development now happens on public proxy datasets. The target data come from listing
+photos we save by hand (label close-up, title, era claim and sale price) and from our own in-store
+phone photos, which remain the held-out real-world test set.
+\textbf{Era labels.} Eras are defined per brand by visible label changes and printed date codes
+(Sec.~\ref{sec:eras}) instead of fixed seasons; neighbouring eras are merged where we cannot collect
+at least 50 label photos.
+\textbf{Value.} Retrieval-based price estimation is implemented and evaluated on retail prices; it
+will be re-run on resale prices from the listings we collect. Automated ``web search for current
+listings'' is replaced by these curated comparables, because the marketplace APIs are closed to us.
+\textbf{Brand scope.} The pipeline handles any set of houses. The final set (CDG, Margiela,
+Undercover, plus Yohji Yamamoto or Junya Watanabe if data allow) depends on how many label photos we
+can collect per era.
+\textbf{Updated timeline.} Weeks 6--7: collect in-store and listing label photos ($\geq$50 per
+brand-era class); extend the OCR module to printed date codes; train frozen and fine-tuned models on
+the real data. Week 8: evaluate OCR--image fusion for brand and date codes on the real label photos, value
+estimation on resale comparables, error analysis. Week 9:
+final evaluation on the held-out in-store set, webpage, presentation, report.

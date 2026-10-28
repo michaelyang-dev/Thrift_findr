@@ -1,0 +1,19 @@
+\begin{itemize}\setlength\itemsep{1pt}\setlength\parskip{0pt}
+\item \textbf{Data.} Collecting listings automatically from resale sites turned out not to be possible
+(Sec.~\ref{sec:difficulties}), so we validated each part of the pipeline (brand, era, value, OCR) on three public proxy datasets
+with leakage-audited, grouped splits (Table~\ref{tab:datasets}): 18,967 SSENSE catalog photos of nine
+archive houses with season and retail price, 2,321 brand-label close-ups of donated garments, and
+7,586 catwalk photos of ten designers across three decades.
+\item \textbf{Era definitions} (week 1): label-based eras and printed date codes for CDG, Margiela
+and Undercover (Table~\ref{tab:eras}).
+\item \textbf{Frozen-feature baselines} (week 4): CLIP, DINOv2 and ResNet-50 features with linear
+probes and $k$-NN for every task. CLIP is best everywhere, and by far on label photos (78.0\% vs.\
+35.2\% and 27.1\%).
+\item \textbf{Fine-tuning} (week 5): multi-task CLIP fine-tuning with phone-photo augmentation
+raises Fashion-Gen brand accuracy from 56.9\% to 65.3\% and era accuracy from 69.7\% to 81.3\%;
+on label photos it reaches 84.6\% (from 78.0\%) and is more accurate than the frozen probe under
+every corruption we tested (74.6\% vs.\ 63.0\% on average).
+\item \textbf{Ahead of schedule:} a first OCR module (OCR when it is confident, otherwise the image
+model: 87.0\% on label photos) and retrieval-based price estimation (31.2\% median error vs.\
+41.7\% for a brand-median lookup).
+\end{itemize}
