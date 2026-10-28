@@ -1,0 +1,14 @@
+{
+  "val": {
+    "n": 1129,
+    "exact_copy_in_train": 0,
+    "near_duplicate_in_train": 0,
+    "clip_cos_ge_0.99_in_train": 0
+  },
+  "test": {
+    "n": 1147,
+    "exact_copy_in_train": 0,
+    "near_duplicate_in_train": 0,
+    "clip_cos_ge_0.99_in_train": 0
+  }
+}
