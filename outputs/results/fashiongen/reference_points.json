@@ -1,0 +1,31 @@
+{
+  "manifest_fingerprint": "273706cd6e9c",
+  "brand/majority": {
+    "accuracy": 0.2876661742983752,
+    "macro_f1": 0.04964471210527993
+  },
+  "brand/majority_given_category": {
+    "accuracy": 0.3050221565731167,
+    "macro_f1": 0.08981303737398726
+  },
+  "season/majority": {
+    "accuracy": 0.17171344165435745,
+    "macro_f1": 0.03256644605525791
+  },
+  "season/majority_given_category": {
+    "accuracy": 0.18020679468242246,
+    "macro_f1": 0.06188122798539507
+  },
+  "price/global_median": {
+    "mdape_pct": 44.53737995103885,
+    "within_25pct": 0.2636632200886263
+  },
+  "price/median_by_category": {
+    "mdape_pct": 38.59403372243839,
+    "within_25pct": 0.30465288035450516
+  },
+  "price/median_by_true_brand_and_category": {
+    "mdape_pct": 27.86885245901639,
+    "within_25pct": 0.4582717872968981
+  }
+}

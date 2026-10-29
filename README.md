@@ -6,6 +6,20 @@ Course project by Michael Yang (msyang9) and Alex Ryan (apryan3).
 The midterm report is in [reports/midterm/](reports/midterm/); build `midterm.pdf` with step 8 below. The
 PDF and its sample-image figure are not committed because they contain dataset images.
 
+## Current setup (after the midterm)
+
+Fashion-Gen only. The model gets the photo **and the garment category** (an input, via FiLM) and
+predicts **brand**, **season** (SS/FW 2014-18) and **MSRP** (regression on log price).
+
+```bash
+.venv/bin/python scripts/build_fashiongen.py        # data; then check the fingerprint is 273706cd6e9c:
+.venv/bin/python scripts/reference_points.py        # no-image baselines + manifest fingerprint
+.venv/bin/python scripts/extract_features.py --dataset fashiongen --backbones clip_vitb16
+.venv/bin/python scripts/train_heads.py --dataset fashiongen [--ignore-inputs]          # frozen CLIP, minutes
+.venv/bin/python scripts/finetune.py --dataset fashiongen --backbone clip_vitb16 --tag category  # GPU, ~1 h
+.venv/bin/python scripts/predict.py CHECKPOINT samples/raw/fashiongen --inputs-csv samples/raw/inputs.csv --annotate
+```
+
 ## Status (midterm)
 
 Automated collection from resale sites is not possible (eBay's Buy APIs are partner-only and its

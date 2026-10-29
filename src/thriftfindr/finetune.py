@@ -271,6 +271,7 @@ def train(cfg: FinetuneConfig) -> dict:
 
     scores = {s: predict(model, loaders[s], device, stats) for s in ("val", "test")}
     results = {"config": asdict(cfg), "classes": classes, "inputs": inputs, "regress": stats,
+               "manifest_fingerprint": manifest.fingerprint(df, (*spec.tasks, *spec.inputs, *spec.regress)),
                "best_epoch": best["epoch"], "history": history,
                "val": evaluate_scores(scores["val"], parts["val"], classes, regress),
                "test": evaluate_scores(scores["test"], parts["test"], classes, regress),

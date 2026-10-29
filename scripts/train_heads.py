@@ -1,0 +1,40 @@
+"""Train task heads on cached frozen features (run scripts/extract_features.py first):
+python scripts/train_heads.py --dataset fashiongen --backbone clip_vitb16 [--ignore-inputs]
+
+Every HeadsConfig field is a flag (e.g. --epochs 100 --lr 3e-4 --tag seed1).
+"""
+
+import argparse
+from dataclasses import fields
+
+from thriftfindr.heads import HeadsConfig, train
+from thriftfindr.models.backbones import BACKBONES
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    parser.add_argument("--dataset", required=True)
+    for f in fields(HeadsConfig):
+        flag = f"--{f.name.replace('_', '-')}"
+        if f.name in ("dataset", "frozen_backbone"):
+            continue
+        if isinstance(f.default, bool):
+            parser.add_argument(flag, action="store_true")
+        else:
+            parser.add_argument(flag, type=type(f.default), default=f.default,
+                                choices=tuple(BACKBONES) if f.name == "backbone" else None)
+    cfg = HeadsConfig(**vars(parser.parse_args()))
+
+    results = train(cfg)
+    print(f"\n{cfg.run_name}: best epoch {results['best_epoch']}")
+    for task in results["classes"]:
+        r = results["test"][task]
+        ci = r["accuracy_ci95"]
+        print(f"  {task:8s} test acc {r['accuracy']:.3f} [{ci[0]:.3f}, {ci[1]:.3f}]  macro-F1 {r['macro_f1']:.3f}")
+    for col in results["regress"]:
+        r = results["test"][col]
+        print(f"  {col:8s} test median abs. error {r['mdape_pct']:.1f}%  within 25% {r['within_25pct']:.3f}")
+
+
+if __name__ == "__main__":
+    main()
