@@ -1,0 +1,6 @@
+dataset,image_id,path,brand,era,caption,price_usd
+fashiongen,870503_4,fashiongen/fashiongen_870503_4.jpg,Raf Simons,2015,White Piggyback Print T-Shirt,455
+fashiongen,1867873_1,fashiongen/fashiongen_1867873_1.jpg,Issey Miyake,2017,Black Panel Pullover,605
+fashiongen,1143033_1,fashiongen/fashiongen_1143033_1.jpg,Helmut Lang,2015,Navy Draped Entity Blouse,175
+fashiongen,669303_1,fashiongen/fashiongen_669303_1.jpg,Yohji Yamamoto,2015,White & Black Ink Roller Print T-Shirt,650
+fashiongen,2017553_2,fashiongen/fashiongen_2017553_2.jpg,Junya Watanabe,2017,Black Velour Lounge Pants,635

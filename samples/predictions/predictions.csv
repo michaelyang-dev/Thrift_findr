@@ -1,0 +1,6 @@
+dataset,image_id,model,brand_true,brand_pred,brand_conf,era_true,era_pred,era_conf
+fashiongen,870503_4,finetune_clip_vitb16_strong,Raf Simons,Undercover,0.41421124,2015,2015,0.6768725
+fashiongen,1867873_1,finetune_clip_vitb16_strong,Issey Miyake,Issey Miyake,0.5781933,2017,2017,0.9170727
+fashiongen,1143033_1,finetune_clip_vitb16_strong,Helmut Lang,Helmut Lang,0.6803076,2015,2015,0.68702453
+fashiongen,669303_1,finetune_clip_vitb16_strong,Yohji Yamamoto,Helmut Lang,0.34359375,2015,2015,0.93509406
+fashiongen,2017553_2,finetune_clip_vitb16_strong,Junya Watanabe,Junya Watanabe,0.57391584,2017,2014,0.486839
