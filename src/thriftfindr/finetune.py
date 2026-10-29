@@ -73,9 +73,9 @@ class MultiTaskModel(nn.Module):
     reweight which visual features the heads use; gamma and beta start at zero, i.e. image only."""
 
     def __init__(self, backbone: str, n_classes: dict[str, int], regress=(), inputs: dict[str, int] | None = None,
-                 dropout: float = 0.1):
+                 dropout: float = 0.1, encoder: nn.Module | None = None):
         super().__init__()
-        self.encoder = load_encoder(backbone)
+        self.encoder = encoder if encoder is not None else load_encoder(backbone)  # nn.Identity() on cached features
         self.regress = tuple(regress)
         self.inputs = tuple(inputs or {})
         dim = BACKBONES[backbone].feat_dim
@@ -95,11 +95,16 @@ class MultiTaskModel(nn.Module):
 
 
 def load_checkpoint(path, device=None) -> tuple[MultiTaskModel, dict]:
-    """Model in eval mode on `device`, plus the checkpoint (config, classes, inputs, regression stats)."""
+    """Model in eval mode on `device`, plus the checkpoint (config, classes, inputs, regression stats).
+    Checkpoints of heads trained on frozen features (heads.py) hold no encoder weights; the encoder is
+    then the pretrained backbone the features came from."""
     ckpt = torch.load(path, map_location="cpu", weights_only=False)
     model = MultiTaskModel(ckpt["config"]["backbone"], {t: len(c) for t, c in ckpt["classes"].items()},
                            ckpt.get("regress", {}), {c: len(v) for c, v in ckpt.get("inputs", {}).items()})
-    model.load_state_dict(ckpt["state_dict"])
+    frozen = ckpt["config"].get("frozen_backbone", False)
+    missing, unexpected = model.load_state_dict(ckpt["state_dict"], strict=not frozen)
+    if unexpected or any(not k.startswith("encoder.") for k in missing):
+        raise RuntimeError(f"checkpoint does not match the model: missing {missing}, unexpected {unexpected}")
     return model.to(device or default_device()).eval(), ckpt
 
 

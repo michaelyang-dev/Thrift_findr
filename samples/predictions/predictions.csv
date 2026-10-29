@@ -1,6 +1,6 @@
-dataset,image_id,model,brand_true,brand_pred,brand_conf,era_true,era_pred,era_conf
-fashiongen,870503_4,finetune_clip_vitb16_strong,Raf Simons,Undercover,0.41421124,2015,2015,0.6768725
-fashiongen,1867873_1,finetune_clip_vitb16_strong,Issey Miyake,Issey Miyake,0.5781933,2017,2017,0.9170727
-fashiongen,1143033_1,finetune_clip_vitb16_strong,Helmut Lang,Helmut Lang,0.6803076,2015,2015,0.68702453
-fashiongen,669303_1,finetune_clip_vitb16_strong,Yohji Yamamoto,Helmut Lang,0.34359375,2015,2015,0.93509406
-fashiongen,2017553_2,finetune_clip_vitb16_strong,Junya Watanabe,Junya Watanabe,0.57391584,2017,2014,0.486839
+dataset,image_id,model,category,brand_true,brand_pred,brand_conf,season_true,season_pred,season_conf,price_true,price_pred
+fashiongen,1867873_1,heads_clip_vitb16,SWEATERS,Issey Miyake,Yohji Yamamoto,0.3788,SS2017,SS2017,0.5134,605.0,537.52
+fashiongen,1143033_1,heads_clip_vitb16,TOPS,Helmut Lang,Maison Margiela,0.5048,SS2015,SS2015,0.3435,175.0,470.59
+fashiongen,2017553_2,heads_clip_vitb16,PANTS,Junya Watanabe,Maison Margiela,0.3073,SS2017,FW2017,0.2378,635.0,748.67
+fashiongen,1263363_4,heads_clip_vitb16,JACKETS & COATS,Raf Simons,Raf Simons,0.6153,FW2015,FW2017,0.3207,2075.0,1700.07
+fashiongen,91327_3,heads_clip_vitb16,DRESSES,Maison Margiela,Maison Margiela,0.2717,SS2014,SS2014,0.4737,1285.0,747.06
