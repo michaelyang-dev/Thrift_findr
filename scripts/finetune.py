@@ -31,7 +31,10 @@ def main() -> None:
     for task in results["classes"]:
         r = results["test"][task]
         ci = r["accuracy_ci95"]
-        print(f"  {task:6s} test acc {r['accuracy']:.3f} [{ci[0]:.3f}, {ci[1]:.3f}]  macro-F1 {r['macro_f1']:.3f}")
+        print(f"  {task:8s} test acc {r['accuracy']:.3f} [{ci[0]:.3f}, {ci[1]:.3f}]  macro-F1 {r['macro_f1']:.3f}")
+    for col in results["regress"]:
+        r = results["test"][col]
+        print(f"  {col:8s} test median abs. error {r['mdape_pct']:.1f}%  within 25% {r['within_25pct']:.3f}")
     if "joint" in results["test"]:
         j = results["test"]["joint"]
         print(f"  joint  both correct {j['both_correct']:.3f}; era | brand correct {j['era_given_brand_correct']:.3f}")

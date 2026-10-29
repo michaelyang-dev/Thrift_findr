@@ -1,9 +1,12 @@
-"""Fine-tune a pretrained backbone with one linear head per task (multi-task cross-entropy).
+"""Fine-tune a pretrained backbone with one linear head per task: cross-entropy for class tasks, and
+smooth-L1 on the standardized log value for regression columns (price), so the price loss is
+relative: being $100 off on a $200 shirt costs as much as $1000 off on a $2000 coat.
 
 Schedule: the first `warmup_epochs` train only the heads on a frozen backbone, then everything is
 unfrozen with a 50x smaller backbone learning rate (linear probe then fine-tune, which Kumar et al.
 2022 show distorts pretrained features less than fine-tuning from a random head). The epoch with
-the best mean validation macro-F1 is kept and evaluated once on the test split.
+the best mean validation score (macro-F1 per class task, share within 25% per regression column) is
+kept and evaluated once on the test split.
 """
 
 from __future__ import annotations
@@ -39,7 +42,9 @@ class FinetuneConfig:
     lr_backbone: float = 2e-5
     weight_decay: float = 0.05
     label_smoothing: float = 0.1
+    regress_weight: float = 1.0  # weight of each regression loss relative to one cross-entropy
     probe_init: bool = False  # start each head from the fitted linear probe on cached frozen features
+    ignore_inputs: bool = False  # ablation: image only, without the dataset's input columns (e.g. category)
     num_workers: int = 6
     seed: int = 0
     tag: str = ""
@@ -50,26 +55,52 @@ class FinetuneConfig:
         default = FinetuneConfig(dataset=self.dataset)
         parts = [self.backbone, self.aug]
         parts += [f"{f}{getattr(self, f)}" for f in ("epochs", "warmup_epochs", "batch_size", "lr_head",
-                                                     "lr_backbone", "weight_decay", "label_smoothing", "seed")
+                                                     "lr_backbone", "weight_decay", "label_smoothing",
+                                                     "regress_weight", "seed")
                   if getattr(self, f) != getattr(default, f)]
         if self.probe_init:
             parts.append("probeinit")
+        if self.ignore_inputs:
+            parts.append("noinputs")
         if self.tag:
             parts.append(self.tag)
         return "_".join(parts)
 
 
 class MultiTaskModel(nn.Module):
-    def __init__(self, backbone: str, n_classes: dict[str, int], dropout: float = 0.1):
+    """Encoder, then one linear head per task. Categorical inputs (e.g. the garment category) condition
+    the image feature by FiLM, f * (1 + gamma[c]) + beta[c] (Perez et al. 2018), so each category can
+    reweight which visual features the heads use; gamma and beta start at zero, i.e. image only."""
+
+    def __init__(self, backbone: str, n_classes: dict[str, int], regress=(), inputs: dict[str, int] | None = None,
+                 dropout: float = 0.1):
         super().__init__()
         self.encoder = load_encoder(backbone)
+        self.regress = tuple(regress)
+        self.inputs = tuple(inputs or {})
         dim = BACKBONES[backbone].feat_dim
+        self.film = nn.ModuleDict({c: nn.Embedding(n, 2 * dim) for c, n in (inputs or {}).items()})
+        for emb in self.film.values():
+            nn.init.zeros_(emb.weight)
+        outputs = {**n_classes, **{t: 1 for t in self.regress}}
         self.heads = nn.ModuleDict({t: nn.Sequential(nn.Dropout(dropout), nn.Linear(dim, n))
-                                    for t, n in n_classes.items()})
+                                    for t, n in outputs.items()})
 
-    def forward(self, x: torch.Tensor) -> dict[str, torch.Tensor]:
+    def forward(self, x: torch.Tensor, inputs: dict[str, torch.Tensor] | None = None) -> dict[str, torch.Tensor]:
         f = self.encoder(x)
-        return {t: head(f) for t, head in self.heads.items()}
+        for c in self.inputs:
+            gamma, beta = self.film[c](inputs[c]).chunk(2, dim=-1)
+            f = f * (1 + gamma) + beta
+        return {t: head(f).squeeze(-1) if t in self.regress else head(f) for t, head in self.heads.items()}
+
+
+def load_checkpoint(path, device=None) -> tuple[MultiTaskModel, dict]:
+    """Model in eval mode on `device`, plus the checkpoint (config, classes, inputs, regression stats)."""
+    ckpt = torch.load(path, map_location="cpu", weights_only=False)
+    model = MultiTaskModel(ckpt["config"]["backbone"], {t: len(c) for t, c in ckpt["classes"].items()},
+                           ckpt.get("regress", {}), {c: len(v) for c, v in ckpt.get("inputs", {}).items()})
+    model.load_state_dict(ckpt["state_dict"])
+    return model.to(device or default_device()).eval(), ckpt
 
 
 def balanced_weights(y: np.ndarray, n_classes: int) -> torch.Tensor:
@@ -79,22 +110,38 @@ def balanced_weights(y: np.ndarray, n_classes: int) -> torch.Tensor:
 
 
 @torch.inference_mode()
-def predict(model: nn.Module, loader: DataLoader, device) -> dict[str, np.ndarray]:
+def predict(model: MultiTaskModel, loader: DataLoader, device, regress_stats: dict | None = None) -> dict[str, np.ndarray]:
+    """Class probabilities per class task; per regression column the predicted value in original units
+    (needs the training mean / std of the log value, as stored in the checkpoint)."""
     model.eval()
     scores: dict[str, list] = {}
-    for x, _ in loader:
-        for t, logits in model(x.to(device)).items():
-            scores.setdefault(t, []).append(logits.softmax(-1).float().cpu().numpy())
+    for x, ys in loader:
+        for t, out in model(x.to(device), {c: ys[c].to(device) for c in model.inputs}).items():
+            if t in model.regress:
+                if regress_stats is None:
+                    continue
+                s = regress_stats[t]
+                scores.setdefault(t, []).append(np.exp(s["mean"] + s["std"] * out.float().cpu().numpy()))
+            else:
+                scores.setdefault(t, []).append(out.softmax(-1).float().cpu().numpy())
     return {t: np.concatenate(v) for t, v in scores.items()}
 
 
-def evaluate_scores(scores, df: pd.DataFrame, classes) -> dict:
+def evaluate_scores(scores, df: pd.DataFrame, classes, regress=()) -> dict:
     out = {}
     for t, names in classes.items():
         y = df[t].map({c: i for i, c in enumerate(names)}).to_numpy()
         out[t] = evaluation.classification_metrics(y, scores[t].argmax(1), len(names), scores[t],
                                                    df.group_id.to_numpy())
+    for t in regress:
+        y = pd.to_numeric(df[t], errors="coerce").to_numpy(dtype=float)
+        ok = y > 0
+        out[t] = evaluation.price_metrics(y[ok], scores[t][ok])
     return out
+
+
+def selection_score(metrics: dict, classes, regress=()) -> float:
+    return float(np.mean([metrics[t]["macro_f1"] for t in classes] + [metrics[t]["within_25pct"] for t in regress]))
 
 
 def init_heads_from_probe(model: MultiTaskModel, cfg: FinetuneConfig, train_df: pd.DataFrame, classes) -> None:
@@ -130,28 +177,50 @@ def train(cfg: FinetuneConfig) -> dict:
     spec, bspec = registry.get(cfg.dataset), BACKBONES[cfg.backbone]
     df = manifest.load(cfg.dataset)
     classes = label_maps(df, spec.tasks)
+    inputs = {} if cfg.ignore_inputs else label_maps(df, spec.inputs)
     root = paths.dataset_dir(cfg.dataset)
     parts = {s: df[df.split == s].reset_index(drop=True) for s in manifest.SPLITS}
 
-    train_ds = ManifestDataset(parts["train"], root, train_transform(bspec, cfg.aug, spec.hflip), classes)
+    regress = spec.regress
+    columns = {**classes, **inputs}  # the dataset yields class indices of the inputs alongside the targets
+    train_ds = ManifestDataset(parts["train"], root, train_transform(bspec, cfg.aug, spec.hflip), columns,
+                               regress=regress)
     loaders = {"train": DataLoader(train_ds, batch_size=cfg.batch_size, shuffle=True, drop_last=True,
                                    num_workers=cfg.num_workers, persistent_workers=cfg.num_workers > 0,
                                    worker_init_fn=seed_worker,
                                    generator=torch.Generator().manual_seed(cfg.seed))}
     for s in ("val", "test"):
-        loaders[s] = DataLoader(ManifestDataset(parts[s], root, eval_transform(bspec), classes),
+        loaders[s] = DataLoader(ManifestDataset(parts[s], root, eval_transform(bspec), columns, regress=regress),
                                 batch_size=2 * cfg.batch_size, num_workers=cfg.num_workers)
+    # mean / std of the log value on train, to standardize regression targets
+    stats = {}
+    for t in regress:
+        y = train_ds.targets[t].numpy()
+        y = y[np.isfinite(y)]
+        stats[t] = {"mean": float(y.mean()), "std": float(y.std())}
 
     device = default_device()
-    model = MultiTaskModel(cfg.backbone, {t: len(c) for t, c in classes.items()})
+    model = MultiTaskModel(cfg.backbone, {t: len(c) for t, c in classes.items()}, regress,
+                           {c: len(v) for c, v in inputs.items()})
     if cfg.probe_init:
         init_heads_from_probe(model, cfg, parts["train"], classes)
     model.to(device)
     criteria = {t: nn.CrossEntropyLoss(weight=balanced_weights(train_ds.targets[t].numpy(), len(c)).to(device),
                                        label_smoothing=cfg.label_smoothing) for t, c in classes.items()}
+
+    def regression_loss(out, ys) -> torch.Tensor:
+        loss = torch.zeros((), device=device)
+        for t in regress:
+            y = ys[t].to(device)
+            ok = torch.isfinite(y)
+            if ok.any():
+                z = (y[ok] - stats[t]["mean"]) / stats[t]["std"]
+                loss = loss + cfg.regress_weight * nn.functional.smooth_l1_loss(out[t][ok], z)
+        return loss
+
     optimizer = torch.optim.AdamW([
         {"params": model.encoder.parameters(), "lr": cfg.lr_backbone},
-        {"params": model.heads.parameters(), "lr": cfg.lr_head},
+        {"params": [*model.heads.parameters(), *model.film.parameters()], "lr": cfg.lr_head},
     ], weight_decay=cfg.weight_decay)
     steps_per_epoch = len(loaders["train"])
     total, warm = cfg.epochs * steps_per_epoch, steps_per_epoch  # cosine decay after one epoch of linear warmup
@@ -170,19 +239,20 @@ def train(cfg: FinetuneConfig) -> dict:
             scale = min(1.0, (step + 1) / warm) * 0.5 * (1 + math.cos(math.pi * min(1.0, step / total)))
             for g, lr in zip(optimizer.param_groups, base_lrs):
                 g["lr"] = lr * scale
-            out = model(x.to(device))
-            loss = sum(criteria[t](out[t], ys[t].to(device)) for t in classes)
+            out = model(x.to(device), {c: ys[c].to(device) for c in inputs})
+            loss = sum(criteria[t](out[t], ys[t].to(device)) for t in classes) + regression_loss(out, ys)
             optimizer.zero_grad(set_to_none=True)
             loss.backward()
             nn.utils.clip_grad_norm_(model.parameters(), 1.0)
             optimizer.step()
             losses.append(loss.item())
             step += 1
-        val = evaluate_scores(predict(model, loaders["val"], device), parts["val"], classes)
-        score = float(np.mean([val[t]["macro_f1"] for t in classes]))
+        val = evaluate_scores(predict(model, loaders["val"], device, stats), parts["val"], classes, regress)
+        score = selection_score(val, classes, regress)
         history.append({"epoch": epoch + 1, "frozen_backbone": frozen, "train_loss": float(np.mean(losses)),
-                        "val_mean_macro_f1": score, "seconds": round(time.time() - t0, 1),
-                        **{f"val_{t}_acc": val[t]["accuracy"] for t in classes}})
+                        "val_score": score, "seconds": round(time.time() - t0, 1),
+                        **{f"val_{t}_acc": val[t]["accuracy"] for t in classes},
+                        **{f"val_{t}_mdape_pct": val[t]["mdape_pct"] for t in regress}})
         print(json.dumps(history[-1]), flush=True)
         if score > best["score"]:
             best = {"score": score, "epoch": epoch + 1,
@@ -191,12 +261,15 @@ def train(cfg: FinetuneConfig) -> dict:
     model.load_state_dict(best["state"])
     ckpt = paths.CHECKPOINTS_DIR / cfg.dataset / f"{cfg.run_name}.pt"
     ckpt.parent.mkdir(parents=True, exist_ok=True)
-    torch.save({"config": asdict(cfg), "classes": classes, "state_dict": best["state"]}, ckpt)
+    torch.save({"config": asdict(cfg), "classes": classes, "inputs": inputs, "regress": stats,
+                "state_dict": best["state"]}, ckpt)
 
-    scores = {s: predict(model, loaders[s], device) for s in ("val", "test")}
-    results = {"config": asdict(cfg), "classes": classes, "best_epoch": best["epoch"], "history": history,
-               "val": evaluate_scores(scores["val"], parts["val"], classes),
-               "test": evaluate_scores(scores["test"], parts["test"], classes), "checkpoint": str(ckpt.relative_to(paths.OUTPUTS_DIR))}
+    scores = {s: predict(model, loaders[s], device, stats) for s in ("val", "test")}
+    results = {"config": asdict(cfg), "classes": classes, "inputs": inputs, "regress": stats,
+               "best_epoch": best["epoch"], "history": history,
+               "val": evaluate_scores(scores["val"], parts["val"], classes, regress),
+               "test": evaluate_scores(scores["test"], parts["test"], classes, regress),
+               "checkpoint": str(ckpt.relative_to(paths.OUTPUTS_DIR))}
     if {"brand", "era"} <= set(classes):
         te = parts["test"]
         y = {t: te[t].map({c: i for i, c in enumerate(classes[t])}).to_numpy() for t in ("brand", "era")}
@@ -215,6 +288,9 @@ def train(cfg: FinetuneConfig) -> dict:
         pred[f"{t}_true"] = parts["test"][t]
         pred[f"{t}_pred"] = np.asarray(names)[scores["test"][t].argmax(1)]
         pred[f"{t}_conf"] = scores["test"][t].max(1)
+    for t in regress:
+        pred[f"{t}_true"] = parts["test"][t]
+        pred[f"{t}_pred"] = scores["test"][t].round(2)
     pred.to_csv(out_dir / "predictions" / f"finetune_{cfg.run_name}.csv", index=False)
     (out_dir / f"finetune_{cfg.run_name}.json").write_text(json.dumps(results, indent=2))
     return results

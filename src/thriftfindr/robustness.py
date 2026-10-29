@@ -15,7 +15,7 @@ from thriftfindr import baselines, features, paths
 from thriftfindr.data import manifest, registry
 from thriftfindr.data.dataset import ManifestDataset, label_maps
 from thriftfindr.data.transforms import CORRUPTIONS, SEVERITIES, eval_transform
-from thriftfindr.finetune import MultiTaskModel, predict
+from thriftfindr.finetune import load_checkpoint, predict
 from thriftfindr.models.backbones import BACKBONES, default_device, load_encoder
 
 
@@ -47,17 +47,15 @@ def _nest(flat: dict) -> dict:
 
 def evaluate_checkpoint(checkpoint, corruptions=CORRUPTIONS, severities=SEVERITIES,
                         batch_size: int = 128, num_workers: int = 6) -> dict:
-    ckpt = torch.load(checkpoint, map_location="cpu", weights_only=False)
-    cfg, classes = ckpt["config"], ckpt["classes"]
     device = default_device()
-    model = MultiTaskModel(cfg["backbone"], {t: len(c) for t, c in classes.items()})
-    model.load_state_dict(ckpt["state_dict"])
-    model.to(device).eval()
+    model, ckpt = load_checkpoint(checkpoint, device)
+    cfg, classes = ckpt["config"], ckpt["classes"]
+    columns = {**classes, **ckpt.get("inputs", {})}  # the loader must also yield the model's inputs
     df = manifest.load(cfg["dataset"])
     test = df[df.split == "test"].reset_index(drop=True)
     flat = {}
     for cond in tqdm(list(_conditions(corruptions, severities)), desc=f"robustness {cfg['backbone']}_{cfg['aug']}"):
-        loader = _loader(test, cfg["dataset"], cfg["backbone"], classes, cond, batch_size, num_workers)
+        loader = _loader(test, cfg["dataset"], cfg["backbone"], columns, cond, batch_size, num_workers)
         flat[cond] = _accuracies(predict(model, loader, device), test, classes)
     return _nest(flat)
 

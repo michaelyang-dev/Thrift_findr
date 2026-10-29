@@ -20,16 +20,20 @@ def label_maps(df: pd.DataFrame, tasks) -> dict[str, list[str]]:
 
 
 class ManifestDataset(Dataset):
-    """Yields (image tensor, {task: class index}). Optionally applies a fixed test-time corruption,
-    seeded by image id so every model sees the same corrupted images whatever the row order."""
+    """Yields (image tensor, {task: class index, regression column: log value (NaN if missing)}).
+    Optionally applies a fixed test-time corruption, seeded by image id so every model sees the same
+    corrupted images whatever the row order."""
 
     def __init__(self, df: pd.DataFrame, root: Path, transform, classes: dict[str, list[str]] | None = None,
-                 corruption: tuple[str, int] | None = None, corrupt_size: int = 256):
+                 corruption: tuple[str, int] | None = None, corrupt_size: int = 256, regress=()):
         self.paths = [Path(root) / p for p in df.path]
         self.ids = list(df.image_id)
         self.transform = transform
         self.targets = {t: torch.as_tensor(df[t].map({c: i for i, c in enumerate(names)}).to_numpy())
                         for t, names in (classes or {}).items()}
+        for col in regress:
+            v = pd.to_numeric(df[col], errors="coerce").to_numpy(dtype=float)
+            self.targets[col] = torch.as_tensor(np.log(np.where(v > 0, v, np.nan)), dtype=torch.float32)
         self.corruption = corruption
         self.corrupt_size = corrupt_size
 

@@ -2,7 +2,9 @@
 
 Reads the 256x256 HDF5 files of the Hugging Face mirror hieupth/fashiongen, keeps clothing from
 the target houses, and writes one JPEG per image plus a manifest.
-era = season year (SS2014 ... SS2018); price = SSENSE retail list price (MSRP, USD), not resale.
+Targets: brand, season (SS2014 ... FW2018) and price = SSENSE retail list price (MSRP, USD), not
+resale; category (SSENSE's garment category) is given to the model as an input. era = season year,
+kept for the frozen-feature baselines.
 """
 
 from __future__ import annotations
@@ -123,6 +125,8 @@ def build(raw_dir: Path | None = None, min_images: int = 50, min_groups: int = 3
     # The train file lists a few products twice (28 rows, pixel-identical); keep the first copy.
     df = df.drop_duplicates("image_id")
     df = manifest.drop_rare(df, ("brand", "era"), min_images, min_groups)
+    df = manifest.drop_rare(df, ("season",), min_images, min_groups)
+    df = manifest.drop_rare(df, ("category",), min_images, min_groups)
 
     out_dir = paths.dataset_dir(NAME)
     (out_dir / "images").mkdir(parents=True, exist_ok=True)
