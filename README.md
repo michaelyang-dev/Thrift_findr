@@ -1,5 +1,5 @@
 # Thrift Findr
-
+test edit
 Predict the **brand**, **era**, and **market value** of second-hand archive garments (Comme des
 Garçons, Maison Margiela, Undercover, ...) from a photo, ideally of the garment's label.
 Course project by Michael Yang (msyang9) and Alex Ryan (apryan3).
